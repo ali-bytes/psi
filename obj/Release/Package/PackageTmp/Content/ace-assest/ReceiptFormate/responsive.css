@@ -1,0 +1,156 @@
+/************ 768px to 959px *************/
+@media only screen and (min-width: 768px) and (max-width: 910px){
+
+.inner{
+float:none;
+width:94%;
+margin-right:3%;
+}
+.field{
+margin-left:10%;
+
+}
+
+
+.big-cell{
+width:100%;
+overflow:hidden;
+margin:2% 1%;
+}
+.big-cell .field{
+
+width:64%;
+margin-left:12%;
+}
+.big-cell span{
+float:right;
+margin-left:2%;
+font-size:80%;
+}
+}
+
+/************ 480px to 767px *************/
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+.inner{
+float:none;
+width:94%;
+margin-right:3%;
+}
+.field{
+margin-left:10%;
+
+}
+.big-cell{
+width:100%;
+overflow:hidden;
+margin:2% 1%;
+}
+.big-cell .field{
+
+width:64%;
+margin-left:12%;
+}
+.big-cell span{
+float:right;
+margin-left:2%;
+font-size:80%;
+}
+}
+
+/************ 690px to 665px *************/
+
+
+@media screen and (max-width:690px) {
+.inner{
+float:none;
+width:94%;
+margin-right:3%;
+}
+.field{
+margin-left:10%;
+width:89% !important;
+
+}
+.big-cell{
+width:100%;
+overflow:hidden;
+margin:2% 1%;
+}
+.big-cell .field{
+
+width:89%;
+margin-left:12%;
+}
+.big-cell span{
+float:right;
+margin-left:2%;
+font-size:80%;
+}
+}
+
+
+/************ 320px to 480px *************/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.inner{
+float:none;
+width:94%;
+margin-right:3%;
+}
+.field{
+margin-left:10%;
+
+}
+.big-cell{
+width:100%;
+overflow:hidden;
+margin:2% 1%;
+}
+.big-cell .field{
+
+width:89%;
+margin-left:12%;
+}
+.big-cell span{
+float:right;
+margin-left:2%;
+font-size:80%;
+}
+}
+
+
+/************ 	max-width 667px 
+					Small Special Code 
+ **********************************************/
+@media only screen and (max-width: 667px) {
+
+.inner{
+float:none;
+width:94%;
+margin-right:3%;
+}
+.field{
+margin-left:10%;
+width:89%;
+
+}
+.big-cell{
+width:100%;
+overflow:hidden;
+margin:2% 1%;
+}
+.big-cell .field{
+
+width:89%;
+margin-left:12%;
+}
+.big-cell span{
+float:right;
+margin-left:2%;
+font-size:80%;
+}
+}
+

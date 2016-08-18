@@ -1,0 +1,40 @@
+﻿@media print {
+
+
+   .rds-table-stacked {
+    width:100%;
+    border-bottom:3px blue solid;
+    min-height:60px;
+    display: table;
+    table-layout: fixed;
+}
+.cell {
+    display:table-cell;
+}
+.rds-column > div {
+    padding: 6px 12px 8px 12px;
+    border-bottom:1px #d1d2d1 solid;
+    width:100%;
+}
+.rds-column > div:nth-of-type(even) {
+    background: green;
+}
+.field {
+    float:left;
+    clear:both;
+    display: table-cell;
+}
+
+.rds-table-header {
+    background:blue;
+    color:white;
+}
+
+* { box-sizing: border-box; }
+}
+@media (max-width: 500px) {
+    .rds-column {
+        clear:both;
+        width:100%;
+    }
+}

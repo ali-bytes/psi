@@ -1,0 +1,8 @@
+SELECT        TOP (100) PERCENT dbo.WorkOrders.ID, dbo.WorkOrders.CustomerName, dbo.WorkOrders.CustomerPhone, dbo.Demands.StartAt, dbo.Demands.EndAt, dbo.Demands.Amount, dbo.Demands.Id AS Expr1
+FROM            dbo.WorkOrders INNER JOIN
+                         dbo.Demands ON dbo.WorkOrders.ID = dbo.Demands.WorkOrderId
+WHERE        (dbo.Demands.Id IN
+                             (SELECT        MAX(Demands_1.Id) AS Expr1
+                                FROM            dbo.WorkOrders AS WorkOrders_1 INNER JOIN
+                                                         dbo.Demands AS Demands_1 ON WorkOrders_1.ID = Demands_1.WorkOrderId
+                                GROUP BY WorkOrders_1.CustomerPhone))

@@ -1,0 +1,11 @@
+<div>
+	<table class="table table-bordered table-condensed text-center" cellspacing="0" rules="all" Wrap="true" border="1" id="GvResults" style="border-collapse:collapse;margin-right: 0px;">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">العميل</th><th scope="col">تليفون</th><th scope="col">الحالة</th><th scope="col">باقة الخدمة</th><th scope="col">مزود الخدمة</th><th scope="col">موزع</th><th scope="col">سنترال</th><th scope="col">المحافظة</th><th scope="col">العرض</th><th scope="col">المدفوع</th><th scope="col">من</th><th scope="col">الى</th><th scope="col">ملاحظات</th><th scope="col">المبلغ</th><th scope="col">خصم الموزع</th><th scope="col">الصافى</th>
+		</tr><tr>
+			<td>
+                                <span id="LNo">1</span>
+                            </td><td>mohamed ibrahim ahmed</td><td>7499911</td><td>Active</td><td>NI - ADSL - 1:4 - 512/128Kbps - 1 Month</td><td>TE-Data</td><td>zakaria</td><td>menyt el nasr</td><td>050-الدقهلية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>&nbsp;</td><td>95</td><td>14.25</td><td>80.75</td>
+		</tr>
+	</table>
+</div>

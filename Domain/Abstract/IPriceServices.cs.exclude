@@ -1,0 +1,18 @@
+﻿using System;
+using Db;
+
+
+namespace Domain.Abstract{
+    public interface IPriceServices{
+        Pricing GetPrice(int servicePackageId, int serviceProviderId);
+
+
+        decimal CustomerInvoiceDefault(WorkOrder order, int month, int year);
+
+
+        BillItem BillDefault(WorkOrder order, int month, int year, DateTime ? activationDate);
+
+
+        BillDetails CustomerInvoiceDetailsDefault(WorkOrder order, int month, int year);
+    }
+}

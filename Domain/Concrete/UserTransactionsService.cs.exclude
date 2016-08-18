@@ -1,0 +1,52 @@
+using System.Configuration;
+using System.Linq;
+using Db;
+using Domain.Abstract;
+using Templates;
+
+
+namespace Domain.Concrete{
+    public class UserTransactionsService : IUserTransactionsService{
+        readonly ISPDataContext _context =
+            new ISPDataContext(ConfigurationManager.AppSettings["ConnectionString"]);
+
+
+        #region IUserTransactionsService Members
+
+
+        public UsersTransaction GetLastTransaction(int id, TransactionFor transactionFor){
+            switch(transactionFor){
+                case TransactionFor.Branch :
+                    return _context.UsersTransactions.OrderByDescending(t => t.ID).FirstOrDefault(t => t.BranchID == id);
+
+                case TransactionFor.Reseller :
+                    return
+                        _context.UsersTransactions.OrderByDescending(t => t.ID).FirstOrDefault(t => t.ResellerID == id);
+                case TransactionFor.Order :
+                    return
+                        _context.UsersTransactions.OrderByDescending(t => t.ID).FirstOrDefault(t => t.WorkOrderID == id);
+            }
+
+            return null;
+        }
+
+
+        public void UpdateTotal(UsersTransaction transaction, double amount){
+            if(transaction != null){
+                transaction.Total += amount;
+                _context.SubmitChanges();
+            }
+        }
+
+
+        public void ReplaceTotal(UsersTransaction transaction, double amount){
+            if(transaction != null){
+                transaction.Total = amount;
+                _context.SubmitChanges();
+            }
+        }
+
+
+        #endregion
+    }
+}

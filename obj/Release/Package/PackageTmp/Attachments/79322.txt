@@ -1,0 +1,8 @@
+﻿1- اضافة نوع الدفع فى تفعيلا معلقة
+
+
+
+
+db
+1-new columen in table "ResellerCreditsVoice"
+	RechargeRequestId	int	Checked

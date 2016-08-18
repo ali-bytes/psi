@@ -1,0 +1,35 @@
+<div>
+	<table class="table table-bordered table-condensed text-center" cellspacing="0" rules="all" Wrap="true" border="1" id="GvResults" style="border-collapse:collapse;margin-right: 0px;">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">العميل</th><th scope="col">تليفون</th><th scope="col">الحالة</th><th scope="col">باقة الخدمة</th><th scope="col">مزود الخدمة</th><th scope="col">موزع</th><th scope="col">سنترال</th><th scope="col">المحافظة</th><th scope="col">العرض</th><th scope="col">المدفوع</th><th scope="col">من</th><th scope="col">الى</th><th scope="col">ملاحظات</th><th scope="col">المبلغ</th><th scope="col">خصم الموزع</th><th scope="col">الصافى</th>
+		</tr><tr>
+			<td>
+                                <span id="LNo">1</span>
+                            </td><td>ibrahim fahmy fahmy</td><td>7460677</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>&nbsp;</td><td>220</td><td>0.0</td><td>220</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">2</span>
+                            </td><td>manary fahmy nageeb</td><td>7477300</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>باقات IP: 1</td><td>10</td><td>&nbsp;</td><td>10</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">3</span>
+                            </td><td>ibrahim fahmy fahmy</td><td>7460677</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>باقات IP: 1</td><td>10</td><td>&nbsp;</td><td>10</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">4</span>
+                            </td><td>nawal ibrahim mahmoud</td><td>7471801</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>باقات IP: 1</td><td>10</td><td>&nbsp;</td><td>10</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">5</span>
+                            </td><td>pioneers</td><td>147</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>&nbsp;</td><td>95</td><td>0.0</td><td>95</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">6</span>
+                            </td><td>pioneers</td><td>147</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>-</td><td>لا</td><td>01/03/2015</td><td>01/04/2015</td><td>باقات IP: 5</td><td>50</td><td>&nbsp;</td><td>50</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">7</span>
+                            </td><td>israa mahmoud abdelsalam</td><td>7472843</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>arafat</td><td>15 MAYCABIN2 HUAWEI</td><td>48-المنوفية</td><td>New – Q4 Promo 2014</td><td>لا</td><td>02/03/2015</td><td>02/04/2015</td><td>&nbsp;</td><td>70</td><td>0.0</td><td>70</td>
+		</tr>
+	</table>
+</div>

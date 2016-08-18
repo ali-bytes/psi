@@ -1,0 +1,15 @@
+using Db;
+using Templates;
+
+
+namespace Domain.Abstract{
+    public interface IUserTransactionsService{
+        UsersTransaction GetLastTransaction(int id, TransactionFor transactionFor);
+
+
+        void UpdateTotal(UsersTransaction transaction, double amount);
+
+
+        void ReplaceTotal(UsersTransaction transaction, double amount);
+    }
+}

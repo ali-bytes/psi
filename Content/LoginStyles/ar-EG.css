@@ -1,0 +1,17 @@
+﻿#ctl00_ContentPlaceHolder1_DdlCultures
+{
+    float: right;
+    width: 80px;
+}
+.login-container
+{
+    direction: rtl;
+}
+#ctl00_ContentPlaceHolder1_Login1_LoginButton
+{
+    float: left;
+}
+
+/*.table-bordered th, .table-bordered td {
+border-right: 1px solid #9DC2DB;
+}*/

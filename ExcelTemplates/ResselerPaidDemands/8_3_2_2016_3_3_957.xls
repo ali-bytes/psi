@@ -1,0 +1,43 @@
+<div>
+	<table class="table table-bordered table-condensed text-center" cellspacing="0" rules="all" Wrap="true" border="1" id="GvResults" style="border-collapse:collapse;margin-right: 0px;">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">العميل</th><th scope="col">تليفون</th><th scope="col">الحالة</th><th scope="col">باقة الخدمة</th><th scope="col">مزود الخدمة</th><th scope="col">موزع</th><th scope="col">سنترال</th><th scope="col">المحافظة</th><th scope="col">العرض</th><th scope="col">المدفوع</th><th scope="col">من</th><th scope="col">الى</th><th scope="col">ملاحظات</th><th scope="col">المبلغ</th><th scope="col">خصم الموزع</th><th scope="col">الصافى</th>
+		</tr><tr>
+			<td>
+                                <span id="LNo">1</span>
+                            </td><td>emad hamdy mohamed</td><td>2644555</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>95</td><td>1.9</td><td>93.1</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">2</span>
+                            </td><td>kasem mohamed shabana</td><td>2640242</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>220</td><td>4.4</td><td>215.6</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">3</span>
+                            </td><td>waleed tharwat ibrahim</td><td>2642744</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>كارت خصم رقم : 15</td><td>210</td><td>4.2</td><td>205.8</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">4</span>
+                            </td><td>mostafa arafat mohamed</td><td>2642154</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>2.8</td><td>137.2</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">5</span>
+                            </td><td>fawzy esa goda</td><td>7479683</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>2.8</td><td>137.2</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">6</span>
+                            </td><td>ibrahim mohamed othman</td><td>7489951</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>2.8</td><td>137.2</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">7</span>
+                            </td><td>waleed tharwat ibrahim</td><td>2642744</td><td>Active</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>جيجات اضافية: 25 جيجا</td><td>75</td><td>&nbsp;</td><td>75</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">8</span>
+                            </td><td>احمد محمد السيد اسماعيل</td><td>2116616</td><td>Cancellation Process</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>IP Package</td><td>10</td><td>&nbsp;</td><td>10</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">9</span>
+                            </td><td>احمد محمد السيد اسماعيل</td><td>2116616</td><td>Cancellation Process</td><td>etisalat Unlimited 1024</td><td>SmartADSL-Etisalat</td><td>mahdy</td><td>15-May</td><td>02-القاهرة</td><td>-</td><td>لا</td><td>01/09/2015</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>2.8</td><td>137.2</td>
+		</tr>
+	</table>
+</div>

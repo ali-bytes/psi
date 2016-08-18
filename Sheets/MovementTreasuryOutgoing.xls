@@ -1,0 +1,27 @@
+<div>
+	<table class="table table-bordered text-center" cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_GVOutgoing" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">التاريخ</th><th scope="col">الفرع</th><th scope="col">المبلغ</th><th scope="col">ملاحظات</th><th scope="col">التعليق</th>
+		</tr><tr>
+			<td align="center">08/07/2014 12:31:00 ص</td><td align="center">الفرع الرئيسى</td><td align="center">-10</td><td>دقع مطالبة</td><td>تحويل رصيد من فرع</td>
+		</tr><tr>
+			<td align="center">07/07/2014 01:35:23 ص</td><td align="center">الفرع الرئيسى</td><td align="center">100</td><td>Outgoing</td><td>jkhsdf - مرتبات</td>
+		</tr><tr>
+			<td align="center">28/06/2014 10:19:38 م</td><td align="center">الفرع الرئيسى</td><td align="center">120</td><td>Outgoing</td><td>test Expenses and user save - مرتبات</td>
+		</tr><tr>
+			<td align="center">26/06/2014 03:17:46 ص</td><td align="center">الفرع الرئيسى</td><td align="center">-100</td><td>تخصيم قيمة مطالبة</td><td>&nbsp;</td>
+		</tr><tr>
+			<td align="center">23/06/2014 08:39:42 م</td><td align="center">الفرع الرئيسى</td><td align="center">-5</td><td>دقع مطالبة</td><td>تحويل رصيد من فرع</td>
+		</tr><tr>
+			<td align="center">23/06/2014 05:58:13 ص</td><td align="center">الفرع الرئيسى</td><td align="center">-10</td><td>دقع مطالبة</td><td>تحويل رصيد من فرع</td>
+		</tr><tr>
+			<td align="center">19/06/2014 10:03:41 م</td><td align="center">الفرع الرئيسى</td><td align="center">-10</td><td>دقع مطالبة</td><td>تحويل رصيد من فرع</td>
+		</tr><tr>
+			<td align="center">18/06/2014 11:51:43 م</td><td align="center">الفرع الرئيسى</td><td align="center">-95</td><td>تخصيم قيمة مطالبة</td><td>&nbsp;</td>
+		</tr><tr>
+			<td align="center">18/06/2014 11:45:08 م</td><td align="center">الفرع الرئيسى</td><td align="center">-95</td><td>تخصيم قيمة مطالبة</td><td>&nbsp;</td>
+		</tr><tr>
+			<td align="center">15/06/2014 03:52:24 ص</td><td align="center">الفرع الرئيسى</td><td align="center">120</td><td>Outgoing</td><td>fghf مصاريف ادارية وعمومية</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,263 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AwesomeMaster.master.cs"
+    Inherits="NewIspNL.Pages.AwesomeMaster" %>
+
+<%@ Import Namespace="NewIspNL.Helpers" %>
+<%@ Import Namespace="Resources" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <!-- basic styles -->
+    <meta name="description" content="smart isp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="isp, pioneers, newisp,smart isp" />
+    <style type="text/css">
+        @media only screen and (max-width: 800px){
+         #adm {
+             margin: auto;
+             width: 100%;
+             text-align: center;
+         }
+         #hdr {
+             width: 100% !important;
+         }
+          #hdr2 {
+             width: 100% !important;
+         }
+          .ace-nav li a {
+                    float: right !important;
+            }
+         }
+        #hdr2 {
+             width: 70% !important;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%:System.Web.Optimization.Styles.Render("~/bundles/HomecSS")%>
+    <form id="form1" runat="server">
+   <%:System.Web.Optimization.Scripts.Render("~/bundles/HomeJs")%>
+                <script >
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var val = "<%=Session["cultureid"]%>";
+
+                        if (val === "1") {
+                            //arabic
+                            ace.switch_direction(jQuery);
+                            $('#pTitle').css({ "direction": "ltr" });
+
+                        } else {
+
+                            $(".nav-list>li>a").css({ "font-size": "13px" });
+                        }
+                    });
+
+                </script>
+      
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <div class="navbar navbar-default" id="navbar">
+
+        <div class="navbar-container" id="navbar-container" >
+            <div id="hdr" class="navbar-header pull-left col-sm-12 col-xs-12" style="width: 75%">
+                <a id="adm" href="#" class="navbar-brand"><small><i class="icon-leaf col-sm-12 col-xs-12"></i>Smart ISP System </small>
+                </a>
+                <!-- /.brand -->
+                
+                <div id="hdr2" class="navbar-header " style="width: 75%;text-align: center;"><a style="width: 100%" id="sitename" runat="server" class="navbar-brand" target="_blank">
+                    <asp:Literal ID="Literal3" runat="server" />
+                    <%= DateTime.Now.AddHours().Year %></a></div>
+            </div>
+            <!-- /.navbar-header -->
+            <div class="navbar-header pull-right"   role="navigation">
+                <ul class="nav ace-nav">
+                    <li class="grey"><a style='padding: 14px 8px 0 8px;' class="dropdown-toggle tooltip-inner"
+                        href="LastOffers.aspx" data-rel="tooltip" data-placement="bottom" title="<%=Tokens.CurrentOffers %>">
+                        <i class="icon-tasks"></i><span class="badge badge-grey"></span></a></li>
+                    <li class="purple"><a style='padding: 14px 8px 0 8px;' class="dropdown-toggle tooltip-error"
+                        href="ViewTickets.aspx?ts=mELirpUhRYksFj7k8/XBcQ==" data-rel="tooltip" data-placement="bottom"
+                        title="<%=Tokens.MenuPendingTicketing %>"><i class="icon-bell-alt icon-animated-bell">
+                        </i></a></li>
+                    <li class="green"><a style='padding: 14px 8px 0 8px;' class="dropdown-toggle tooltip-success"
+                        href="Inbox.aspx" data-rel="tooltip" data-placement="bottom" title="<%=Tokens.Inbox %>">
+                        <i class="icon-envelope icon-animated-vertical"></i><span class="badge badge-success">
+                            <asp:Label runat="server" ID="lblInbox"></asp:Label></span> </a></li>
+                    <li class="light-blue"><a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                        <img class="nav-user-photo" src="../Content/ace-assest/avatars/avatar2.png" alt="Jason's Photo" />
+                        <span class="user-info"><small>
+                            <asp:Label runat="server" ID="lblWelcome" Text="<%$Resources:Tokens,WelcomeMsg %>"></asp:Label></small>
+                            <asp:Label ID="lbl_UserName" runat="server"></asp:Label>
+                        </span><i class="icon-caret-down"></i></a>
+                        <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            <li><a href="#"><i class="icon-user"></i>
+                                <asp:Label runat="server" ID="lblDataLevel"></asp:Label>
+                            </a></li>
+                            <li><a href="#"><i class="icon-cog"></i>
+                                <asp:Label ID="lbl_IP" runat="server"></asp:Label>
+                            </a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="ImageButton1" runat="server" OnClick="ImageButton1_Click" CausesValidation="False"><i class="icon-off"></i>
+                                        <%=Tokens.Logout %>
+                                </asp:LinkButton>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+         <div class="main-container" id="main-container" >
+        <div class="main-container-inner">
+            <a class="menu-toggler" id="menu-toggler" href="#"><span class="menu-text"></span>
+            </a>
+            <div class="sidebar" id="sidebar" >
+                <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+                    <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+                        <a class="btn btn-success tooltip-success" href='home.aspx' style='height: 32px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           padding: 4px 0 0 0;' data-rel="tooltip" title="<%=Tokens.Home %>"><i class="icon-home"
+                                style='margin-left: 0;'></i></a><a type="button" href='#myModal2' class="btn btn-info tooltip-info"
+                                    role="button" data-toggle="modal" style='height: 32px; padding: 4px 0 0 0;' title="<%=Tokens.QuickSupport %>"
+                                    data-rel="tooltip"><i class="icon-info-sign" style='margin-left: 0;'></i>
+                        </a><a class="btn btn-warning tooltip-warning" href="#myModal3" role="button" data-toggle="modal"
+                            style='height: 32px; padding: 4px 0 0 0;' title="<%=Tokens.FirendlyLinks %>"
+                            data-rel="tooltip"><i class="icon-group" style='margin-left: 0;'></i></a>
+                        <button id="Button1" class="btn btn-danger tooltip-error" style='height: 32px;' runat="server"
+                            causesvalidation="False" onserverclick="ImageButton1_Click" title="<%$ Resources:Tokens,Logout %>"
+                            data-rel="tooltip">
+                            <i class="icon-off" style='margin-left: 0;'></i>
+                        </button>
+                    </div>
+                    <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+                        <span class="btn btn-success"></span><span class="btn btn-info"></span><span class="btn btn-warning">
+                        </span><span class="btn btn-danger"></span>
+                    </div>
+                </div>
+                <ul class="nav nav-list" runat="server" id="Label1" clientidmode="Static">
+                    <li class="active"><a href="home.aspx"><i class="icon-dashboard"></i><span class="menu-text">
+                        Dashboard</span></a></li>
+                </ul>
+                <div class="sidebar-collapse" id="sidebar-collapse">
+                    <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right">
+                    </i>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="breadcrumbs" id="breadcrumbs">
+                    <ul class="breadcrumb" style="margin: 6px 12px 0 22px;">
+                        <li><i class="icon-desktop home-icon"></i><a href="home.aspx" id="homelink">
+                            <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:Tokens,Home %>"></asp:Literal></a>
+                        </li>
+                        <li class="active" id="pTitle"></li>
+                    </ul>
+                    <div style="width: 50%; margin: 0 31%; margin-top: -32px; float: right; direction: rtl">
+                        <marquee onmouseover=" this.stop() " onmouseout=" this.start() " scrollamount="2"
+                            scrolldelay="2" direction="right">
+                            <%= LoadNew() %></marquee>
+                    </div>
+                    <div class="nav-search" id="nav-search">
+                        <div class="form-search">
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="PhoneNumber" ValidationGroup="ser"
+                                ErrorMessage="<%$Resources:Tokens,Required %>" ID="searchrfv"></asp:RequiredFieldValidator>
+                            <span class="input-icon" id="btnsearch">
+                                <input type="text" placeholder="Search ..." class="nav-search-input" id="PhoneNumber"
+                                    autocomplete="off" clientidmode="Static" runat="server" />
+                                <button class="icon-search nav-search-icon" style="background-color: white;" runat="server"
+                                    type="submit" clientidmode="Static" validationgroup="ser" id="SearchCustomer"
+                                    onserverclick="SearchForCustomer">
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <footer>
+    <div class="navbar navbar-default navbar-fixed-bottom" id="footerdiv">
+        <div class="navbar-container" id="Div1">
+            <div class="navbar-header pull-left" ><a id="lnkSiteUrl" style="position: relative;direction: ltr" runat="server" class="navbar-brand" target="_blank">&copy;
+                    <asp:Literal ID="lComapnyName" runat="server" />
+                    </a></div>
+                            <div id="chromenotes">
+          <a href="https://www.google.com/chrome/browser/desktop/" target="_blank"><asp:Literal ID="Literal2" Text="<%$Resources:Tokens,Bestbrowser %>" runat="server"></asp:Literal></a>  
+        </div>
+            <div class="navbar-header pull-right"><a href="http://www.pioneers-solutions.com" class="navbar-brand" target="_blank">&copy;
+                        <asp:Literal ID="Literal32" Text="<%$Resources:Tokens,CopyRight %>" runat="server" /></a></div>
+        </div>
+    </div></footer>
+        <asp:HiddenField ID="hfRtl" runat="server" ClientIDMode="Static" />
+        <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse" style="bottom: 1px;">
+            <i class="icon-double-angle-up icon-only bigger-110"></i></a>
+    </div>
+    <div class="bootbox modal fade" id="myModal2" role="dialog" aria-hidden="true" tabindex="-1">
+        <!---->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="bootbox-close-button close" data-dismiss="modal">
+                        ×</button><h4 class="modal-title">
+                            <%=Tokens.QuickSupport %></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="bootbox-body">
+                        <div class="bootbox-form">
+                            <asp:Label ID="l_current" runat="server" CssClass="modified14"></asp:Label></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button data-bb-handler="cancel" data-dismiss="modal" type="button" class="btn btn-primary">
+                        Cancel</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal3" class="bootbox modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <!-- -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="bootbox-close-button close" data-dismiss="modal" aria-hidden="true">
+                        ×</button>
+                    <h4 id="myModalLabel" class="modal-title">
+                        <%=Tokens.FirendlyLinks %></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="bootbox-body">
+                        <div class="bootbox-form">
+                            <asp:DataList runat="server" ID="Linklist" Width="100%">
+                                <ItemTemplate>
+                                    <ul class="nav nav-list">
+                                        <li><a href="<%#Eval("Url") %>" target="_blank">
+                                            <%#Eval("PageName")%></a> </li>
+                                    </ul>
+                                </ItemTemplate>
+                            </asp:DataList></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">
+                        Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <!-- <![endif]-->
+    <!--[if IE]>
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='../Content/ace-assest/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+    <script type="text/javascript">
+        if ("ontouchend" in document) document.write("<script src='../Content/ace-assest/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+    </script>
+</body>
+</html>

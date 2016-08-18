@@ -1,0 +1,4038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Customer.Address" xml:space="preserve">
+    <value>عنوان العميل</value>
+  </data>
+  <data name="Customer.Mobile:" xml:space="preserve">
+    <value>محمول العميل</value>
+  </data>
+  <data name="Customer.Name" xml:space="preserve">
+    <value>اسم العميل</value>
+  </data>
+  <data name="Customer.Phone" xml:space="preserve">
+    <value>تليفون العميل</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Customer.Mobile" xml:space="preserve">
+    <value>محمول</value>
+  </data>
+  <data name="Customer.Email" xml:space="preserve">
+    <value>البريد الالكترونى</value>
+  </data>
+  <data name="Service.Provider" xml:space="preserve">
+    <value>مزود الخدمة</value>
+  </data>
+  <data name="Service.Package" xml:space="preserve">
+    <value>باقة الخدمة</value>
+  </data>
+  <data name="Customer.City" xml:space="preserve">
+    <value>محافظة العميل</value>
+  </data>
+  <data name="Central" xml:space="preserve">
+    <value>سنترال</value>
+  </data>
+  <data name="Ip.Package" xml:space="preserve">
+    <value>باقة IP</value>
+  </data>
+  <data name="Chose" xml:space="preserve">
+    <value>--اختر--</value>
+  </data>
+  <data name="Offer" xml:space="preserve">
+    <value>العرض</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="Id.Number" xml:space="preserve">
+    <value>الرقم القومى</value>
+  </data>
+  <data name="Customer.Details" xml:space="preserve">
+    <value>تفاصيل العميل</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>* </value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>نوع الدفع</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>الفرع</value>
+  </data>
+  <data name="Request.Date" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="Customer.Status" xml:space="preserve">
+    <value>حالة العميل</value>
+  </data>
+  <data name="Request.Type" xml:space="preserve">
+    <value>نوع الطلب</value>
+  </data>
+  <data name="New.Service.Package" xml:space="preserve">
+    <value>باقة سرعة جديدة</value>
+  </data>
+  <data name="Extra.Gigas" xml:space="preserve">
+    <value>جيجات اضافية</value>
+  </data>
+  <data name="MenuRequestExtraGiga" xml:space="preserve">
+    <value>طلب جيجات اضافية</value>
+  </data>
+  <data name="GIGA" xml:space="preserve">
+    <value>جيجا</value>
+  </data>
+  <data name="Add.Request" xml:space="preserve">
+    <value>اضافة طلب</value>
+  </data>
+  <data name="New.IP.Package" xml:space="preserve">
+    <value>باقة IP جديدة</value>
+  </data>
+  <data name="--Chose--" xml:space="preserve">
+    <value>--اختر--</value>
+  </data>
+  <data name="User.doesn't.exsists." xml:space="preserve">
+    <value>المستخدم غير موجود</value>
+  </data>
+  <data name="User.Has.Request" xml:space="preserve">
+    <value>لا يمكن اضافة طلب جديد العميل له طلبات لم يتم موافقتها بعد</value>
+  </data>
+  <data name="Active.Suspend.Active.Only" xml:space="preserve">
+    <value>يمكنك اضافة طلب لعميل اكتيف او سسبند او هولد فقط</value>
+  </data>
+  <data name="Duplicate.Request.Suspend" xml:space="preserve">
+    <value>لا يمكن عمل الطلب للعميل السسبند</value>
+  </data>
+  <data name="Cancelation.process.or.canceled.user" xml:space="preserve">
+    <value>لا يمكن عمل هذا الطلب للعملاء الكانسل</value>
+  </data>
+  <data name="Duplicate.Suspend2" xml:space="preserve">
+    <value>لا يمكن عمل سسبند لعميل سسيند بالفعل</value>
+  </data>
+  <data name="Cant.Unsuspend" xml:space="preserve">
+    <value>لا يمكن عمل طلب اعادة من السسبند الا لعميل فى حالة السسبند</value>
+  </data>
+  <data name="Cant.Unhold" xml:space="preserve">
+    <value>لا يمكن عمل طلب اعادة من الانتظار الا لعميل فى حالة الانتظار</value>
+  </data>
+  <data name="Cant.Cancel" xml:space="preserve">
+    <value>لا يمكن عمل طلب كانسل الا للعملاء الاكتيف والسسبند والهولد</value>
+  </data>
+  <data name="Cant.Reactivate" xml:space="preserve">
+    <value>لا يمكن عمل طلب اعادة تشغيل الا لعميل كانسل</value>
+  </data>
+  <data name="Request.Added.successfully" xml:space="preserve">
+    <value>تم اضافة الطلب</value>
+  </data>
+  <data name="Customer.Info" xml:space="preserve">
+    <value>بيانات العميل</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>تليفون</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>الباقة</value>
+  </data>
+  <data name="Governrate" xml:space="preserve">
+    <value>المحافظة</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>مزود الخدمة</value>
+  </data>
+  <data name="Reseller" xml:space="preserve">
+    <value>موزع</value>
+  </data>
+  <data name="Activation.Date" xml:space="preserve">
+    <value>تاريخ التشغيل</value>
+  </data>
+  <data name="Add.Ticket" xml:space="preserve">
+    <value>اضافة تذكره</value>
+  </data>
+  <data name="Ticket.Reason" xml:space="preserve">
+    <value>سبب التذكره</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>التعليق</value>
+  </data>
+  <data name="PendingTicket" xml:space="preserve">
+    <value>العميل له تذكرة بالفعل</value>
+  </data>
+  <data name="TicketNotActive" xml:space="preserve">
+    <value>لا يمكن اضافة تذكرة الا للعملاء الاكتيف فقط</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>لا توجد نتائج</value>
+  </data>
+  <data name="TikectAdded" xml:space="preserve">
+    <value>تم اضافة التذكرة</value>
+  </data>
+  <data name="AdAdded" xml:space="preserve">
+    <value>تم اضافة الاعلان</value>
+  </data>
+  <data name="Branches" xml:space="preserve">
+    <value>الفروع</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="MoneyDepit" xml:space="preserve">
+    <value>دائن</value>
+  </data>
+  <data name="MoneyCredit" xml:space="preserve">
+    <value>مدين</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>الرصيد</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>الاجمالى</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>المستخدم</value>
+  </data>
+  <data name="BranchDiscount" xml:space="preserve">
+    <value>خصم الفرع</value>
+  </data>
+  <data name="DiscountPercent" xml:space="preserve">
+    <value>نسبة الخصم</value>
+  </data>
+  <data name="ProcessType" xml:space="preserve">
+    <value>نوع العملية</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>تقديم</value>
+  </data>
+  <data name="Subtract" xml:space="preserve">
+    <value>تخفيض</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>المدفوع</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Bank1" xml:space="preserve">
+    <value>بنك1</value>
+  </data>
+  <data name="Bank2" xml:space="preserve">
+    <value>بنك2</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>تحميل ملف</value>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>يجب ارفاق ملف</value>
+  </data>
+  <data name="BranchCredit" xml:space="preserve">
+    <value>رصيد الفرع</value>
+  </data>
+  <data name="ShowCredit" xml:space="preserve">
+    <value>عرض الرصيد</value>
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>خيارات البحث</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="SPforResellerAcoount" xml:space="preserve">
+    <value> مزودي الخدمة للعرض في كشوف الحساب </value>
+  </data>
+  <data name="ExcelTityleDirectCustomers" xml:space="preserve">
+    <value>عملاء_الفرع_المباشرين.xls</value>
+  </data>
+  <data name="AddBranch" xml:space="preserve">
+    <value>اضافة فرع</value>
+  </data>
+  <data name="BranchName" xml:space="preserve">
+    <value>اسم الفرع</value>
+  </data>
+  <data name="BranchAddress" xml:space="preserve">
+    <value>عنوان الفرع</value>
+  </data>
+  <data name="Phone1" xml:space="preserve">
+    <value>تليفون1</value>
+  </data>
+  <data name="Phone2" xml:space="preserve">
+    <value>تليفون2</value>
+  </data>
+  <data name="Mobile1" xml:space="preserve">
+    <value>محمول1</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="AdministratorName" xml:space="preserve">
+    <value>اسم المدير</value>
+  </data>
+  <data name="Mobile2" xml:space="preserve">
+    <value>محمول2</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="ItemAdded" xml:space="preserve">
+    <value>تم الاضافة</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>1- يناير</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>2- فبراير</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>3- مارس</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>4- ابريل</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>5- مايو</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>6- يونيو</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>7- يوليو</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>8- اغسطس</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>9- سبتمبر</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>10- اكتوبر</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>11- نوفمبر</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>12- ديسمبر</value>
+  </data>
+  <data name="InvoiceYear" xml:space="preserve">
+    <value>سنة الفاتوره</value>
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>العام يجب ان يكون ما بين 1753 : 9999</value>
+  </data>
+  <data name="BranchInvoice" xml:space="preserve">
+    <value>فاتورة فرع</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>الانتهاء</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>السعر</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>الخصم</value>
+  </data>
+  <data name="BranchCommission" xml:space="preserve">
+    <value>عمولة الفرع</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>الصافى</value>
+  </data>
+  <data name="NoPaymentDue" xml:space="preserve">
+    <value>لا يوجد مدفوعات للمستحقات</value>
+  </data>
+  <data name="MainPrice" xml:space="preserve">
+    <value>السعر الرئيسى</value>
+  </data>
+  <data name="PriceAfterDiscount" xml:space="preserve">
+    <value>السعر بعد الخصم</value>
+  </data>
+  <data name="ResellerDiscount" xml:space="preserve">
+    <value>خصم الموزع</value>
+  </data>
+  <data name="NoDiscountFor" xml:space="preserve">
+    <value>خصم الموزع</value>
+  </data>
+  <data name="ExcelFileName2" xml:space="preserve">
+    <value>فاتورة فرع</value>
+  </data>
+  <data name="BranchPaymentRequest" xml:space="preserve">
+    <value>طلب سداد للفرع</value>
+  </data>
+  <data name="RequestDetails" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>العميل</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>المديونية</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>طلب</value>
+  </data>
+  <data name="CustomersTotalDue" xml:space="preserve">
+    <value>اجمالى مطالبات العملاء</value>
+  </data>
+  <data name="Selections" xml:space="preserve">
+    <value>الاختيارات</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تاكيد</value>
+  </data>
+  <data name="ConfirmReason" xml:space="preserve">
+    <value>سبب التاكيد</value>
+  </data>
+  <data name="RejectReason" xml:space="preserve">
+    <value>سبب الرفض</value>
+  </data>
+  <data name="Cant_RequestForUnlimitedCustomers" xml:space="preserve">
+    <value>لا يمكن عمل الطلب للعملاء ذوى السرعات غير المحدودة</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>تم الرفض</value>
+  </data>
+  <data name="BranchsDiscounts" xml:space="preserve">
+    <value>خصومات الفروع</value>
+  </data>
+  <data name="AddBranchsDiscount" xml:space="preserve">
+    <value>اضف خصم فرع</value>
+  </data>
+  <data name="ServiceType" xml:space="preserve">
+    <value>نوع الخدمة</value>
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>العمولة</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="ValidDate" xml:space="preserve">
+    <value>ادخل تاريخ صحيح</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>الى</value>
+  </data>
+  <data name="DatePeriodMsg" xml:space="preserve">
+    <value>تاريخ البدء يجب ان يسبق تاريخ الانتهاء</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>النتائج</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>المسؤل</value>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>النتيجة</value>
+  </data>
+  <data name="VisitDate" xml:space="preserve">
+    <value>تاريخ الزيارة</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>الموظف</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Calleditor" xml:space="preserve">
+    <value>محرر المكالمة</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>الوضع الافتراضى</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>تم الحفظ</value>
+  </data>
+  <data name="Centrals" xml:space="preserve">
+    <value>سنترالات</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="ChangeActivationDate" xml:space="preserve">
+    <value>تغير تاريخ التشغيل</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>اسم الدخول</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغير كلمة المرور</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>تم تغير كلمة المرور</value>
+  </data>
+  <data name="ChangeMyPassword" xml:space="preserve">
+    <value>تغير كلمة المرور خاصتى</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>اختر مستخدم</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>كلمة المرور الجديدة</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>تغير</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="PasswordChangedForUser" xml:space="preserve">
+    <value>تم تغير كلمة المرور</value>
+  </data>
+  <data name="LoginNameForUser" xml:space="preserve">
+    <value>[اسم الدخول = "</value>
+  </data>
+  <data name="EndLoginNameForUser" xml:space="preserve">
+    <value>" ]" </value>
+  </data>
+  <data name="CompanyHistory" xml:space="preserve">
+    <value>تاريخ الشركة</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>الفترة</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>العناصر</value>
+  </data>
+  <data name="CompanyStore" xml:space="preserve">
+    <value>مخزن الشركة</value>
+  </data>
+  <data name="Routers" xml:space="preserve">
+    <value>اجهزة الروتر</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="AddSubRouters" xml:space="preserve">
+    <value>اضافة/خصم (روتر)</value>
+  </data>
+  <data name="AddSub" xml:space="preserve">
+    <value>اضافة/خصم</value>
+  </data>
+  <data name="NumbersOnly" xml:space="preserve">
+    <value>ارقام فقط</value>
+  </data>
+  <data name="NegativeQuantity" xml:space="preserve">
+    <value>هذه الكمية ستتنج رصيد سالب ,قم بتعديل الكمية</value>
+  </data>
+  <data name="SaveErrorCompanyStore" xml:space="preserve">
+    <value>لم يتم الحفظ قم بتغير الكمية</value>
+  </data>
+  <data name="CustomerFiles" xml:space="preserve">
+    <value>اضافة ملفات العميل</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>بحث من خلال</value>
+  </data>
+  <data name="SearchValue" xml:space="preserve">
+    <value>قيمة البحث</value>
+  </data>
+  <data name="UpdateCustomer" xml:space="preserve">
+    <value>تحديث عميل</value>
+  </data>
+  <data name="CustomerFilesSaved" xml:space="preserve">
+    <value>تم رفع ملفات العميل</value>
+  </data>
+  <data name="CustomerInvoice" xml:space="preserve">
+    <value>تفاصيل فاتورة عميل</value>
+  </data>
+  <data name="InvoiceMonth" xml:space="preserve">
+    <value>شهر الفاتوره</value>
+  </data>
+  <data name="LastDateForOffer" xml:space="preserve">
+    <value>اخر يوم للعرض</value>
+  </data>
+  <data name="Colon" xml:space="preserve">
+    <value>: </value>
+  </data>
+  <data name="UnpaidCustomers" xml:space="preserve">
+    <value>العملاء غير المسددين</value>
+  </data>
+  <data name="Unpaid" xml:space="preserve">
+    <value>غير مسدد</value>
+  </data>
+  <data name="DailyReport" xml:space="preserve">
+    <value>التقرير اليوميى</value>
+  </data>
+  <data name="ChoseDay" xml:space="preserve">
+    <value>اختر اليوم</value>
+  </data>
+  <data name="DailyIncoming" xml:space="preserve">
+    <value>المدخلات اليومية</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>الفاتوره</value>
+  </data>
+  <data name="CustomersPaymnetsDetails" xml:space="preserve">
+    <value>تفاصيل طلبات العملاء</value>
+  </data>
+  <data name="Customer.Package" xml:space="preserve">
+    <value>باقة العميل</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>ملحوظة:</value>
+  </data>
+  <data name="DailyOutgoing" xml:space="preserve">
+    <value>المخرجات اليومية</value>
+  </data>
+  <data name="DailyReportFor" xml:space="preserve">
+    <value>المخرجات اليومية</value>
+  </data>
+  <data name="SaveOpeningBValance" xml:space="preserve">
+    <value>الرصيد النقدى الافتتاحى = </value>
+  </data>
+  <data name="Bank1OpeningBalance" xml:space="preserve">
+    <value>رصيد افتتاحى بنك1 =</value>
+  </data>
+  <data name="Bank2OpeningBalance" xml:space="preserve">
+    <value>ؤصيد افتتاحى بنك2= </value>
+  </data>
+  <data name="TotalIncoming" xml:space="preserve">
+    <value>اجمالى المدخلات =</value>
+  </data>
+  <data name="TotalOutgoing" xml:space="preserve">
+    <value>اجمالى المخرجات =</value>
+  </data>
+  <data name="br" xml:space="preserve">
+    <value>&lt;br/&gt; </value>
+  </data>
+  <data name="CurrentSaveValue" xml:space="preserve">
+    <value>القيمة النقدية الحالية=</value>
+  </data>
+  <data name="CurrentBank1Value" xml:space="preserve">
+    <value>القيمة الحالية لبنك1 = </value>
+  </data>
+  <data name="CurrentBank2Value" xml:space="preserve">
+    <value>القيمة الحالية لبنك2 =</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>تذكرنى</value>
+  </data>
+  <data name="FailureLogin" xml:space="preserve">
+    <value>لم تفلح عملية تسجيل الدخول</value>
+  </data>
+  <data name="InvalidMail" xml:space="preserve">
+    <value>ايميل خطأ</value>
+  </data>
+  <data name="IdNumber" xml:space="preserve">
+    <value>الرقم القومى</value>
+  </data>
+  <data name="AdvancedDetails" xml:space="preserve">
+    <value>تفاصيل متقدمة</value>
+  </data>
+  <data name="VPI" xml:space="preserve">
+    <value>VPI </value>
+  </data>
+  <data name="VCI" xml:space="preserve">
+    <value>VCI </value>
+  </data>
+  <data name="AlertRUS" xml:space="preserve">
+    <value>اتمام العملية؟</value>
+  </data>
+  <data name="CustomerDoesntExist" xml:space="preserve">
+    <value>العميل غير موجود</value>
+  </data>
+  <data name="CustomerUpdatedSuccess" xml:space="preserve">
+    <value>تم تعديل العميل</value>
+  </data>
+  <data name="CustomerDeletedSuccess" xml:space="preserve">
+    <value>تم حذف العميل</value>
+  </data>
+  <data name="EditCustomer" xml:space="preserve">
+    <value>تعديل عميل</value>
+  </data>
+  <data name="EmployeeIncome" xml:space="preserve">
+    <value>تقرير ايرادات موظف</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Expenses" xml:space="preserve">
+    <value>مصروفات</value>
+  </data>
+  <data name="OutgoingType" xml:space="preserve">
+    <value>نوع الايراد</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>القيمة</value>
+  </data>
+  <data name="SaveValue" xml:space="preserve">
+    <value>القيمة النقدية= </value>
+  </data>
+  <data name="dotWithSpace" xml:space="preserve">
+    <value> . </value>
+  </data>
+  <data name="SaveValueAftersavingincomingexpenses" xml:space="preserve">
+    <value>قيمة الخزنة بعد اضافة الايرادات</value>
+  </data>
+  <data name="SaveValueAftersavingOutgoingexpenses" xml:space="preserve">
+    <value>قيمة الخزنة بعد اضافة المصروفات</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>محمول</value>
+  </data>
+  <data name="Governrates" xml:space="preserve">
+    <value>المحافظات</value>
+  </data>
+  <data name="AddGovernorate" xml:space="preserve">
+    <value>اضف محافظة</value>
+  </data>
+  <data name="GovernrateName" xml:space="preserve">
+    <value>اسم المحافظة</value>
+  </data>
+  <data name="AllGovernorates" xml:space="preserve">
+    <value>كافة المحافظات</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="EditGroup" xml:space="preserve">
+    <value>تعديل مجموعة</value>
+  </data>
+  <data name="SelectGroup" xml:space="preserve">
+    <value>اختر مجموعة</value>
+  </data>
+  <data name="GroupDetails" xml:space="preserve">
+    <value>تفاصيل المجموعة</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>اسم المجموعة</value>
+  </data>
+  <data name="DataLevel" xml:space="preserve">
+    <value>مستوى البيانات</value>
+  </data>
+  <data name="GroupPrivileges" xml:space="preserve">
+    <value>صلاحيات المجموعة</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="GroupErrorMsg" xml:space="preserve">
+    <value>المجموعة بها مستخدمين لا يمكن الحذف</value>
+  </data>
+  <data name="GroupDeleted" xml:space="preserve">
+    <value>تم حذف المجموعة</value>
+  </data>
+  <data name="Reminder" xml:space="preserve">
+    <value>رسالة تذكير</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>العام</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="IpPackages" xml:space="preserve">
+    <value>باقات IP</value>
+  </data>
+  <data name="AddIpPackage" xml:space="preserve">
+    <value>اضافة باقة IP</value>
+  </data>
+  <data name="AllIpPackages" xml:space="preserve">
+    <value>كافة باقات IP</value>
+  </data>
+  <data name="Linkerror" xml:space="preserve">
+    <value>خطأ بالرابط</value>
+  </data>
+  <data name="WorngLink" xml:space="preserve">
+    <value>خطا بالرابط</value>
+  </data>
+  <data name="MakeError" xml:space="preserve">
+    <value>تسبيب خطأ</value>
+  </data>
+  <data name="ManageRequests" xml:space="preserve">
+    <value>ادارة الطلبات</value>
+  </data>
+  <data name="CurrentSpeed" xml:space="preserve">
+    <value>الباقة الحالية</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>موافقة</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>رفض</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>اختر</value>
+  </data>
+  <data name="NoRequests" xml:space="preserve">
+    <value>لا توجد نتائج.</value>
+  </data>
+  <data name="ApproveSelected" xml:space="preserve">
+    <value>موافقة الاختيارات</value>
+  </data>
+  <data name="RejectSelected" xml:space="preserve">
+    <value>رفض الاختيارات</value>
+  </data>
+  <data name="Requests" xml:space="preserve">
+    <value> الطلبات</value>
+  </data>
+  <data name="PhoneNo" xml:space="preserve">
+    <value>رقم التليفون</value>
+  </data>
+  <data name="ApprovedLiteral" xml:space="preserve">
+    <value>تمت الموافقة</value>
+  </data>
+  <data name="RequestAdded" xml:space="preserve">
+    <value>تم موافقة الطلب</value>
+  </data>
+  <data name="RequestRejected" xml:space="preserve">
+    <value>تم رفض الطلب</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>تمت الموافقة</value>
+  </data>
+  <data name="SelectedRequestsApproved" xml:space="preserve">
+    <value>تم موافقة الطلبات</value>
+  </data>
+  <data name="SelectedRequestsRejected" xml:space="preserve">
+    <value>تم موافقة الطلبات المختارة</value>
+  </data>
+  <data name="ManaulInvoices" xml:space="preserve">
+    <value>فواتير يدوية</value>
+  </data>
+  <data name="LoadSheet" xml:space="preserve">
+    <value>تحميل ملف اكسيل</value>
+  </data>
+  <data name="WrongExcelFormat" xml:space="preserve">
+    <value>امتداد خطا للملف الملفات المسحوح بها هى ملفات الاكسيل فقط</value>
+  </data>
+  <data name="WrongColoumnsCount" xml:space="preserve">
+    <value>اسماء الاعمد بالملف غير صحيحة</value>
+  </data>
+  <data name="NoInvoices" xml:space="preserve">
+    <value>لا توجد اية فواتير فى الملف المرفق</value>
+  </data>
+  <data name="ManualPayment" xml:space="preserve">
+    <value>دفع يدوى</value>
+  </data>
+  <data name="OnlyExcelExtenstions" xml:space="preserve">
+    <value>الملفات المسموح بها .slx او .xlsx فقط</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>رسالة جديدة</value>
+  </data>
+  <data name="MsgTo" xml:space="preserve">
+    <value>الى</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="MsgSent" xml:space="preserve">
+    <value>تم الارسال</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="MonthlyReport" xml:space="preserve">
+    <value>التقرير الشهرى</value>
+  </data>
+  <data name="ViewReport" xml:space="preserve">
+    <value>عرض التقرير</value>
+  </data>
+  <data name="MonthlyOutgoing" xml:space="preserve">
+    <value>المخرجات الشهرية</value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_" xml:space="preserve">
+    <value>&lt;br/&gt;الرصيد الافتتاحى - بنك1  = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_2" xml:space="preserve">
+    <value>&lt;br/&gt;الرصيد الافتتاحى - بنك2  =</value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_3" xml:space="preserve">
+    <value>&lt;br/&gt;اجمالى المدخلات = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_4" xml:space="preserve">
+    <value>&lt;br/&gt;اجمالى المخرجات = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_5" xml:space="preserve">
+    <value>&lt;br/&gt;القيمة النقدية الحالية = </value>
+  </data>
+  <data name="Offers" xml:space="preserve">
+    <value>العروض</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>قائمة العناصر</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="LifeTime" xml:space="preserve">
+    <value>مدة التفعيل</value>
+  </data>
+  <data name="From0To100" xml:space="preserve">
+    <value>من 0 وحتى 100</value>
+  </data>
+  <data name="OfferMonthsCount" xml:space="preserve">
+    <value>عدد اشهر العرض</value>
+  </data>
+  <data name="Resellers" xml:space="preserve">
+    <value>الموزعين</value>
+  </data>
+  <data name="WrongAmount" xml:space="preserve">
+    <value>قيمة خطا</value>
+  </data>
+  <data name="OutgoingTypes" xml:space="preserve">
+    <value>انواع المصروفات</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>المبلغ</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>الاجمالى الكلى</value>
+  </data>
+  <data name="RequestPayment" xml:space="preserve">
+    <value>طلب سداد</value>
+  </data>
+  <data name="AddRequestPayment" xml:space="preserve">
+    <value>اضافة طلب سداد</value>
+  </data>
+  <data name="RequestedBeforeTotal" xml:space="preserve">
+    <value>اجمالى الطلبات السابقة </value>
+  </data>
+  <data name="ResellerCredit" xml:space="preserve">
+    <value>أرصدة الموزعين</value>
+  </data>
+  <data name="CreditIsntEnough" xml:space="preserve">
+    <value>الرصيد غير كافى</value>
+  </data>
+  <data name="CreditMsgP1" xml:space="preserve">
+    <value>رصيد الموزع: (</value>
+  </data>
+  <data name="CreditMsgP2" xml:space="preserve">
+    <value>)غير كافى لاضافة المزيد من الطلبات,&lt;/br&gt; جمالى الطلبات المسبقة (</value>
+  </data>
+  <data name="CreditMsgP3" xml:space="preserve">
+    <value> ) </value>
+  </data>
+  <data name="L.E" xml:space="preserve">
+    <value>ج.م.</value>
+  </data>
+  <data name="PendingPaymentRequests" xml:space="preserve">
+    <value>طلبات سداد قيد التفعيل</value>
+  </data>
+  <data name="ChangeReseller" xml:space="preserve">
+    <value>تغير الموزع</value>
+  </data>
+  <data name="Resaon" xml:space="preserve">
+    <value>السبب</value>
+  </data>
+  <data name="PriceNotFound" xml:space="preserve">
+    <value>السعر غير مسجل بالنظام</value>
+  </data>
+  <data name="PriceNotFoundMsg1" xml:space="preserve">
+    <value>الباقة</value>
+  </data>
+  <data name="PriceNotFoundMsg2" xml:space="preserve">
+    <value> لمزود الخدمة</value>
+  </data>
+  <data name="PriceNotFoundMsg3" xml:space="preserve">
+    <value> بدون سعر (اضف السعر)</value>
+  </data>
+  <data name="ReceiptsSearch" xml:space="preserve">
+    <value>بحث الإيصالات</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>رقم الوصل</value>
+  </data>
+  <data name="ReceiptDetails" xml:space="preserve">
+    <value>تفاصيل الوصل</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>رسائل تذكير</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>حالات العملاء</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>تاريخ التعاقد</value>
+  </data>
+  <data name="ApproveAll" xml:space="preserve">
+    <value>موافقة الكل</value>
+  </data>
+  <data name="CsutomersWithThisStatus" xml:space="preserve">
+    <value>عملاء فى حالة</value>
+  </data>
+  <data name="InncorrectLink" xml:space="preserve">
+    <value>رابط خطأ</value>
+  </data>
+  <data name="CustomerActivated" xml:space="preserve">
+    <value>عميل مشغل</value>
+  </data>
+  <data name="CusProblem" xml:space="preserve">
+    <value>مشكلة عميل</value>
+  </data>
+  <data name="AllApprovedMsg" xml:space="preserve">
+    <value>تم موافقة كافة طلبات الشغل</value>
+  </data>
+  <data name="NewStatusEmail" xml:space="preserve">
+    <value> - الحالة الجديدة: </value>
+  </data>
+  <data name="CantApproveMsg" xml:space="preserve">
+    <value>تعذر الموافقة</value>
+  </data>
+  <data name="OrdersApproved" xml:space="preserve">
+    <value>تم موافقة امور الشغل</value>
+  </data>
+  <data name="OrderRejected" xml:space="preserve">
+    <value>تم رفض اوامر الشغل</value>
+  </data>
+  <data name="AllRequests" xml:space="preserve">
+    <value>كافة الطلبات</value>
+  </data>
+  <data name="RequestName" xml:space="preserve">
+    <value>اسم الطلب</value>
+  </data>
+  <data name="ResellerBalanceSheet" xml:space="preserve">
+    <value>كشف حساب موزع</value>
+  </data>
+  <data name="PackageType" xml:space="preserve">
+    <value>نوع الباقة</value>
+  </data>
+  <data name="PaymentReceipt" xml:space="preserve">
+    <value>وصل الدفع</value>
+  </data>
+  <data name="SelectOptionFirst" xml:space="preserve">
+    <value>اختر عنصر اولا</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="ResellerHistory" xml:space="preserve">
+    <value>تاريخ الموزع</value>
+  </data>
+  <data name="Stocks" xml:space="preserve">
+    <value>الارصدة المخزنية</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="Consumer" xml:space="preserve">
+    <value>المستهلك</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>العملية</value>
+  </data>
+  <data name="ResellerInvoice" xml:space="preserve">
+    <value>فاتورة الموزع</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>الخدمة</value>
+  </data>
+  <data name="ResellerCommission" xml:space="preserve">
+    <value>عمولة الموزع</value>
+  </data>
+  <data name="ResellerInvoiceHint" xml:space="preserve">
+    <value>ملحوظة : لا يوجد خصم على باقات الاى بى والاكسترا جيجا</value>
+  </data>
+  <data name="ResellerLines" xml:space="preserve">
+    <value>خطوط الموزعين</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="CustomerStatuseHistory" xml:space="preserve">
+    <value>تاريخ حالة العميل</value>
+  </data>
+  <data name="Admin_Employee" xml:space="preserve">
+    <value>مدير/موظف</value>
+  </data>
+  <data name="ResellerPayments" xml:space="preserve">
+    <value>مدفوعات الموزع</value>
+  </data>
+  <data name="ResellerDiscounts" xml:space="preserve">
+    <value>خصومات الموزعين</value>
+  </data>
+  <data name="CnfgExists" xml:space="preserve">
+    <value>هذا الاختيار مسجل من قبل</value>
+  </data>
+  <data name="ResellersRoutersCredit" xml:space="preserve">
+    <value>رصيد اجهزة الروتر للموزع</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>الرصيد المخزنى</value>
+  </data>
+  <data name="ResellersStore" xml:space="preserve">
+    <value>مخازن الموزعين</value>
+  </data>
+  <data name="Transfertoreseller" xml:space="preserve">
+    <value>تحويل الى موزع</value>
+  </data>
+  <data name="NotAvailableQTN" xml:space="preserve">
+    <value>الكمية المطلوبة غير متوفره فى رصيد الشركة, قم بتعديل الكمية</value>
+  </data>
+  <data name="StoreprobMsg" xml:space="preserve">
+    <value>لم يتم الحفظ قم بتغير الكمية</value>
+  </data>
+  <data name="RevenuesAndExpenses" xml:space="preserve">
+    <value>الايرادات والمصروفات</value>
+  </data>
+  <data name="TableId" xml:space="preserve">
+    <value>مفتاح الجدول</value>
+  </data>
+  <data name="Revenue_Expense" xml:space="preserve">
+    <value>ايراد/مصرف</value>
+  </data>
+  <data name="Cash_Bank" xml:space="preserve">
+    <value>نفدى/بنك</value>
+  </data>
+  <data name="Totals" xml:space="preserve">
+    <value>الاجماليات</value>
+  </data>
+  <data name="RevenuesTotal" xml:space="preserve">
+    <value>اجمالى الايرادات</value>
+  </data>
+  <data name="ExpensesTotal" xml:space="preserve">
+    <value>اجمالى المصروفات</value>
+  </data>
+  <data name="Date_Time" xml:space="preserve">
+    <value>تاريخ/وقت</value>
+  </data>
+  <data name="CustomerRequestsHistory" xml:space="preserve">
+    <value>تاريخ طلبات العميل</value>
+  </data>
+  <data name="CustomerType" xml:space="preserve">
+    <value>نوع العميل</value>
+  </data>
+  <data name="WhoOrder" xml:space="preserve">
+    <value>المختص بالطلب</value>
+  </data>
+  <data name="WhoManage" xml:space="preserve">
+    <value>المختص بالادارة</value>
+  </data>
+  <data name="OldSpeed" xml:space="preserve">
+    <value>الباقة السابقة</value>
+  </data>
+  <data name="OldPackage" xml:space="preserve">
+    <value>الباقة السابقة</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="CustomerTicketHistory" xml:space="preserve">
+    <value>تاريخ تذاكر العميل</value>
+  </data>
+  <data name="OpenDate" xml:space="preserve">
+    <value>تاريخ البدء</value>
+  </data>
+  <data name="SolvedDate" xml:space="preserve">
+    <value>تاريخ الاصلاح</value>
+  </data>
+  <data name="NoTickects" xml:space="preserve">
+    <value>لا توجد تذاكر</value>
+  </data>
+  <data name="CustomerInfoHistory" xml:space="preserve">
+    <value>تاريخ بيانات العميل</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="UpdateDate" xml:space="preserve">
+    <value>تاريخ التحديث</value>
+  </data>
+  <data name="NoUpdates" xml:space="preserve">
+    <value>لا يوجد تحديثات</value>
+  </data>
+  <data name="SearchRequests" xml:space="preserve">
+    <value>بحث الطلبات</value>
+  </data>
+  <data name="ServicPackages" xml:space="preserve">
+    <value>باقات الخدمات</value>
+  </data>
+  <data name="PackagesNotes" xml:space="preserve">
+    <value>سيتم اضافة كلمة Unlimited و Limited تلقائى للسرعة</value>
+  </data>
+  <data name="Service.Providers" xml:space="preserve">
+    <value>مزودى الخدمات</value>
+  </data>
+  <data name="Subscripe" xml:space="preserve">
+    <value>اشترك</value>
+  </data>
+  <data name="NewSubscription" xml:space="preserve">
+    <value>اشتراك جديد</value>
+  </data>
+  <data name="GroundLineNumber" xml:space="preserve">
+    <value>رقم التليفون الارضى</value>
+  </data>
+  <data name="Pickspeedpack" xml:space="preserve">
+    <value>اختر باقة الخدمة</value>
+  </data>
+  <data name="Unlimited256" xml:space="preserve">
+    <value>256 غير محدود</value>
+  </data>
+  <data name="Unlimited512" xml:space="preserve">
+    <value>512 غير محدود</value>
+  </data>
+  <data name="Unlimited1024" xml:space="preserve">
+    <value>1024 غير محدود</value>
+  </data>
+  <data name="Unlimited2048" xml:space="preserve">
+    <value>2048 غير محدود</value>
+  </data>
+  <data name="Unlimited4096" xml:space="preserve">
+    <value>4096 غير محدود</value>
+  </data>
+  <data name="Limited256" xml:space="preserve">
+    <value>256 محدود</value>
+  </data>
+  <data name="Limited512" xml:space="preserve">
+    <value>512 محدود</value>
+  </data>
+  <data name="Limited1024" xml:space="preserve">
+    <value>1024 محدود</value>
+  </data>
+  <data name="Limited2048" xml:space="preserve">
+    <value>2048 محدود</value>
+  </data>
+  <data name="Limited4096" xml:space="preserve">
+    <value>4096 محدود</value>
+  </data>
+  <data name="Optimum512" xml:space="preserve">
+    <value>512 مثالى محدود</value>
+  </data>
+  <data name="Optimum1024" xml:space="preserve">
+    <value>1024 مثالى محدود</value>
+  </data>
+  <data name="Optimum2048" xml:space="preserve">
+    <value>2048 مثالى محدود</value>
+  </data>
+  <data name="SuspendedCustomers" xml:space="preserve">
+    <value>العملاء السسبند</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>الايام</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="QuickSupport" xml:space="preserve">
+    <value>مساعدة سريعة</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>مركز أهلا</value>
+  </data>
+  <data name="TicketReasons" xml:space="preserve">
+    <value>اسباب التذاكر</value>
+  </data>
+  <data name="TicketHistory" xml:space="preserve">
+    <value>تاريخ التذاكر</value>
+  </data>
+  <data name="TicketNo" xml:space="preserve">
+    <value>رقم التذكره</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>التذكره</value>
+  </data>
+  <data name="TransferFromBranchCredit" xml:space="preserve">
+    <value>تحويل من رصيد فرع</value>
+  </data>
+  <data name="CreditTransfer" xml:space="preserve">
+    <value>تحويل رصيد</value>
+  </data>
+  <data name="TransferAmount" xml:space="preserve">
+    <value>تحويل رصيد</value>
+  </data>
+  <data name="TransferAmountLimit" xml:space="preserve">
+    <value>اكبر من او مساوى للصفر</value>
+  </data>
+  <data name="ZeroDefault" xml:space="preserve">
+    <value>0 </value>
+  </data>
+  <data name="NotEnoughtCrefit" xml:space="preserve">
+    <value>الرصيد غير كافى</value>
+  </data>
+  <data name="TreasureyExpenses" xml:space="preserve">
+    <value>مصروفات الخزينة الرئيسية</value>
+  </data>
+  <data name="TresauryReport" xml:space="preserve">
+    <value>تقرير مصروفات الخزينة الرئيسية</value>
+  </data>
+  <data name="AuthorizationError" xml:space="preserve">
+    <value>لا يوجد ترخيص لدخول الصفحة</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>تاريخ الفاتوره</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>المستخدمين</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الالكترونى</value>
+  </data>
+  <data name="ValidMail" xml:space="preserve">
+    <value>ادخل بريد الكترونى صحيح</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>المجموعة</value>
+  </data>
+  <data name="AccountStoped" xml:space="preserve">
+    <value>توقيف الحساب؟</value>
+  </data>
+  <data name="UsersPageNotes" xml:space="preserve">
+    <value>المستخدم مدير قسم, ,&lt;br/&gt; وسيقوم بادارة فرع او اكثر &lt;br/&gt; اختر الفروع المراد ادارتها</value>
+  </data>
+  <data name="LimitedDscountPercent" xml:space="preserve">
+    <value>نسبة خصم السرعات المحدودة</value>
+  </data>
+  <data name="UnLimitedDscountPercent" xml:space="preserve">
+    <value>نسبة الخصم للباقات السرعات المحدودة</value>
+  </data>
+  <data name="PercentSign" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="OpeningBalance" xml:space="preserve">
+    <value>الرصيد الافتتاحى</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>مستخدم جديد</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>العملية</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>تم الحذف</value>
+  </data>
+  <data name="_minusOne" xml:space="preserve">
+    <value>-1 </value>
+  </data>
+  <data name="ViewReciept" xml:space="preserve">
+    <value>عرض الوصل</value>
+  </data>
+  <data name="Tickets" xml:space="preserve">
+    <value>التذاكر</value>
+  </data>
+  <data name="Solved" xml:space="preserve">
+    <value>تم الاصلاح</value>
+  </data>
+  <data name="Solve" xml:space="preserve">
+    <value>اصلاح</value>
+  </data>
+  <data name="CustomerBalanceSheet" xml:space="preserve">
+    <value>كشف حساب عميل</value>
+  </data>
+  <data name="SelectProcessc" xml:space="preserve">
+    <value>اختر العملية</value>
+  </data>
+  <data name="_InvoiceTotalDue" xml:space="preserve">
+    <value>اجمالى مديونية الفاتورة</value>
+  </data>
+  <data name="ResellerCreditNotEnought" xml:space="preserve">
+    <value>رصيد الموزع غير كافى</value>
+  </data>
+  <data name="_CreditAvailableForReseller" xml:space="preserve">
+    <value>رصيد الموزع غير كافى</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>اختر ملف</value>
+  </data>
+  <data name="NoFiles" xml:space="preserve">
+    <value>لا توجد ملفات</value>
+  </data>
+  <data name="UploadError" xml:space="preserve">
+    <value>حدث خطأ اثناء عملية الرفع , الملف غير موجود</value>
+  </data>
+  <data name="SetLang" xml:space="preserve">
+    <value>اختر اللغة</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>تصميم وتطوير شركة بيونيرز</value>
+  </data>
+  <data name="AddCustomer" xml:space="preserve">
+    <value>أضافة العميل</value>
+  </data>
+  <data name="AddNewCustomer" xml:space="preserve">
+    <value>اضافة عميل جديد</value>
+  </data>
+  <data name="MenuAllPrivilegesAdmin" xml:space="preserve">
+    <value>كافة الصلاحيات (ادمن)</value>
+  </data>
+  <data name="MenuSystemSetting" xml:space="preserve">
+    <value>اعدادت النظام</value>
+  </data>
+  <data name="MenuPendingInstallation" xml:space="preserve">
+    <value>منتظر التركيب</value>
+  </data>
+  <data name="MenuGroups" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="MenuBranches" xml:space="preserve">
+    <value>الفروع</value>
+  </data>
+  <data name="MenuGovernorates" xml:space="preserve">
+    <value>المحافظات</value>
+  </data>
+  <data name="MenuRequests" xml:space="preserve">
+    <value>الطلبات</value>
+  </data>
+  <data name="MenuServicesPackages" xml:space="preserve">
+    <value>باقات الخدمة</value>
+  </data>
+  <data name="MenuPendingActivationPanel" xml:space="preserve">
+    <value>تفعيلات معلقة</value>
+  </data>
+  <data name="MenuNewCustomers" xml:space="preserve">
+    <value>العملاء الجدد</value>
+  </data>
+  <data name="MenuPendingTE" xml:space="preserve">
+    <value>TE - انتظار</value>
+  </data>
+  <data name="MenuPendingWO" xml:space="preserve">
+    <value>WO - انتظار</value>
+  </data>
+  <data name="MenuPendingSplitting" xml:space="preserve">
+    <value>Splitting - انتظار</value>
+  </data>
+  <data name="MenuActive" xml:space="preserve">
+    <value>خطوط مفعلة</value>
+  </data>
+  <data name="MenuCancellationProcess" xml:space="preserve">
+    <value>عمليات الالغاء</value>
+  </data>
+  <data name="MenuDisapprovedCustomers" xml:space="preserve">
+    <value>عملاء مرفوضين</value>
+  </data>
+  <data name="MenuCancelled" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="MenuHold" xml:space="preserve">
+    <value>خطوط معلقة</value>
+  </data>
+  <data name="MenuUnhold" xml:space="preserve">
+    <value>الغاء تعليق عميل</value>
+  </data>
+  <data name="MenuSuspend" xml:space="preserve">
+    <value>ايقاف مؤقت</value>
+  </data>
+  <data name="MenuCustomersRequests" xml:space="preserve">
+    <value>طلبات العملاء</value>
+  </data>
+  <data name="MenuAddNewCustomer" xml:space="preserve">
+    <value>اضافة عميل جديد</value>
+  </data>
+  <data name="MenuFullDetails" xml:space="preserve">
+    <value>التفاصيل بالكامل</value>
+  </data>
+  <data name="MenuEditCustomer" xml:space="preserve">
+    <value>تعديل عميل</value>
+  </data>
+  <data name="MenuServiceProviders" xml:space="preserve">
+    <value>مزودى الخدمة</value>
+  </data>
+  <data name="MenuCustomerStatus" xml:space="preserve">
+    <value>حالة العميل</value>
+  </data>
+  <data name="MenuManageUsers" xml:space="preserve">
+    <value>ادارة المستخدمين</value>
+  </data>
+  <data name="MenuAdvancedSearch" xml:space="preserve">
+    <value>بحث متقدم</value>
+  </data>
+  <data name="MenuSearch" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="MenuUpgradeDowngrade" xml:space="preserve">
+    <value>رفع/خفض</value>
+  </data>
+  <data name="MenuUnsuspend" xml:space="preserve">
+    <value>
+     تشغيل
+    </value>
+  </data>
+  <data name="MenuCancel" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="MenuReactivate" xml:space="preserve">
+    <value>اعادة تفعيل</value>
+  </data>
+  <data name="MenuPendingRequestsPanel" xml:space="preserve">
+    <value>طلبات معلقة</value>
+  </data>
+  <data name="MenuChangeIPPackage" xml:space="preserve">
+    <value>تغير باقة IP</value>
+  </data>
+  <data name="MenuResellerLines" xml:space="preserve">
+    <value>خطوط الموزعين</value>
+  </data>
+  <data name="MenuChangePassword" xml:space="preserve">
+    <value>تغير كلمة المرور</value>
+  </data>
+  <data name="MenuChangeMyPassword" xml:space="preserve">
+    <value>تغير كلمة المرور خاصتى</value>
+  </data>
+  <data name="MenuManageAds" xml:space="preserve">
+    <value>ادارة الاعلانات</value>
+  </data>
+  <data name="MenuTechnicalSupport" xml:space="preserve">
+    <value>الدعم الفنى</value>
+  </data>
+  <data name="MenuAddTicket" xml:space="preserve">
+    <value>اضافة تذكره</value>
+  </data>
+  <data name="MenuTicketReasons" xml:space="preserve">
+    <value>اسباب التذاكر</value>
+  </data>
+  <data name="MenuPendingTicketing" xml:space="preserve">
+    <value>تذاكر معلقة</value>
+  </data>
+  <data name="MenuPendingSolving" xml:space="preserve">
+    <value>بانتظار الحل</value>
+  </data>
+  <data name="MenuSolved" xml:space="preserve">
+    <value>تم الحل</value>
+  </data>
+  <data name="MenuReport" xml:space="preserve">
+    <value>تقرير</value>
+  </data>
+  <data name="MenuPaymentTypes" xml:space="preserve">
+    <value>انواع الدفع</value>
+  </data>
+  <data name="MenuAccountingPanel" xml:space="preserve">
+    <value>الحسابات</value>
+  </data>
+  <data name="MenuPricing" xml:space="preserve">
+    <value>التسعير</value>
+  </data>
+  <data name="MenuResellersCommission " xml:space="preserve">
+    <value>عمولات الموزعين</value>
+  </data>
+  <data name="MenuBranchCommission" xml:space="preserve">
+    <value>عمولة الفرع</value>
+  </data>
+  <data name="MenuCustomerInvoice" xml:space="preserve">
+    <value>فاتوة عميل</value>
+  </data>
+  <data name="MenuResellerInvoice" xml:space="preserve">
+    <value>فاتورة موزع</value>
+  </data>
+  <data name="MenuBranchInvoice" xml:space="preserve">
+    <value>فاتورة فرع</value>
+  </data>
+  <data name="MenuCustomerBalanceSheet" xml:space="preserve">
+    <value>كشف حساب عميل</value>
+  </data>
+  <data name="MenuResellerBalanceSheet" xml:space="preserve">
+    <value>كشف حساب موزع</value>
+  </data>
+  <data name="MenuBranchBalanceSheet" xml:space="preserve">
+    <value>كشف حساب فرع</value>
+  </data>
+  <data name="MenuOutgoingTypes" xml:space="preserve">
+    <value>انواع المخرجات</value>
+  </data>
+  <data name="MenuIncomingExpenses" xml:space="preserve">
+    <value>إيرادات أخرى</value>
+  </data>
+  <data name="MenuOutgoingExpenses" xml:space="preserve">
+    <value>مصروفات</value>
+  </data>
+  <data name="MenuDailyReport" xml:space="preserve">
+    <value>التقرير اليوميى</value>
+  </data>
+  <data name="MenuMonthlyReport" xml:space="preserve">
+    <value>تقرير الحسابات عن فترة</value>
+  </data>
+  <data name="MenuUnPaidCustomers" xml:space="preserve">
+    <value>العملاء الغير مسددين</value>
+  </data>
+  <data name="MenuBranchDirectCustomers" xml:space="preserve">
+    <value>العملاء المباشرين للفرع</value>
+  </data>
+  <data name="MenuReceiptsSearch" xml:space="preserve">
+    <value>بحث الايصالات</value>
+  </data>
+  <data name="MenuReports" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="MenuSuspendedcustomers" xml:space="preserve">
+    <value>تقرير العملاء الموقوفين</value>
+  </data>
+  <data name="MenuSearchRequests" xml:space="preserve">
+    <value>تقرير الطلبات عن فترة</value>
+  </data>
+  <data name="MenuExtra" xml:space="preserve">
+    <value>إدارة العملاء</value>
+  </data>
+  <data name="MenuCallCenterReport" xml:space="preserve">
+    <value>تقرير مركز الاتصال</value>
+  </data>
+  <data name="MenuCallCenterEntry" xml:space="preserve">
+    <value>مُدخل مركز الاتصال</value>
+  </data>
+  <data name="MenuExternalRequests" xml:space="preserve">
+    <value>تقريرالطلبات الخارجية</value>
+  </data>
+  <data name="MenuEmployeeIncome" xml:space="preserve">
+    <value>ايرادات موظف</value>
+  </data>
+  <data name="MenuPaymentRequest" xml:space="preserve">
+    <value>طلب دفع</value>
+  </data>
+  <data name="MenuPendingPaymentRequest" xml:space="preserve">
+    <value>طلبات سداد معلقة</value>
+  </data>
+  <data name="MenuManaulInvoices" xml:space="preserve">
+    <value>اضافة فواتير من الاكسيل </value>
+  </data>
+  <data name="MenuRevenuesAndExpenses" xml:space="preserve">
+    <value>ايرادات ومصروفات</value>
+  </data>
+  <data name="MenuCentrals" xml:space="preserve">
+    <value>سنترالات</value>
+  </data>
+  <data name="MenuOffers" xml:space="preserve">
+    <value>العروض</value>
+  </data>
+  <data name="MenuInvoiceByCentral" xml:space="preserve">
+    <value>فاتورة سنترال</value>
+  </data>
+  <data name="MenuChangeActivationDate" xml:space="preserve">
+    <value>تغير تاريخ التشغيل</value>
+  </data>
+  <data name="MenuUnPaidCustomersAll" xml:space="preserve">
+    <value>كافة العملاء الغير مسددين</value>
+  </data>
+  <data name="MenuPaidCustomers" xml:space="preserve">
+    <value>العملاء المسددين</value>
+  </data>
+  <data name="MenuTreasureExpenses" xml:space="preserve">
+    <value>مصروفات الخزينة الرئيسية</value>
+  </data>
+  <data name="MenuTresauryReport" xml:space="preserve">
+    <value>تقرير الخزينة الرئيسية</value>
+  </data>
+  <data name="MenuTransferFromBranchCredit" xml:space="preserve">
+    <value>تحويل رصيد من فرع للخزنة الرئيسية</value>
+  </data>
+  <data name="MenuMessageReader" xml:space="preserve">
+    <value>قارئ الرسالة</value>
+  </data>
+  <data name="MenuMessageTo" xml:space="preserve">
+    <value>ارسال رسالة</value>
+  </data>
+  <data name="MenuInbox" xml:space="preserve">
+    <value>صندوق الوارد</value>
+  </data>
+  <data name="MenuReminders" xml:space="preserve">
+    <value>رسائل التذكير</value>
+  </data>
+  <data name="MenuMessage" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="MenuBranchCredit" xml:space="preserve">
+    <value>رصيد الفرع</value>
+  </data>
+  <data name="MenuResellersCommission" xml:space="preserve">
+    <value>عمولات الموزعين</value>
+  </data>
+  <data name="MenuResellerCredit" xml:space="preserve">
+    <value>رصيد الموزع</value>
+  </data>
+  <data name="MenuCompanyStore" xml:space="preserve">
+    <value>مخزن الشركة</value>
+  </data>
+  <data name="MenuResellersStore" xml:space="preserve">
+    <value>مخازن الموزعين</value>
+  </data>
+  <data name="MenuIpPackages" xml:space="preserve">
+    <value>باقات IP</value>
+  </data>
+  <data name="MenuResellersRoutersCredit" xml:space="preserve">
+    <value>ارصدة اجهزة الروتر للموزعين</value>
+  </data>
+  <data name="MenuCompanyHistory" xml:space="preserve">
+    <value>تاريخ الشركة</value>
+  </data>
+  <data name="MenuResellerHistory" xml:space="preserve">
+    <value>تاريخ الموزع</value>
+  </data>
+  <data name="MenuResellerPayments" xml:space="preserve">
+    <value>تقرير مدفوعات الموزعين</value>
+  </data>
+  <data name="MenuManualPayment" xml:space="preserve">
+    <value>دفع فواتير من اكسيل</value>
+  </data>
+  <data name="MenuBranchPaymentRequests" xml:space="preserve">
+    <value>طلب سداد الفرع</value>
+  </data>
+  <data name="MenuBranchPendingPayemntRequests" xml:space="preserve">
+    <value>طلبات سداد الفروع المعلقة</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>مرحبا </value>
+  </data>
+  <data name="DataLevelMsg" xml:space="preserve">
+    <value>&lt;br/&gt;مستوى البيانات : </value>
+  </data>
+  <data name="CustomerAddedSuccessfully" xml:space="preserve">
+    <value>تم اضافة العميل </value>
+  </data>
+  <data name="Upgrade/Downgrade" xml:space="preserve">
+    <value>خفض - رفع</value>
+  </data>
+  <data name="Change IP Package" xml:space="preserve">
+    <value>تغير باقة IP</value>
+  </data>
+  <data name="Request Extra Giga" xml:space="preserve">
+    <value>طلب جيجات اضافية</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعه</value>
+  </data>
+  <data name="BranchBalanceSheet" xml:space="preserve">
+    <value>كشف حساب فرع</value>
+  </data>
+  <data name="AddNewTicket" xml:space="preserve">
+    <value>اضافة تذكره</value>
+  </data>
+  <data name="AllBranchsDiscounts" xml:space="preserve">
+    <value>خصومات الفروع</value>
+  </data>
+  <data name="AllCentrals" xml:space="preserve">
+    <value>كافة السنترالات</value>
+  </data>
+  <data name="MonthlyIncoming" xml:space="preserve">
+    <value>المدخلات الشهرية</value>
+  </data>
+  <data name="ManageAds" xml:space="preserve">
+    <value>ادارة الاعلانات</value>
+  </data>
+  <data name="PaymentTypes" xml:space="preserve">
+    <value>انواع الدفع</value>
+  </data>
+  <data name="CallCenter" xml:space="preserve">
+    <value>مركز الاتصالات</value>
+  </data>
+  <data name="CallDate" xml:space="preserve">
+    <value>تاريخ الاتصال</value>
+  </data>
+  <data name="CallCenterEntry" xml:space="preserve">
+    <value>محرر المكالمات</value>
+  </data>
+  <data name="Inbox" xml:space="preserve">
+    <value>صندوق الوارد</value>
+  </data>
+  <data name="AvailableQuantity" xml:space="preserve">
+    <value>الكمية المتاحة</value>
+  </data>
+  <data name="BranchRequests" xml:space="preserve">
+    <value>طلبات سداد الفروع المعلقة</value>
+  </data>
+  <data name="IPMsg" xml:space="preserve">
+    <value>رقم IP :</value>
+  </data>
+  <data name="SetDate" xml:space="preserve">
+    <value>تسجيل الوقت</value>
+  </data>
+  <data name="OfferStart" xml:space="preserve">
+    <value>بداية العرض</value>
+  </data>
+  <data name="MessageTo" xml:space="preserve">
+    <value>ارسال رسالة</value>
+  </data>
+  <data name="RecipientsList" xml:space="preserve">
+    <value>المرسل اليهم</value>
+  </data>
+  <data name="DoneRead" xml:space="preserve">
+    <value>تمت القراة</value>
+  </data>
+  <data name="UnRead" xml:space="preserve">
+    <value>لم تتم القراءة</value>
+  </data>
+  <data name="CustomerExists" xml:space="preserve">
+    <value>رقم التليفون مستخدم من قبل</value>
+  </data>
+  <data name="TestCustomer" xml:space="preserve">
+    <value>اختبار وجود العميل</value>
+  </data>
+  <data name="CantDeleteCustomer" xml:space="preserve">
+    <value>لا يمكن حذف العميل</value>
+  </data>
+  <data name="DeleteAllCustomers" xml:space="preserve">
+    <value>حذف كافة العملاء</value>
+  </data>
+  <data name="NotEnoughtCreditMsg" xml:space="preserve">
+    <value>الرصيد غير كافى</value>
+  </data>
+  <data name="PaymentRequestMsg" xml:space="preserve">
+    <value>رصيد الموزع : ({0}) غير كافى لاضافة المزيد من الطلبات , اجمالى طلبات الموزع  ({1}) </value>
+  </data>
+  <data name="PaymentRequest" xml:space="preserve">
+    <value>طلب سداد</value>
+  </data>
+  <data name="Governorate" xml:space="preserve">
+    <value>المحافظة</value>
+  </data>
+  <data name="ResellerTotalDue" xml:space="preserve">
+    <value>اجمالى مطالبات العملاء</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>العناصر المختارة</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="ResellerPaymentCredit" xml:space="preserve">
+    <value>رصيد مدفوعات الموزع</value>
+  </data>
+  <data name="Effect" xml:space="preserve">
+    <value>الاثر</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="CreditHistory" xml:space="preserve">
+    <value>سجل الرصيد</value>
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>الحالات</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>السبب</value>
+  </data>
+  <data name="Phones" xml:space="preserve">
+    <value>التليفونات</value>
+  </data>
+  <data name="PreviewPhonesStates" xml:space="preserve">
+    <value>نظر حالات التليفونات</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Offer1" xml:space="preserve">
+    <value>عرض1</value>
+  </data>
+  <data name="Offer2" xml:space="preserve">
+    <value>عرض2</value>
+  </data>
+  <data name="PhonesDataEntry" xml:space="preserve">
+    <value>ادخال بيانات التليفونات</value>
+  </data>
+  <data name="PendingCalls" xml:space="preserve">
+    <value>تليفونات فى حالة الانتظار</value>
+  </data>
+  <data name="SavedPhonesCountMsg" xml:space="preserve">
+    <value>  تليفون {0} تم حفظ عدد </value>
+  </data>
+  <data name="PostedFileIsInvalid" xml:space="preserve">
+    <value>الملف المرفق غير صالح</value>
+  </data>
+  <data name="PendingContractPhones.aspx" xml:space="preserve">
+    <value>تليفونات التعاقد بالانتظار</value>
+  </data>
+  <data name="PendingContractPhones" xml:space="preserve">
+    <value>تليفونات التعاقد بالانتظار</value>
+  </data>
+  <data name="Pend" xml:space="preserve">
+    <value>انتظار</value>
+  </data>
+  <data name="HandleComplaints" xml:space="preserve">
+    <value>نظر الشكاوى</value>
+  </data>
+  <data name="NewComplaint" xml:space="preserve">
+    <value>شكوى جديدة</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>الخيارات</value>
+  </data>
+  <data name="Least5" xml:space="preserve">
+    <value>بحد ادنى 5 ارقام واقصى 12 رقم , ارقام فقط</value>
+  </data>
+  <data name="Least10" xml:space="preserve">
+    <value>بحد ادنى 10 ارقام واقصى 12 رقم , ارقام فقط</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>شكوى</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>العدد</value>
+  </data>
+  <data name="ContractsCount" xml:space="preserve">
+    <value>عدد العقود</value>
+  </data>
+  <data name="Handle" xml:space="preserve">
+    <value>تعامل</value>
+  </data>
+  <data name="RejectionReasons" xml:space="preserve">
+    <value>اسباب الرفض</value>
+  </data>
+  <data name="EmployeesReports" xml:space="preserve">
+    <value>تقارير الموظفين</value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>شكاوى</value>
+  </data>
+  <data name="HandlePhones" xml:space="preserve">
+    <value>نظر التليفونات</value>
+  </data>
+  <data name="ContractsByEmployee" xml:space="preserve">
+    <value>عقود الموظفين</value>
+  </data>
+  <data name="ComplaintHandled" xml:space="preserve">
+    <value>تم التعامل مع شكوى العميل {0} </value>
+  </data>
+  <data name="ContractsForEmployee" xml:space="preserve">
+    <value>عقود الموظفين</value>
+  </data>
+  <data name="PhonesDataentry.aspx" xml:space="preserve">
+    <value>ادخال بيانات التليفونات</value>
+  </data>
+  <data name="EMailCnfg" xml:space="preserve">
+    <value>اعدادت البريد الالكترونى</value>
+  </data>
+  <data name="MailFrom" xml:space="preserve">
+    <value>ارسال من</value>
+  </data>
+  <data name="SmtpClient" xml:space="preserve">
+    <value>SmtpClient </value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>بورت</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="ReceiptFormat" xml:space="preserve">
+    <value>شكل الايصال</value>
+  </data>
+  <data name="CompanyNameInput" xml:space="preserve">
+    <value>اسم الشركة</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>الشعار</value>
+  </data>
+  <data name="LogoPosition" xml:space="preserve">
+    <value>مكان الشعار</value>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>تنبيه</value>
+  </data>
+  <data name="ContactData" xml:space="preserve">
+    <value>بيانات الاتصال</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>ضف صورة</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>البحث المتقدم</value>
+  </data>
+  <data name="CustomerDetails" xml:space="preserve">
+    <value>تفاصيل العميل</value>
+  </data>
+  <data name="NationalId" xml:space="preserve">
+    <value>الرقم القومى</value>
+  </data>
+  <data name="SiteData" xml:space="preserve">
+    <value>بيانات الموقع</value>
+  </data>
+  <data name="NoSiteDataAvailable" xml:space="preserve">
+    <value>لا يوجد بيانات للموقع</value>
+  </data>
+  <data name="CantDelete" xml:space="preserve">
+    <value>لا يمكن الحذف</value>
+  </data>
+  <data name="true" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="false" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="ChangeSettings" xml:space="preserve">
+    <value>تغير الاعدادت</value>
+  </data>
+  <data name="ChoseCustomers" xml:space="preserve">
+    <value>اختر العملاء</value>
+  </data>
+  <data name="ResellerProviders" xml:space="preserve">
+    <value>مزودى الخدمات للموزعين</value>
+  </data>
+  <data name="CustomerDemands" xml:space="preserve">
+    <value>فواتير العملاء</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="CustomerNotFound" xml:space="preserve">
+    <value>العميل غير موجود</value>
+  </data>
+  <data name="RequestsHistory" xml:space="preserve">
+    <value>سجل الطلبات</value>
+  </data>
+  <data name="ProcessDate" xml:space="preserve">
+    <value> تاريخ التنفيذ</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>بعد</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>قبل</value>
+  </data>
+  <data name="MonthsCount" xml:space="preserve">
+    <value>عدد الشهور</value>
+  </data>
+  <data name="ByPercent" xml:space="preserve">
+    <value>خصم نسبة</value>
+  </data>
+  <data name="DiscountMustBeBetween100And0" xml:space="preserve">
+    <value>نسبة الخصم يجب بين 100 و 0</value>
+  </data>
+  <data name="FreeMonthsFirst" xml:space="preserve">
+    <value>الشهور المجانية اولا</value>
+  </data>
+  <data name="OfferDetails" xml:space="preserve">
+    <value>تفاصيل العرض</value>
+  </data>
+  <data name="FinancialDetails" xml:space="preserve">
+    <value>التفاصيل المالية</value>
+  </data>
+  <data name="FreeMonthsCount" xml:space="preserve">
+    <value>عدد الشهور المجانية</value>
+  </data>
+  <data name="OfferMonths" xml:space="preserve">
+    <value>اشهر العرض</value>
+  </data>
+  <data name="Providers" xml:space="preserve">
+    <value>مزودى الخدمة</value>
+  </data>
+  <data name="RouterCost" xml:space="preserve">
+    <value>تكلفة الروتر</value>
+  </data>
+  <data name="AggregatedBill" xml:space="preserve">
+    <value>فاتورة مجمعة</value>
+  </data>
+  <data name="CancelPenaltyOfFirstYear" xml:space="preserve">
+    <value>غرامة الكانسل خلال السنة الاولى</value>
+  </data>
+  <data name="CancelIfSuspensionExceeds" xml:space="preserve">
+    <value>الغاء العرض فى حالة السسبند لاكثر من</value>
+  </data>
+  <data name="ChangeRequestDate" xml:space="preserve">
+    <value>تغير تاريخ المطالبة</value>
+  </data>
+  <data name="Suspend" xml:space="preserve">
+    <value>ايقاف مؤقت</value>
+  </data>
+  <data name="SystemProblem" xml:space="preserve">
+    <value>عملاء لهم مشاكل</value>
+  </data>
+  <data name="M1" xml:space="preserve">
+    <value>يناير</value>
+  </data>
+  <data name="M2" xml:space="preserve">
+    <value>فبراير</value>
+  </data>
+  <data name="M3" xml:space="preserve">
+    <value>مارس</value>
+  </data>
+  <data name="M4" xml:space="preserve">
+    <value>ابريل</value>
+  </data>
+  <data name="M5" xml:space="preserve">
+    <value>مايو</value>
+  </data>
+  <data name="M6" xml:space="preserve">
+    <value>يونيو</value>
+  </data>
+  <data name="M7" xml:space="preserve">
+    <value>يوليو</value>
+  </data>
+  <data name="M8" xml:space="preserve">
+    <value>اغسطس</value>
+  </data>
+  <data name="M9" xml:space="preserve">
+    <value>سبتمبر</value>
+  </data>
+  <data name="M10" xml:space="preserve">
+    <value>اكتوبر</value>
+  </data>
+  <data name="M11" xml:space="preserve">
+    <value>نوفمبر</value>
+  </data>
+  <data name="M12" xml:space="preserve">
+    <value>ديسمبر</value>
+  </data>
+  <data name="CustomersCount" xml:space="preserve">
+    <value>عدد العملاء</value>
+  </data>
+  <data name="CustomersStatus" xml:space="preserve">
+    <value>حالة العملاء</value>
+  </data>
+  <data name="CustomersStatusInPreviousSixMonths" xml:space="preserve">
+    <value>حالة العملاء فى الستة اشهر السابقة</value>
+  </data>
+  <data name="IsNew" xml:space="preserve">
+    <value>فعال من جديد</value>
+  </data>
+  <data name="OfferStartDate" xml:space="preserve">
+    <value>تاريخ بدء العرض</value>
+  </data>
+  <data name="FreeMonthsValidation" xml:space="preserve">
+    <value>عدد الشهور المجانية يجب ان تكون اقل من او مساوية لعدد اشهر العرض</value>
+  </data>
+  <data name="UnPaidDemands" xml:space="preserve">
+    <value>تقرير المطالبات الغير مدفوعة</value>
+  </data>
+  <data name="AddDemand" xml:space="preserve">
+    <value>اضافة مطالبة</value>
+  </data>
+  <data name="SearchCustomerFirst" xml:space="preserve">
+    <value>ابحث عن عميل </value>
+  </data>
+  <data name="PaidDone" xml:space="preserve">
+    <value>تم الدفع</value>
+  </data>
+  <data name="NewDemand" xml:space="preserve">
+    <value>إضافة مديونية</value>
+  </data>
+  <data name="SelectDemands" xml:space="preserve">
+    <value>اختر مطالبات</value>
+  </data>
+  <data name="PaymentComment" xml:space="preserve">
+    <value>تعليق الدفع</value>
+  </data>
+  <data name="CancelPayment" xml:space="preserve">
+    <value>الغاء الدفع</value>
+  </data>
+  <data name="AddNextMonthDemand" xml:space="preserve">
+    <value>اضافة مطالبة الشهر التالى</value>
+  </data>
+  <data name="ExtraGigas" xml:space="preserve">
+    <value>جيجات اضافية</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>سعر الشراء</value>
+  </data>
+  <data name="ByActivationDate" xml:space="preserve">
+    <value> حسب تاريخ الاكتيف</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>رقم السيريال</value>
+  </data>
+  <data name="FilterFirstMonthAndTheRestOfMonthsAreComplete" xml:space="preserve">
+    <value>تصفية اول شهر وباقى الشهور كاملة</value>
+  </data>
+  <data name="FilterToAHalfMonth" xml:space="preserve">
+    <value>تصفية الى منتصف الشهر</value>
+  </data>
+  <data name="InOffer" xml:space="preserve">
+    <value>داخل العرض</value>
+  </data>
+  <data name="OutOfOffer" xml:space="preserve">
+    <value>خارج العرض</value>
+  </data>
+  <data name="DaysCount" xml:space="preserve">
+    <value>عدد الايام</value>
+  </data>
+  <data name="PostponeSuspendDays" xml:space="preserve">
+    <value>ترحيل ايام السسبند</value>
+  </data>
+  <data name="CompleteInvoiceWithsubtractionAndLeaveRequestDate" xml:space="preserve">
+    <value>تخصيم مع ثبات تاريخ المطالبة و فاتورة كاملة</value>
+  </data>
+  <data name="DeductionWithFixedRequestDate" xml:space="preserve">
+    <value>تخصيم مع ثبات تاريخ المطالبة</value>
+  </data>
+  <data name="CompleteInvoice" xml:space="preserve">
+    <value>فاتورة كاملة</value>
+  </data>
+  <data name="NewRequest" xml:space="preserve">
+    <value>طلب جديد</value>
+  </data>
+  <data name="PartialInvoiceForOldSpeed" xml:space="preserve">
+    <value>فاتورة جزئية للسرعة القديمة وفاتورة بشهر كامل للسرعة الجديدة</value>
+  </data>
+  <data name="MergeSpeedsInOneInvoice" xml:space="preserve">
+    <value> دمج السرعين فى فاتورة واحدة بدون تغيير تاريخ المطالبة</value>
+  </data>
+  <data name="FilterCustomerInvoice" xml:space="preserve">
+    <value>تصفية فاتورة  العميل</value>
+  </data>
+  <data name="CancelDept" xml:space="preserve">
+    <value>الغاء مديونية</value>
+  </data>
+  <data name="PayDept" xml:space="preserve">
+    <value>دفع مديونية</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="NewStatus" xml:space="preserve">
+    <value>الحالة الجديدة</value>
+  </data>
+  <data name="RouterSerailSearch" xml:space="preserve">
+    <value>بحث بسريال الروتر</value>
+  </data>
+  <data name="RouterSerial" xml:space="preserve">
+    <value>سيريال الروتر</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="InactiveCustomers" xml:space="preserve">
+    <value>عملاء غير نشطين</value>
+  </data>
+  <data name="UnpaidResellerDemands" xml:space="preserve">
+    <value>فواتير الموزعين</value>
+  </data>
+  <data name="CreateInvoice" xml:space="preserve">
+    <value>اصدار الفواتير</value>
+  </data>
+  <data name="BackToSearch" xml:space="preserve">
+    <value>عودة للبحث</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="DeleteDemand" xml:space="preserve">
+    <value>حذف مطالبة</value>
+  </data>
+  <data name="UnpayDemand" xml:space="preserve">
+    <value>الغاء سداد مطالبه</value>
+  </data>
+  <data name="EditDemand" xml:space="preserve">
+    <value>تعديل مطالبة</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>0.0 </value>
+  </data>
+  <data name="DownloadInvoice" xml:space="preserve">
+    <value>تحميل الفاتورة</value>
+  </data>
+  <data name="CustomersPayments" xml:space="preserve">
+    <value>تقرير مدفوعات العملاء</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>القائمة</value>
+  </data>
+  <data name="Gains" xml:space="preserve">
+    <value>الارباح</value>
+  </data>
+  <data name="ResellerPackagesDiscounts" xml:space="preserve">
+    <value>خصومات باقات الموزعين</value>
+  </data>
+  <data name="ResellerPPR" xml:space="preserve">
+    <value>طلبات سداد الموزع المعلقة</value>
+  </data>
+  <data name="ResellerPR" xml:space="preserve">
+    <value>طلبات سداد الموزع</value>
+  </data>
+  <data name="ResellerCreditIsnotEnough" xml:space="preserve">
+    <value>رصيد الموزع غير كافى</value>
+  </data>
+  <data name="BranchPR" xml:space="preserve">
+    <value>طلبات سداد الفرع</value>
+  </data>
+  <data name="BranchPaymentCredit" xml:space="preserve">
+    <value>رصيد مدفوعات الفرع</value>
+  </data>
+  <data name="BranchPPR" xml:space="preserve">
+    <value>طلبات سداد الفرع المعلقة</value>
+  </data>
+  <data name="Customer.Mobile2" xml:space="preserve">
+    <value>محمول2</value>
+  </data>
+  <data name="DemandCantBeDeleted" xml:space="preserve">
+    <value>لا يمكن حذف المطالبة</value>
+  </data>
+  <data name="ToNewCustomer" xml:space="preserve">
+    <value>تحويل الى عميل جديد</value>
+  </data>
+  <data name="ToActiveCustomer" xml:space="preserve">
+    <value>تحويل الى اكتيف</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="NameOrPhone" xml:space="preserve">
+    <value>الاسم او التليفون</value>
+  </data>
+  <data name="SuspendDaysCount" xml:space="preserve">
+    <value>عدد ايام السسبند</value>
+  </data>
+  <data name="UpdateDemands" xml:space="preserve">
+    <value>تحديث المطالبات</value>
+  </data>
+  <data name="NoCustomersFoundWithoutDemands" xml:space="preserve">
+    <value>لا يوجد عملاء بدون مطالبات</value>
+  </data>
+  <data name="Message Center" xml:space="preserve">
+    <value>مركز الرسائل</value>
+  </data>
+  <data name="Router management" xml:space="preserve">
+    <value>إدارة الروترات</value>
+  </data>
+  <data name="OfferPackages" xml:space="preserve">
+    <value>باقات العرض</value>
+  </data>
+  <data name="Packages" xml:space="preserve">
+    <value>السرعات</value>
+  </data>
+  <data name="SelectedPackageIsNotInOffer" xml:space="preserve">
+    <value>باقة السرعة المختارة خارج العرض</value>
+  </data>
+  <data name="CreateDemands" xml:space="preserve">
+    <value>انشاء مطالبات</value>
+  </data>
+  <data name="PayDemand" xml:space="preserve">
+    <value>دفع مطالية</value>
+  </data>
+  <data name="AddNextDemand" xml:space="preserve">
+    <value>اضافة مطالبة الشهر القادم</value>
+  </data>
+  <data name="CustomerShouldConvertToActive" xml:space="preserve">
+    <value>يجب تحويل العميل الى الحالة "اكتيف"</value>
+  </data>
+  <data name="DontApplyDiscountForDemand" xml:space="preserve">
+    <value>لا يوجد خصم على المطالبة</value>
+  </data>
+  <data name="ApplyDiscountForDemand" xml:space="preserve">
+    <value>يوجد خصم على المطالبة</value>
+  </data>
+  <data name="LineOwner" xml:space="preserve">
+    <value>اسم صاحب الخط </value>
+  </data>
+  <data name="ResellersPayments" xml:space="preserve">
+    <value>مدفوعات الموزعين</value>
+  </data>
+  <data name="BranchesPayments" xml:space="preserve">
+    <value>مدفوعات الفروع</value>
+  </data>
+  <data name="Revenues" xml:space="preserve">
+    <value>الايرادات</value>
+  </data>
+  <data name="CanSuspendOnDemandPage" xml:space="preserve">
+    <value>تحويل الى سسبند فى صفحةالمطالبات</value>
+  </data>
+  <data name="CantSuspend" xml:space="preserve">
+    <value>لا يمكن التحويل للسسبند</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>كود</value>
+  </data>
+  <data name="UnpaidBranchDemands" xml:space="preserve">
+    <value>فواتير الفروع</value>
+  </data>
+  <data name="BranchPackagesDiscounts" xml:space="preserve">
+    <value>خصومات باقات الفروع</value>
+  </data>
+  <data name="TotalResellerDiscount" xml:space="preserve">
+    <value>اجمالى خصم الموزع</value>
+  </data>
+  <data name="TotalBranchDiscount" xml:space="preserve">
+    <value>اجمالى خصم الفرع</value>
+  </data>
+  <data name="DirectCustomer" xml:space="preserve">
+    <value>عميل مباشر</value>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>المدفوع مقدما</value>
+  </data>
+  <data name="ContractingCost" xml:space="preserve">
+    <value>مصاريف تعاقد</value>
+  </data>
+  <data name="InstallationCost" xml:space="preserve">
+    <value>مصاريف تركيب</value>
+  </data>
+  <data name="CannotDeleteReseller" xml:space="preserve">
+    <value>لا يمكن حذف الموزع :  {0} , الموزع له ({1}) امر شغل</value>
+  </data>
+  <data name="CutomerNotes" xml:space="preserve">
+    <value> تكليفات الموظفين</value>
+  </data>
+  <data name="SearchOrdersNotes" xml:space="preserve">
+    <value>بحث تكليفات الموظفين</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="CustomerNote" xml:space="preserve">
+    <value>التكليف</value>
+  </data>
+  <data name="SavingError" xml:space="preserve">
+    <value>لم يتم الحفظ</value>
+  </data>
+  <data name="Installed" xml:space="preserve">
+    <value>تم التركيب</value>
+  </data>
+  <data name="InstallSelected" xml:space="preserve">
+    <value>اتمام تركيب الاختيارات</value>
+  </data>
+  <data name="UnInstalledCustomers" xml:space="preserve">
+    <value>عملاء بإنتظار التركيب</value>
+  </data>
+  <data name="CustomerNotes" xml:space="preserve">
+    <value>تكليفات الموظفين</value>
+  </data>
+  <data name="Installer" xml:space="preserve">
+    <value>موظف التركيب</value>
+  </data>
+  <data name="InstallationTime" xml:space="preserve">
+    <value>وقت التركيب</value>
+  </data>
+  <data name="InstalledCustomersReport" xml:space="preserve">
+    <value>تقرير العملاء متمى التركيب</value>
+  </data>
+  <data name="BranchDailyReport" xml:space="preserve">
+    <value>التقرير اليومى للفرع</value>
+  </data>
+  <data name="CancelGovernorateInCustomerSearch" xml:space="preserve">
+    <value>الغاء المحافظة فى البحث عن عميل</value>
+  </data>
+  <data name="MergeGorvoernorateCodeWithPhoneNumberWhileAddingNewCustomer" xml:space="preserve">
+    <value>ارفاق كود المحافظة مع رقم التليفون فى ادخال عميل جديد</value>
+  </data>
+  <data name="OffersEntry" xml:space="preserve">
+    <value>اخر العروض</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>ايجاز</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>رفع</value>
+  </data>
+  <data name="PleaseUploadImage" xml:space="preserve">
+    <value>من فضلك ارفق صورة</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>من فضلك ارفق ملف</value>
+  </data>
+  <data name="OnlyJpgBmp" xml:space="preserve">
+    <value>فقط .jpg او .bmp</value>
+  </data>
+  <data name="BadFileExtension" xml:space="preserve">
+    <value>امتداد غير مدعم</value>
+  </data>
+  <data name="LastOffersEntry" xml:space="preserve">
+    <value>اضافة اخر العروض</value>
+  </data>
+  <data name="CurrentOffers" xml:space="preserve">
+    <value>العروض الحالية</value>
+  </data>
+  <data name="UserIp" xml:space="preserve">
+    <value>Ip المستخدم</value>
+  </data>
+  <data name="DoesntMatch" xml:space="preserve">
+    <value>غير مطابق</value>
+  </data>
+  <data name="BrowserIp" xml:space="preserve">
+    <value>Ip التصفح</value>
+  </data>
+  <data name="Reciept" xml:space="preserve">
+    <value>الوصل</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="ResellerEvaluation" xml:space="preserve">
+    <value>تقييم موزع</value>
+  </data>
+  <data name="BranchEvaluation" xml:space="preserve">
+    <value>تقييم فرع</value>
+  </data>
+  <data name="PrintDemands" xml:space="preserve">
+    <value>طباعة المطالبات للتحصيل</value>
+  </data>
+  <data name="SuspendDaysCountForSuspendPage" xml:space="preserve">
+    <value>عدد ايام السسبند للعرض فى صفحة عملاء موقوفين، مثال 85</value>
+  </data>
+  <data name="SearchByGovPhone" xml:space="preserve">
+    <value>البحث عن عميل بدلالة المحافظة ورقم التليفون وليس رقم التليفون فقط</value>
+  </data>
+  <data name="NumberAttachements" xml:space="preserve">
+    <value>مرفقات عامة</value>
+  </data>
+  <data name="MonthB4MonthAfter" xml:space="preserve">
+    <value>شهر كامل بالسرعة القديمة وشهر كامل بالسرعة الجديدة</value>
+  </data>
+  <data name="Monthb4CurrentMonthRest" xml:space="preserve">
+    <value>شهر كامل بالسرعة القديمة وباقى الشهر على السرعة الجديدة </value>
+  </data>
+  <data name="WithOut" xml:space="preserve">
+    <value>بدون</value>
+  </data>
+  <data name="UserNameAlreadyExist" xml:space="preserve">
+    <value>اسم المستخدم مسجل من قبل</value>
+  </data>
+  <data name="CustomersInStatus" xml:space="preserve">
+    <value>تقرير بحالات العملاء</value>
+  </data>
+  <data name="InvoiceAfterReview" xml:space="preserve">
+    <value>الفاتورة بعد المراجعة</value>
+  </data>
+  <data name="InvoiceBeforeReview" xml:space="preserve">
+    <value>الفاتورة قبل المراجعة</value>
+  </data>
+  <data name="ResellerAttachment" xml:space="preserve">
+    <value>إرفاق فواتير الموزعين</value>
+  </data>
+  <data name="ResellerDownloadInvoice" xml:space="preserve">
+    <value>تحميل فواتير الموزعين</value>
+  </data>
+  <data name="ResellerAccounts" xml:space="preserve">
+    <value>حسابات الموزعين</value>
+  </data>
+  <data name="Branch Accounts" xml:space="preserve">
+    <value>حسابات الفروع</value>
+  </data>
+  <data name="MenuSimpleDetails" xml:space="preserve">
+    <value>تفاصيل بسيطة</value>
+  </data>
+  <data name="ServiceProviderstoPaymentRequest" xml:space="preserve">
+    <value>مزودى الخدمة لطلبات السداد</value>
+  </data>
+  <data name="Router" xml:space="preserve">
+    <value>راوتر</value>
+  </data>
+  <data name="DemandReciept" xml:space="preserve">
+    <value>الايصال</value>
+  </data>
+  <data name="HalfReciept" xml:space="preserve">
+    <value>1/2 </value>
+  </data>
+  <data name="Reciept2" xml:space="preserve">
+    <value>ريسيت</value>
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>إضافة صندوق أو شريحة</value>
+  </data>
+  <data name="Boxs" xml:space="preserve">
+    <value>الصناديق</value>
+  </data>
+  <data name="AlreadyExist" xml:space="preserve">
+    <value>هذه البيانات موجودة بالفعل</value>
+  </data>
+  <data name="BoxCredit" xml:space="preserve">
+    <value>حركات الصناديق</value>
+  </data>
+  <data name="Block" xml:space="preserve">
+    <value>رقم البلوك</value>
+  </data>
+  <data name="Dslam" xml:space="preserve">
+    <value>رقم الدسلام</value>
+  </data>
+  <data name="PortNumber" xml:space="preserve">
+    <value>رقم البورت</value>
+  </data>
+  <data name="WorkorderDate" xml:space="preserve">
+    <value>تاريخ أمر الشغل</value>
+  </data>
+  <data name="WorkorderNumber" xml:space="preserve">
+    <value>رقم أمر الشغل</value>
+  </data>
+  <data name="Depositor" xml:space="preserve">
+    <value>المودع</value>
+  </data>
+  <data name="RechargeAccountReseller" xml:space="preserve">
+    <value>طلب شحن رصيد موزع</value>
+  </data>
+  <data name="HandelRechargeRequestes" xml:space="preserve">
+    <value>طلبات شحن رصيد الموزع المعلقة</value>
+  </data>
+  <data name="TransferFrom" xml:space="preserve">
+    <value>تحويل من</value>
+  </data>
+  <data name="TransfersFromBoxes" xml:space="preserve">
+    <value>تحويل رصيد  بين الصناديق</value>
+  </data>
+  <data name="TransferTo" xml:space="preserve">
+    <value>تحويل الى</value>
+  </data>
+  <data name="BoxBs" xml:space="preserve">
+    <value>كشف حساب صندوق</value>
+  </data>
+  <data name="ResellerVoiceCredit" xml:space="preserve">
+    <value>رصيد مدفوعات الموزع للعملاء الخارجيين</value>
+  </data>
+  <data name="RechargeCustomer" xml:space="preserve">
+    <value> طلب سداد فاتورة للموزع</value>
+  </data>
+  <data name="HandelCustomerRecharge" xml:space="preserve">
+    <value>طلبات سداد الفواتير للموزعين</value>
+  </data>
+  <data name="Voice Accounts" xml:space="preserve">
+    <value>إدارة العملاء الخارجيين</value>
+  </data>
+  <data name="UpdatedResellerBS" xml:space="preserve">
+    <value>كشف حساب موزع بورتال</value>
+  </data>
+  <data name="BeforReview" xml:space="preserve">
+    <value>قبل المراجعة</value>
+  </data>
+  <data name="AfterReview" xml:space="preserve">
+    <value>بعد المراجعة</value>
+  </data>
+  <data name="TotalAfterReview" xml:space="preserve">
+    <value>اجمالى بعد المراجعة</value>
+  </data>
+  <data name="TotalBeforeReview" xml:space="preserve">
+    <value>اجمالى قبل المراجعة</value>
+  </data>
+  <data name="MonthYearInvoice" xml:space="preserve">
+    <value>شهر و سنة الفاتورة</value>
+  </data>
+  <data name="AmountBeforeReview" xml:space="preserve">
+    <value>المبلغ قبل المراجعة</value>
+  </data>
+  <data name="AmountAfterReview" xml:space="preserve">
+    <value>المبلغ بعد المراجعة</value>
+  </data>
+  <data name="ArrangeInvoices" xml:space="preserve">
+    <value>ترتيب الفواتير</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="RechargeBranch" xml:space="preserve">
+    <value>طلب سداد فاتورة للفرع </value>
+  </data>
+  <data name="ChangeBranch" xml:space="preserve">
+    <value>تغير الفرع</value>
+  </data>
+  <data name="BranchVoiceCredit" xml:space="preserve">
+    <value>رصيد مدفوعات الفرع للعملاء الخارجيين</value>
+  </data>
+  <data name="HandelBrancheRecharge" xml:space="preserve">
+    <value>طلبات سداد الفواتير للفروع</value>
+  </data>
+  <data name="ErrorMsg" xml:space="preserve">
+    <value>حدث خطأ اثناء التعامل مع البيانات ... الرجاء المحاولة مرة اخرى أو الاتصال بالدعم الفنى</value>
+  </data>
+  <data name="ResellerVoiceBS" xml:space="preserve">
+    <value>تقرير سدادات موزع للعملاء الخارجيين</value>
+  </data>
+  <data name="BranchVoiceBS" xml:space="preserve">
+    <value>تقرير سدادات فرع للعملاء الخارجيين</value>
+  </data>
+  <data name="DiscoundFromBranchCredit" xml:space="preserve">
+    <value>تخصيم من رصيد الفرع فى حالة  دفع فواتير العملاء من صفحة فواتير العملاء</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="SearchAboutResellerInvoice" xml:space="preserve">
+    <value>بحث عن فاتورة موزع</value>
+  </data>
+  <data name="PendingRequest" xml:space="preserve">
+    <value>طلب معلق</value>
+  </data>
+  <data name="SearchAboutBranchInvoice" xml:space="preserve">
+    <value>بحث عن فاتورة فرع</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>الرابط</value>
+  </data>
+  <data name="FirendlyLinks" xml:space="preserve">
+    <value>روابط هامة</value>
+  </data>
+  <data name="Boxname" xml:space="preserve">
+    <value>اسم الصندوق</value>
+  </data>
+  <data name="RecevingRequestesDuration" xml:space="preserve">
+    <value>فترة استقبال الطلبات من الموزعين</value>
+  </data>
+  <data name="RequestDurationFinished" xml:space="preserve">
+    <value>فترة استقبال الطلبات انتهت</value>
+  </data>
+  <data name="ShowinRechargeResellerRequest" xml:space="preserve">
+    <value>اظهار فى طلب شحن رصيد موزع</value>
+  </data>
+  <data name="DebtsOfPaidInvoicesCustomers" xml:space="preserve">
+    <value>المديونيات المتبقية بعد السداد</value>
+  </data>
+  <data name="TimeDifference" xml:space="preserve">
+    <value>فرق التوقيت بين مصر و السيرفر</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>المرسل</value>
+  </data>
+  <data name="DirectingBalanceTo" xml:space="preserve">
+    <value>توجيه الرصيد الى</value>
+  </data>
+  <data name="AvailableCredit" xml:space="preserve">
+    <value>الرصيد المتاح لعمل طلبات</value>
+  </data>
+  <data name="BActive" xml:space="preserve">
+    <value>تم تفعيل حساب</value>
+  </data>
+  <data name="TextInRechargeAccount" xml:space="preserve">
+    <value>نص فى صفحة طلب الشحن</value>
+  </data>
+  <data name="DiscoundFromBranchAndReseller" xml:space="preserve">
+    <value>فحص وتخصيم من رصيد الموزع والفرع التابع لية الموزع فى طلبات سداد الموزع</value>
+  </data>
+  <data name="showinResellerppr" xml:space="preserve">
+    <value>اظهار فى طلبات سداد الموزع المعلقة </value>
+  </data>
+  <data name="DiscoundFromBox" xml:space="preserve">
+    <value>قيمة الخصم من الصندوق</value>
+  </data>
+  <data name="DiscoundFromReseller" xml:space="preserve">
+    <value>قيمة الخصم من الخزنة</value>
+  </data>
+  <data name="NumUnpaidDemaind" xml:space="preserve">
+    <value>المطالبات غير المدفوعة</value>
+  </data>
+  <data name="Bestbrowser" xml:space="preserve">
+    <value>لتصفح النظام بشكل افضل .. الرجاء استخدم متصفح كروم</value>
+  </data>
+  <data name="RequestPaymentInvoice" xml:space="preserve">
+    <value>طلبات سداد فواتير للعملاء الخارجيين</value>
+  </data>
+  <data name="ResellerPaymenttoPaymentRequest" xml:space="preserve">
+    <value>مدفوعات موزع لطلبات السداد</value>
+  </data>
+  <data name="BranchPaymenttoPaymentRequest" xml:space="preserve">
+    <value>مدفوعات فرع لطلبات السداد</value>
+  </data>
+  <data name="AddToResellerBalanceSheet" xml:space="preserve">
+    <value>مدفوعات لكشف حساب موزع</value>
+  </data>
+  <data name="ServiceDetails" xml:space="preserve">
+    <value>تفاصيل الخدمة</value>
+  </data>
+  <data name="CentralDetails" xml:space="preserve">
+    <value>تفاصيل السنترال</value>
+  </data>
+  <data name="MovementTreasury" xml:space="preserve">
+    <value>تقرير حركة خزينة فرع</value>
+  </data>
+  <data name="OldCredit" xml:space="preserve">
+    <value>الرصيد القديم</value>
+  </data>
+  <data name="UploadFileToNewCustomer" xml:space="preserve">
+    <value>رفع ملف عند اضافة عميل جديد</value>
+  </data>
+  <data name="AccountIsStopped" xml:space="preserve">
+    <value>الحساب موقوف</value>
+  </data>
+  <data name="CurrentCredit" xml:space="preserve">
+    <value>الرصيد الحالى</value>
+  </data>
+  <data name="ConfirmWithLiquidation" xml:space="preserve">
+    <value>تأكيد مع التصفية</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>التنبيهات</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>تغير اللغة</value>
+  </data>
+  <data name="RequestReimbursementPayment" xml:space="preserve">
+    <value> مدفوعات طلبات السداد </value>
+  </data>
+  <data name="AllPayments" xml:space="preserve">
+    <value>كل المدفوعات</value>
+  </data>
+  <data name="RechargeAccountBranch" xml:space="preserve">
+    <value>طلب شحن رصيد فرع</value>
+  </data>
+  <data name="HandelRechargeBranch" xml:space="preserve">
+    <value>طلبات شحن رصيد فرع معلقة</value>
+  </data>
+  <data name="UpdatedRBSPrivilages" xml:space="preserve">
+    <value>صلاحيات كشف حساب بورتال</value>
+  </data>
+  <data name="Downloadsample" xml:space="preserve">
+    <value>حمل مثال من هنا</value>
+  </data>
+  <data name="Expensesout" xml:space="preserve">
+    <value>ايرادات اخرى</value>
+  </data>
+  <data name="FoundedInvoices" xml:space="preserve">
+    <value>فواتير مرتبة</value>
+  </data>
+  <data name="SPforResellerAcoountNotFoundedInvoices" xml:space="preserve">
+    <value>تصدير الفواتير الغير موجودة </value>
+  </data>
+  <data name="CreditFrom" xml:space="preserve">
+    <value>اختار الرصيد من</value>
+  </data>
+  <data name="Allowminuscredit" xml:space="preserve">
+    <value>السماح بان يكون رصيد الموزع والفرع بالسالب فى رصيد المدفوعات</value>
+  </data>
+  <data name="DeleteCustomer" xml:space="preserve">
+    <value>حذف عميل</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>رد</value>
+  </data>
+  <data name="CollactionCenterManagement" xml:space="preserve">
+    <value>ادارة مراكز التحصيل</value>
+  </data>
+  <data name="CenterPaymentCredit" xml:space="preserve">
+    <value>رصيد مدفوعات مراكز التحصيل</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>مركز التحصيل</value>
+  </data>
+  <data name="CenterDemands" xml:space="preserve">
+    <value>فواتير مراكز التحصيل</value>
+  </data>
+  <data name="SendsmsMessage" xml:space="preserve">
+    <value>ارسال SMS</value>
+  </data>
+  <data name="SMSCnfg" xml:space="preserve">
+    <value>إعدادات SMS</value>
+  </data>
+  <data name="ProcessDone" xml:space="preserve">
+    <value>تم اضافة البيانات</value>
+  </data>
+  <data name="MenuCustomerHold" xml:space="preserve">
+    <value>طلب تعليق عميل</value>
+  </data>
+  <data name="AddResellerBS" xml:space="preserve">
+    <value>اضافة فواتير الموزع</value>
+  </data>
+  <data name="AddResellerPayments" xml:space="preserve">
+    <value>اضافة مدفوعات الموزع</value>
+  </data>
+  <data name="NotificationOfCustomersAndInvoices" xml:space="preserve">
+    <value>تنبيهات العملاء و الفواتير</value>
+  </data>
+  <data name="ServiceProviderstoInvoicePaymentRequest" xml:space="preserve">
+    <value>مزودى الخدمة للفواتير</value>
+  </data>
+  <data name="ShowStatistic" xml:space="preserve">
+    <value>اظهار الاحصائيات فى الصفحة الرئيسية</value>
+  </data>
+  <data name="24MonthPathed" xml:space="preserve">
+    <value>مر 24 شهر على تاريخ الاكتيف</value>
+  </data>
+  <data name="InvoiceDueDate" xml:space="preserve">
+    <value>تاريخ استحقاق الفاتورة</value>
+  </data>
+  <data name="SentMail" xml:space="preserve">
+    <value>صندوق الصادر</value>
+  </data>
+  <data name="IncomeTypes" xml:space="preserve">
+    <value>انواع الايرادات الأخرى</value>
+  </data>
+  <data name="IncomesReports" xml:space="preserve">
+    <value>تقرير الايرادات</value>
+  </data>
+  <data name="OutgoingReport" xml:space="preserve">
+    <value>تقرير المصروفات</value>
+  </data>
+  <data name="anotherCustomersPayments" xml:space="preserve">
+    <value>دفع لعميل خارجى</value>
+  </data>
+  <data name="invoiceAmount" xml:space="preserve">
+    <value>مبلغ الفاتورة</value>
+  </data>
+  <data name="BoxAmount" xml:space="preserve">
+    <value>المبلغ المخصوم من الصندوق</value>
+  </data>
+  <data name="OneBox" xml:space="preserve">
+    <value>الصندوق</value>
+  </data>
+  <data name="SearchOutdoorsPayment" xml:space="preserve">
+    <value>بحث دفع لعميل خارجى</value>
+  </data>
+  <data name="ServiceFees" xml:space="preserve">
+    <value>رسوم الخدمة</value>
+  </data>
+  <data name="CommissionResellerOrBranch" xml:space="preserve">
+    <value>عمولة الموزع/الفرع</value>
+  </data>
+  <data name="AddCompany" xml:space="preserve">
+    <value>شركات عملاء خارجيين</value>
+  </data>
+  <data name="canUpgrade/Downgrade" xml:space="preserve">
+    <value>امكانية خفض / رفع</value>
+  </data>
+  <data name="CantUpgradeDowngrade" xml:space="preserve">
+    <value>غير مسموح بعمل خفض/رفع على هذا العرض</value>
+  </data>
+  <data name="FirstDateForOffer" xml:space="preserve">
+    <value>اول يوم للعرض</value>
+  </data>
+  <data name="RechargeResellerReport" xml:space="preserve">
+    <value>تقرير طلبات شحن موزع</value>
+  </data>
+  <data name="ResellerAccountManager" xml:space="preserve">
+    <value>مدير الحساب</value>
+  </data>
+  <data name="CreatInvoices" xml:space="preserve">
+    <value>اصدار الفواتير لكل الموزعيين</value>
+  </data>
+  <data name="SelectServiceProvider" xml:space="preserve">
+    <value>من فضلك اختر مزود الخدمة</value>
+  </data>
+  <data name="selectedInvoice" xml:space="preserve">
+    <value>اجمالى الفواتير المختارة</value>
+  </data>
+  <data name="Resellerhavenotdata" xml:space="preserve">
+    <value>موزعين ليس لهم فواتير</value>
+  </data>
+  <data name="PreferedLang" xml:space="preserve">
+    <value>اللغة المفضلة</value>
+  </data>
+  <data name="DownloadAttachment1" xml:space="preserve">
+    <value>تحميل الملف الاول</value>
+  </data>
+  <data name="DownloadAttachment2" xml:space="preserve">
+    <value>تحميل الملف الثانى</value>
+  </data>
+  <data name="DownloadAttachment3" xml:space="preserve">
+    <value>تحميل الملف الثالث</value>
+  </data>
+  <data name="TestOnlineUsers" xml:space="preserve">
+    <value>المستخدمين المتواجدون</value>
+  </data>
+  <data name="NoWorkorders" xml:space="preserve">
+    <value>لا توجد اية عملاء فى الملف المرفق</value>
+  </data>
+  <data name="AddCustomersManual" xml:space="preserve">
+    <value>اضافة عملاء يدوى</value>
+  </data>
+  <data name="NewRouterManagement" xml:space="preserve">
+    <value>إدارة الروترات المحدثة</value>
+  </data>
+  <data name="AddStore" xml:space="preserve">
+    <value>المخازن</value>
+  </data>
+  <data name="SendRouters" xml:space="preserve">
+    <value>تسليم الروترات</value>
+  </data>
+  <data name="RecieveFromCompany" xml:space="preserve">
+    <value>استلام من الشركة</value>
+  </data>
+  <data name="RecieveToCustomer" xml:space="preserve">
+    <value>تسليم الى العميل</value>
+  </data>
+  <data name="CompanyConfirmerUser" xml:space="preserve">
+    <value>استلم من الشركة</value>
+  </data>
+  <data name="CustomerConfirmerUser" xml:space="preserve">
+    <value>سلم الى العميل</value>
+  </data>
+  <data name="CompanyProcessDate" xml:space="preserve">
+    <value>تاريخ الاستلام من الشركة</value>
+  </data>
+  <data name="CustomerProcessDate" xml:space="preserve">
+    <value>تاريخ تسلم العميل</value>
+  </data>
+  <data name="RoutersnotReceived" xml:space="preserve">
+    <value>روترات لم تسلم</value>
+  </data>
+  <data name="TransformBranchReport" xml:space="preserve">
+    <value>تقرير التحويلات الى الخزينة الرئيسية</value>
+  </data>
+  <data name="checkIntallationDiscound" xml:space="preserve">
+    <value>تخصيم فاتورة شهر من رصيد مدفوعات الموزع عند تركيب العميل أو إعادة تفعيل لعميل</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>تركيب</value>
+  </data>
+  <data name="BalancebeginingPeriod" xml:space="preserve">
+    <value>رصيد بداية المدة</value>
+  </data>
+  <data name="BalanceEndPeriod" xml:space="preserve">
+    <value>رصيد نهاية المدة</value>
+  </data>
+  <data name="RoutersSearch" xml:space="preserve">
+    <value>بحث عن الروترات</value>
+  </data>
+  <data name="CustomerReportRouter" xml:space="preserve">
+    <value>تقرير روترات العملاء</value>
+  </data>
+  <data name="CustomerReceivedFromCompany1" xml:space="preserve">
+    <value>عملاء تم استلام روتراتهم من الشركة</value>
+  </data>
+  <data name="CustomerNotReceived" xml:space="preserve">
+    <value>عملاء لم يستلموا روتراتهم</value>
+  </data>
+  <data name="CustomerReceived" xml:space="preserve">
+    <value>عملاء تم تسليمهم الروتر</value>
+  </data>
+  <data name="privilegofManageRequest" xml:space="preserve">
+    <value>صلاحية الطلبات المعلقة</value>
+  </data>
+  <data name="DirectUsersOnly" xml:space="preserve">
+    <value>العملاء المباشرين</value>
+  </data>
+  <data name="UnpaidDemandDaysCountOption" xml:space="preserve">
+    <value>خيارات التعامل مع عملاء المطالبات الغير مدفوعة فى حالة تجاوز عدد الايام</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>تنبيه برسالة على الميل</value>
+  </data>
+  <data name="SuspendRequest" xml:space="preserve">
+    <value>طلب ايقاف مؤقت</value>
+  </data>
+  <data name="AddToCustomerNotes" xml:space="preserve">
+    <value>اضافة فى تكليفات الموظفين</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>اضافة خزن المستخدمين</value>
+  </data>
+  <data name="UsersSaveMovments" xml:space="preserve">
+    <value>حركات خزن المستخدمين</value>
+  </data>
+  <data name="TransfaresFromSaves" xml:space="preserve">
+    <value>تحويل رصيد بين الخزن</value>
+  </data>
+  <data name="AdminSavesMovements" xml:space="preserve">
+    <value>حركات الخزن</value>
+  </data>
+  <data name="filterTostartMonth" xml:space="preserve">
+    <value>تصفية الى بداية الشهر</value>
+  </data>
+  <data name="ChooseSkin" xml:space="preserve">
+    <value>تغير الالوان</value>
+  </data>
+  <data name="insidecontainer" xml:space="preserve">
+    <value>داخل كونتانر</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="demands" xml:space="preserve">
+    <value>المطالبات</value>
+  </data>
+  <data name="SSL" xml:space="preserve">
+    <value>SSL </value>
+  </data>
+  <data name="HasProb" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HasProb2" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>رقم مسلسل</value>
+  </data>
+  <data name="littersLimit" xml:space="preserve">
+    <value>بحد اقصى 70 حرف </value>
+  </data>
+  <data name="ClearAllResellercredits" xml:space="preserve">
+    <value>تصفير أرصدة مدوفعات الموزعين</value>
+  </data>
+  <data name="ClearAllBranchcredits" xml:space="preserve">
+    <value>تصفير أرصدة مدوفعات الفروع</value>
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>المخزن</value>
+  </data>
+  <data name="CustomersNotComplete" xml:space="preserve">
+    <value>عملاء لم يتم اضافتهم لعدم اكتمال بياناتهم</value>
+  </data>
+  <data name="ToSuspendShouldbeActive" xml:space="preserve">
+    <value>لا يمكن عمل طلب ايقاف مؤقت الا لعميل مفعل</value>
+  </data>
+  <data name="ToUpgradeDowngradShouldbeActive" xml:space="preserve">
+    <value>لا يمكن عمل طلب خفض / رفع الا لعميل مفعل</value>
+  </data>
+  <data name="ToHoldShouldbeActive" xml:space="preserve">
+    <value>لا يمكن عمل طلب تعليق الا لعميل مفعل </value>
+  </data>
+  <data name="ToAddGigaShouldbeActive" xml:space="preserve">
+    <value>لا يمكن عمل طلب جيجات اضافيةالا لعميل مفعل </value>
+  </data>
+  <data name="ToaddIPShouldbeActive" xml:space="preserve">
+    <value>لا يمكن عمل طلب تغير باقة اى بى الا لعميل مفعل </value>
+  </data>
+  <data name="ChangeOfferRequest" xml:space="preserve">
+    <value>تغير العرض</value>
+  </data>
+  <data name="ManageOfferRequest" xml:space="preserve">
+    <value>طلبات تغير العرض</value>
+  </data>
+  <data name="SendMessageOrNot" xml:space="preserve">
+    <value>ارسال رسالة بعد اتمام العمليات</value>
+  </data>
+  <data name="CurrentOffer" xml:space="preserve">
+    <value>العرض الحالى</value>
+  </data>
+  <data name="NewOffer" xml:space="preserve">
+    <value>العرض الجديد</value>
+  </data>
+  <data name="DaysCountofLiqudation" xml:space="preserve">
+    <value>  عدد الايام التخصيم او الترحيل</value>
+  </data>
+  <data name="SendManySms" xml:space="preserve">
+    <value>SMS للعملاء</value>
+  </data>
+  <data name="CompareTEdataInvoice" xml:space="preserve">
+    <value>مقارنة فواتير TEData</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="CallMessages" xml:space="preserve">
+    <value>رسائل الاتصال</value>
+  </data>
+  <data name="CallText" xml:space="preserve">
+    <value>نص الاتصال</value>
+  </data>
+  <data name="ParamterOfSearch" xml:space="preserve">
+    <value>دليل البحث</value>
+  </data>
+  <data name="ResellerRecieptFormat" xml:space="preserve">
+    <value>شكل وصل الموزع</value>
+  </data>
+  <data name="PayingCustomers" xml:space="preserve">
+    <value>تدفيع عملاء الموزع</value>
+  </data>
+  <data name="PayingCustomersReport" xml:space="preserve">
+    <value>تقرير تدفيع عملاء موزع</value>
+  </data>
+  <data name="PrivateCustomersReseller" xml:space="preserve">
+    <value>خاص بعملاء الموزع</value>
+  </data>
+  <data name="StatisticsofRequests" xml:space="preserve">
+    <value>احصائيات الطلبات</value>
+  </data>
+  <data name="StatisticsofCustomers" xml:space="preserve">
+    <value>احصائيات العملاء</value>
+  </data>
+  <data name="StatisticsInHome" xml:space="preserve">
+    <value>احصائيات الصفحة الرئيسية</value>
+  </data>
+  <data name="CountersinMenu" xml:space="preserve">
+    <value>إظهار الاعداد فى القائمة الرئيسية</value>
+  </data>
+  <data name="ManageResellerRequest" xml:space="preserve">
+    <value>قبول / رفض طلبات سداد الموزعيين المعلقة</value>
+  </data>
+  <data name="ManagrBrancheRequest" xml:space="preserve">
+    <value>قبول / رفض طلبات سداد الفروع المعلقة</value>
+  </data>
+  <data name="UpdateDemandthisMonth" xml:space="preserve">
+    <value>تحديث مطالبات الشهر الحالى</value>
+  </data>
+  <data name="UpdateDemandBefore" xml:space="preserve">
+    <value>تحديث المطالبات قبل ({0}) </value>
+  </data>
+  <data name="ShowCount" xml:space="preserve">
+    <value>إظهار عدد العملاء فقط</value>
+  </data>
+  <data name="SendSmsbyDay" xml:space="preserve">
+    <value>رسائل المطالبات</value>
+  </data>
+  <data name="ShowRequestsInSearch" xml:space="preserve">
+    <value>يمكن للموزع الغاء الطلب الخاص بعملاءة من صفحة البحث</value>
+  </data>
+  <data name="newRequestDate" xml:space="preserve">
+    <value>تاريخ المطالبة الجديد</value>
+  </data>
+  <data name="oldRequestDate" xml:space="preserve">
+    <value>تاريخ المطالبة القديم</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>الموردين</value>
+  </data>
+  <data name="SupplierName" xml:space="preserve">
+    <value>اسم المورد</value>
+  </data>
+  <data name="Itemes" xml:space="preserve">
+    <value>الأصناف</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>اسم الصنف</value>
+  </data>
+  <data name="SellPrice" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>المشتريات</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>الباقى</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>المبيعات</value>
+  </data>
+  <data name="StoreInventory" xml:space="preserve">
+    <value>جرد المخزن</value>
+  </data>
+  <data name="SupplierAccount" xml:space="preserve">
+    <value>حساب مورد</value>
+  </data>
+  <data name="UserSaves" xml:space="preserve">
+    <value>خزن المستخدم</value>
+  </data>
+  <data name="AddToBranchBalanceSheet" xml:space="preserve">
+    <value>مدفوعات لكشف حساب فرع</value>
+  </data>
+  <data name="ShowinCustomerDemand" xml:space="preserve">
+    <value>اظهار فى صفحة فواتير العملاء</value>
+  </data>
+  <data name="AddResellerInvoice" xml:space="preserve">
+    <value>التعامل مع كشف حساب موزع يدويا</value>
+  </data>
+  <data name="AddBranchInvoice" xml:space="preserve">
+    <value>التعامل مع كشف حساب فرع يدويا</value>
+  </data>
+  <data name="CustomerDemandRequests" xml:space="preserve">
+    <value>طلبات صفحة فواتير العملاء</value>
+  </data>
+  <data name="AutoSuspend" xml:space="preserve">
+    <value>ايقاف تلقائى</value>
+  </data>
+  <data name="ManageResellerRequests" xml:space="preserve">
+    <value>طلبات موزعيين جدد</value>
+  </data>
+  <data name="EnglishCompanyName" xml:space="preserve">
+    <value>اسم الانجليزى للشركة</value>
+  </data>
+  <data name="CompanyType" xml:space="preserve">
+    <value>نوع الشركة</value>
+  </data>
+  <data name="EmployeeNumbers" xml:space="preserve">
+    <value>عدد الموظفين</value>
+  </data>
+  <data name="CompanyActivites" xml:space="preserve">
+    <value>نشاط الشركة</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>ايميل الشركة</value>
+  </data>
+  <data name="CompanyMobile" xml:space="preserve">
+    <value>موبيل الشركة</value>
+  </data>
+  <data name="BranchesInvoices" xml:space="preserve">
+    <value>تصدير فواتير الفروع</value>
+  </data>
+  <data name="ImvoiceBS" xml:space="preserve">
+    <value>مدين</value>
+  </data>
+  <data name="CreditBS" xml:space="preserve">
+    <value>دائن </value>
+  </data>
+  <data name="DepitBS" xml:space="preserve">
+    <value>رصيد</value>
+  </data>
+  <data name="UpdateCustomerManaul" xml:space="preserve">
+    <value>تعديل عملاء يدوي</value>
+  </data>
+  <data name="CustomersNotUpdated" xml:space="preserve">
+    <value>عملاء لم يتم تعديلهم</value>
+  </data>
+  <data name="ResellerandBranch" xml:space="preserve">
+    <value>موزع / فرع</value>
+  </data>
+  <data name="TotalInPeriod" xml:space="preserve">
+    <value>الاجمالى عن الفترة</value>
+  </data>
+  <data name="ConvertToNewEmployee" xml:space="preserve">
+    <value>تحويل الى موظف جديد</value>
+  </data>
+  <data name="TicketsReport" xml:space="preserve">
+    <value>تقرير التذاكر</value>
+  </data>
+  <data name="NewResellerRequest" xml:space="preserve">
+    <value>طلب موزع جديد</value>
+  </data>
+  <data name="CompanyData" xml:space="preserve">
+    <value>بيانات الشركة</value>
+  </data>
+  <data name="CompanyNameArabic" xml:space="preserve">
+    <value>اسم الشركة بالعربى</value>
+  </data>
+  <data name="ResellerData" xml:space="preserve">
+    <value>بيانات الموزع</value>
+  </data>
+  <data name="arabic" xml:space="preserve">
+    <value>عربى</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>English </value>
+  </data>
+  <data name="RequriedDatainResellerRequest" xml:space="preserve">
+    <value>بيانات مطلوبة لإضافة حساب لك على سيستم الموزعين</value>
+  </data>
+  <data name="languageRequired" xml:space="preserve">
+    <value>  لغة السيستم * رجاء اختيار اللغة المطلوبة لحسابك على سيستم الموزعين (واجهة السيستم
+  والقوائم وجميع مهامه)</value>
+  </data>
+  <data name="office" xml:space="preserve">
+    <value>مكتب</value>
+  </data>
+  <data name="market" xml:space="preserve">
+    <value>محل</value>
+  </data>
+  <data name="SuspendReport" xml:space="preserve">
+    <value>تقرير ايام الايقاف</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>حدث خطأ ما أثناء التعامل مع البيانات </value>
+  </data>
+  <data name="MeanwhileError" xml:space="preserve">
+    <value>يمكنك ان تقوم بالتالى :</value>
+  </data>
+  <data name="Contacttechnicalsupport" xml:space="preserve">
+    <value>اتصل بالدعم الفنى</value>
+  </data>
+  <data name="exactInformation" xml:space="preserve">
+    <value>نرجو أن تعطينا مزيد من المعلومات عن كيفية حدوث هذا الخطأ بالتحديد!</value>
+  </data>
+  <data name="ActivatCustomerPhoneNumbersValidation" xml:space="preserve">
+    <value>تفعيل الفاليديشن على عدد ارقام التليفون فى صفحة اضافة عميل جديد</value>
+  </data>
+  <data name="ChangeEventName" xml:space="preserve">
+    <value>غير اسم الحدث </value>
+  </data>
+  <data name="ShowAlldemandOfPaymentRequest" xml:space="preserve">
+    <value>إظهار كل المطالبات فى طلبات سداد فرع / موزع</value>
+  </data>
+  <data name="UserIsStoped" xml:space="preserve">
+    <value>هذا الحساب موقوف من الادارة</value>
+  </data>
+  <data name="UserNotFounded" xml:space="preserve">
+    <value>هذا الحساب غير موجود</value>
+  </data>
+  <data name="PassWordError" xml:space="preserve">
+    <value>خطأ فى كلمة السر</value>
+  </data>
+  <data name="PPR" xml:space="preserve">
+    <value>طلبات السداد المعلقة </value>
+  </data>
+  <data name="ResellersTransformation" xml:space="preserve">
+    <value>تحويلات حسابات الموزع</value>
+  </data>
+  <data name="HandelResellersTransfers" xml:space="preserve">
+    <value>طلبات تحويلات الموزع</value>
+  </data>
+  <data name="ResellersTransformationReport" xml:space="preserve">
+    <value>تقرير تحويلات الموزعيين</value>
+  </data>
+  <data name="Menusaves" xml:space="preserve">
+    <value>الخزن - فروع و مستخدمين</value>
+  </data>
+  <data name="MenuBoxes" xml:space="preserve">
+    <value>الصناديق و الشرائح</value>
+  </data>
+  <data name="ChooseReseller" xml:space="preserve">
+    <value> اختر موزع</value>
+  </data>
+  <data name="ExportandFinishInvoice" xml:space="preserve">
+    <value>تقفيل الفاتورة</value>
+  </data>
+  <data name="sav" xml:space="preserve">
+    <value>الخزن</value>
+  </data>
+  <data name="CustomerFile" xml:space="preserve">
+    <value>ملفات العميل</value>
+  </data>
+  <data name="AddReouter" xml:space="preserve">
+    <value>إضافة راوتر</value>
+  </data>
+  <data name="RouterType" xml:space="preserve">
+    <value>نوع الراوتر</value>
+  </data>
+  <data name="AddCredit" xml:space="preserve">
+    <value>اضافة و تخفيض في رصيد المدفوعات  </value>
+  </data>
+  <data name="PaymentInBalanceSheet" xml:space="preserve">
+    <value>دفع و اضافة و تخفيض لموزع فى كشف الحساب </value>
+  </data>
+  <data name="Prepay" xml:space="preserve">
+    <value>دفع مقدم</value>
+  </data>
+  <data name="PrepayReceipt" xml:space="preserve">
+    <value>ايصال دفع مقدم</value>
+  </data>
+  <data name="EmailMessages" xml:space="preserve">
+    <value>البريد الشخصى</value>
+  </data>
+  <data name="PersonalEmailCnfg" xml:space="preserve">
+    <value>إعدادت البريد الشخصى</value>
+  </data>
+  <data name="SendPort" xml:space="preserve">
+    <value>بورت الارسال</value>
+  </data>
+  <data name="ItemMove" xml:space="preserve">
+    <value>حركة صنف</value>
+  </data>
+  <data name="grafnew" xml:space="preserve">
+    <value>جراف يبين حالات العملاء خلال فترة</value>
+  </data>
+  <data name="graphnew2" xml:space="preserve">
+    <value>جراف يبين حالات العملاء حاليا </value>
+  </data>
+  <data name="ActivateFawry" xml:space="preserve">
+    <value>تفعيل خدمة فورى</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>العقد</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="Filesdeleted" xml:space="preserve">
+    <value>تم حذف الملف من السيرفر</value>
+  </data>
+  <data name="HandelRecharge" xml:space="preserve">
+    <value>طلبات شحن معلقة</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>المزيد...</value>
+  </data>
+  <data name="hint" xml:space="preserve">
+    <value>نبذة</value>
+  </data>
+  <data name="firstamount" xml:space="preserve">
+    <value>رصيد اول المدة</value>
+  </data>
+  <data name="currentpill" xml:space="preserve">
+    <value>فاتورة الشهر الحالي</value>
+  </data>
+  <data name="reciverouters" xml:space="preserve">
+    <value>استلام رواتر من الشركة</value>
+  </data>
+  <data name="sign" xml:space="preserve">
+    <value>التوقيع </value>
+  </data>
+  <data name="payhistory" xml:space="preserve">
+    <value>تاريخ الدفع المقدم</value>
+  </data>
+  <data name="cuscredit" xml:space="preserve">
+    <value>ارصدة العملاء</value>
+  </data>
+  <data name="billsearch" xml:space="preserve">
+    <value>بحث عن فاتورة</value>
+  </data>
+  <data name="mycalendar" xml:space="preserve">
+    <value>التقويم</value>
+  </data>
+  <data name="htmldir" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="updatedemandnextmonth" xml:space="preserve">
+    <value>تحديث مطالبات الشهر التالي</value>
+  </data>
+  <data name="isprorequest" xml:space="preserve">
+    <value>طلب من مزود الخدمة</value>
+  </data>
+  <data name="UserUpdatedSuccess" xml:space="preserve">
+    <value>تم تعديل المستخدم</value>
+  </data>
+  <data name="susandcancoutage" xml:space="preserve">
+    <value>تقرير الغرامات و مطالبات خدمة فوري</value>
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>التحويل بين الخزن و الصناديق</value>
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>حساب عميل</value>
+  </data>
+  <data name="MenulimitUnsuspend" xml:space="preserve">
+    <value>طلب تشغيل مؤقت</value>
+  </data>
+  <data name="uploadimgerror" xml:space="preserve">
+    <value> برجاء رفع صورة أو ملف (Word أو pdf أو Excel)بامتداد   jpeg ,png ,jpg , gif,pdf ,doc ,docx ,xls or xlsx</value>
+  </data>
+  <data name="LastOffers" xml:space="preserve">
+    <value>العروض الحالية</value>
+  </data>
+  <data name="uploadfilexcelerror" xml:space="preserve">
+    <value>برجاء رفع ملف بامتداد  xls xlsx</value>
+  </data>
+  <data name="AddDisCard" xml:space="preserve">
+    <value>اضافة كروت خصم</value>
+  </data>
+  <data name="AvilableCards" xml:space="preserve">
+    <value>كروت الخصم المتاحة</value>
+  </data>
+  <data name="DisType" xml:space="preserve">
+    <value>فئات كروت الخصم</value>
+  </data>
+  <data name="DisCard" xml:space="preserve">
+    <value>كروت الخصم</value>
+  </data>
+  <data name="addtype" xml:space="preserve">
+    <value>اضافة فئة</value>
+  </data>
+  <data name="Cardnum" xml:space="preserve">
+    <value>رقم الكارت</value>
+  </data>
+  <data name="distypename" xml:space="preserve">
+    <value>اسم الفئة</value>
+  </data>
+  <data name="use" xml:space="preserve">
+    <value>استخدام</value>
+  </data>
+  <data name="portaldemonds" xml:space="preserve">
+    <value>فواتير بورتال للموزعين</value>
+  </data>
+  <data name="ClientMovement" xml:space="preserve">
+    <value>حركة عميل</value>
+  </data>
+  <data name="SupplierMovement" xml:space="preserve">
+    <value>حركة مورد</value>
+  </data>
+  <data name="CustomerAccountStatement" xml:space="preserve">
+    <value>كشف حساب عميل</value>
+  </data>
+  <data name="SupplierAccountStatement" xml:space="preserve">
+    <value>كشف حساب مورد</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>تمت الإضافة بنجاح</value>
+  </data>
+  <data name="ErrorinStoreName" xml:space="preserve">
+    <value>سيريال الروتر للمخازن الغير موجودة</value>
+  </data>
+  <data name="SerialrouterError" xml:space="preserve">
+    <value>سيريال روتر موجود من قبل</value>
+  </data>
+  <data name="addFromExcel" xml:space="preserve">
+    <value>إضافة من ملف اكسيل</value>
+  </data>
+  <data name="addemp" xml:space="preserve">
+    <value>اضافة موظف</value>
+  </data>
+  <data name="appc" xml:space="preserve">
+    <value>الغياب</value>
+  </data>
+  <data name="appcdata" xml:space="preserve">
+    <value>بيانات الغياب</value>
+  </data>
+  <data name="attend" xml:space="preserve">
+    <value>الحضور</value>
+  </data>
+  <data name="birthcir" xml:space="preserve">
+    <value>شهادة الميلاد</value>
+  </data>
+  <data name="dayapp" xml:space="preserve">
+    <value>غياب اليوم</value>
+  </data>
+  <data name="Debitsdata" xml:space="preserve">
+    <value>بيانات المسحوبات</value>
+  </data>
+  <data name="empdata" xml:space="preserve">
+    <value>بيانات الموظف</value>
+  </data>
+  <data name="empDebits" xml:space="preserve">
+    <value>مسحوبات موظف</value>
+  </data>
+  <data name="empdis" xml:space="preserve">
+    <value>خصومات</value>
+  </data>
+  <data name="Employeenum" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>الموظفين</value>
+  </data>
+  <data name="emprew" xml:space="preserve">
+    <value>المكافئات</value>
+  </data>
+  <data name="empreward" xml:space="preserve">
+    <value>المكافأت و الخصومات</value>
+  </data>
+  <data name="empsettings" xml:space="preserve">
+    <value>اعدادات الموظف</value>
+  </data>
+  <data name="Emptranv" xml:space="preserve">
+    <value>سفريات و تركيبات</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>الانصراف</value>
+  </data>
+  <data name="hiredate" xml:space="preserve">
+    <value>تاريخ التعيين</value>
+  </data>
+  <data name="hr" xml:space="preserve">
+    <value>ادارة الموظفين</value>
+  </data>
+  <data name="ins" xml:space="preserve">
+    <value>التأمينات</value>
+  </data>
+  <data name="late" xml:space="preserve">
+    <value>التاخير</value>
+  </data>
+  <data name="maxdis" xml:space="preserve">
+    <value>سقف الخصم</value>
+  </data>
+  <data name="militrycir" xml:space="preserve">
+    <value>شهادة الخدمة العسكرية</value>
+  </data>
+  <data name="over" xml:space="preserve">
+    <value>الاضافي</value>
+  </data>
+  <data name="perday" xml:space="preserve">
+    <value>باليوم</value>
+  </data>
+  <data name="perhour" xml:space="preserve">
+    <value>بالساعة</value>
+  </data>
+  <data name="perpound" xml:space="preserve">
+    <value>بالجنية</value>
+  </data>
+  <data name="quali" xml:space="preserve">
+    <value>المؤهل</value>
+  </data>
+  <data name="qualicir" xml:space="preserve">
+    <value>شهادة المؤهل</value>
+  </data>
+  <data name="qualidate" xml:space="preserve">
+    <value>تاريخ المؤهل</value>
+  </data>
+  <data name="returnn" xml:space="preserve">
+    <value>رد </value>
+  </data>
+  <data name="sal" xml:space="preserve">
+    <value>المرتبات</value>
+  </data>
+  <data name="sala" xml:space="preserve">
+    <value>المرتب</value>
+  </data>
+  <data name="saladata" xml:space="preserve">
+    <value>بيانات المرتب</value>
+  </data>
+  <data name="salrep" xml:space="preserve">
+    <value>تقرير المرتبات</value>
+  </data>
+  <data name="spe" xml:space="preserve">
+    <value>التخصص</value>
+  </data>
+  <data name="trav" xml:space="preserve">
+    <value>سفريات</value>
+  </data>
+  <data name="travdata" xml:space="preserve">
+    <value>بيانات السفريات</value>
+  </data>
+  <data name="wrkdays" xml:space="preserve">
+    <value>عدد ايام العمل</value>
+  </data>
+  <data name="Reactivate" xml:space="preserve">
+    <value>اعادة تفعيل</value>
+  </data>
+  <data name="Unsuspend" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>تعليق</value>
+  </data>
+  <data name="Unhold" xml:space="preserve">
+    <value>إلغاء تعليق</value>
+  </data>
+  <data name="cantcancel" xml:space="preserve">
+    <value>يجب مرور شهر علي اخر اعادة تفعيل</value>
+  </data>
+  <data name="Resellerdebt" xml:space="preserve">
+    <value>خيارات التعامل مع مديونيات الموزعين</value>
+  </data>
+  <data name="Day1" xml:space="preserve">
+    <value>اليوم الأول</value>
+  </data>
+  <data name="Day2" xml:space="preserve">
+    <value>اليوم الثانى</value>
+  </data>
+  <data name="Day3" xml:space="preserve">
+    <value>اليوم الثالث</value>
+  </data>
+  <data name="Day4" xml:space="preserve">
+    <value>اليوم الرابع</value>
+  </data>
+  <data name="Day5" xml:space="preserve">
+    <value>اليوم الخامس</value>
+  </data>
+  <data name="Day6" xml:space="preserve">
+    <value>اليوم السادس</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>النسبة المئوية</value>
+  </data>
+  <data name="MonthValueBetween0And31" xml:space="preserve">
+    <value>اليوم يجب ان يكون أرقام فقط بين 1 و 31</value>
+  </data>
+  <data name="PercentageValueBetween0And100" xml:space="preserve">
+    <value>النسبة المئوية يجب ان تكون أرقام فقط بين 1 و 100</value>
+  </data>
+  <data name="BranchesImplementInstallments" xml:space="preserve">
+    <value>الفروع التي ستنفذ نظام الأقساط</value>
+  </data>
+  <data name="ActiveReseller" xml:space="preserve">
+    <value>تفعيل الموزع</value>
+  </data>
+  <data name="PortalTedata" xml:space="preserve">
+    <value>مزودى الخدمة للربط بالبورتال</value>
+  </data>
+  <data name="PortalCation" xml:space="preserve">
+    <value>لإلغاء الخدمة يرجى إلغاء إختيار كل مزودى الخدمة</value>
+  </data>
+  <data name="CustomerStatisticsForReseller" xml:space="preserve">
+    <value>إحصائيات عملاء الموزعين</value>
+  </data>
+  <data name="savesbalance" xml:space="preserve">
+    <value>أرصدة الخزن</value>
+  </data>
+  <data name="AutoSuspendtoCustomerUnderReseller" xml:space="preserve">
+    <value>تفعيل الإيقاف التلقائى على العملاء تحت موزعين</value>
+  </data>
+  <data name="WhenConversionFromPackageType" xml:space="preserve">
+    <value>عند التحويل من نوع باقة</value>
+  </data>
+  <data name="Addthevalueofthedebt" xml:space="preserve">
+    <value>يتم اضافة مديونية بقيمة</value>
+  </data>
+  <data name="CancelCustomers" xml:space="preserve">
+    <value>إلغاء العملاء</value>
+  </data>
+  <data name="ToPackageType" xml:space="preserve">
+    <value>الى نوع باقة</value>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>مقارنة</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>نسخة احتياطية من قاعدة البيانات</value>
+  </data>
+  <data name="ShowDeductionWithFixedRequestDate" xml:space="preserve">
+    <value>إظهار مفتاح (تخصيم مع ثبات تاريخ المطالبة) فى صفحة فواتير العملاء</value>
+  </data>
+  <data name="customerHasRequest" xml:space="preserve">
+    <value>لا يمكن حذف عميل له طلبات معلقة</value>
+  </data>
+  <data name="PreventUnsusForCustomerHasIndebtedness" xml:space="preserve">
+    <value>منع عمل طلب تشغيل لعميل علية مديونية</value>
+  </data>
+  <data name="CantUnsuspendCustomerHasIndebtedness" xml:space="preserve">
+    <value>لا يمكن عمل طلب تشغيل لعميل علية مديونية</value>
+  </data>
+  <data name="BranchesTransformation" xml:space="preserve">
+    <value>تحويلات حسابات الفرع</value>
+  </data>
+  <data name="HandelBranchesTransfers" xml:space="preserve">
+    <value>طلبات تحويلات الفرع</value>
+  </data>
+  <data name="OverDaysSuspendedCustomers" xml:space="preserve">
+    <value>عملاء موقوفين تجاوزو المدة</value>
+  </data>
+  <data name="SuspendDate" xml:space="preserve">
+    <value>تاريخ الايقاف المؤقت</value>
+  </data>
+  <data name="NumUnpaidDemaind2" xml:space="preserve">
+    <value>المطالبات غير المدفوعة للعملاء المباشرين</value>
+  </data>
+  <data name="DeportDaysCompensation" xml:space="preserve">
+    <value>ترحيل ايام التعويض</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>أضف تعليق</value>
+  </data>
+  <data name="AllComment" xml:space="preserve">
+    <value>كل التعليقات</value>
+  </data>
+  <data name="UpdateResellerDemands" xml:space="preserve">
+    <value>تحديث مطالبات الشهر الحالى لعملاء الموزعين </value>
+  </data>
+  <data name="UpdateDirectCustDemands" xml:space="preserve">
+    <value>تحديث مطالبات الشهر الحالى للعملاء المباشرين</value>
+  </data>
+  <data name="EditPendingRequestDate" xml:space="preserve">
+    <value>تعديل تاريخ الطلبات المعلقة</value>
+  </data>
+  <data name="FullCustomerEdit" xml:space="preserve">
+    <value>تعديل كامل بيانات العميل</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="PortalStatus" xml:space="preserve">
+    <value>الحالة على البورتال</value>
+  </data>
+  <data name="LastStatusDate" xml:space="preserve">
+    <value>تاريخ اخر حالة</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>نسيت كلمة المرور</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>عزيزى</value>
+  </data>
+  <data name="NowYouCanSignin" xml:space="preserve">
+    <value>الآن تستطيع تسجيل الدخول بواسطة الباسورد الجديد</value>
+  </data>
+  <data name="ResellerPaymenyCreditReport" xml:space="preserve">
+    <value>تقرير رصيد مدفوعات الموزع</value>
+  </data>
+  <data name="BranchPaymentCreditReport" xml:space="preserve">
+    <value>تقرير رصيد مدفوعات الفرع</value>
+  </data>
+  <data name="DeleteDate" xml:space="preserve">
+    <value>تاريخ الحذف</value>
+  </data>
+  <data name="DeletedCustomersReport" xml:space="preserve">
+    <value>تقرير العملاء المحذوفين</value>
+  </data>
+  <data name="ChooseSave" xml:space="preserve">
+    <value>إختر خزنة</value>
+  </data>
+  <data name="Distributor" xml:space="preserve">
+    <value>دستربيوتر</value>
+  </data>
+  <data name="DistributorSetting" xml:space="preserve">
+    <value>اعدادات الدستربيوتر</value>
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>قيمة عمولة التحصيل</value>
+  </data>
+  <data name="DistributorBox" xml:space="preserve">
+    <value>شريحة الدستربيوتر</value>
+  </data>
+  <data name="SubtractInvoiceReseller" xml:space="preserve">
+    <value>خصم قيمة فاتورة عند تفعيل عميل جديد من رصيد الموزع</value>
+  </data>
+  <data name="SubtractResellerCommission" xml:space="preserve">
+    <value>خصم عمولة الموزع من قيمة الفاتورة قبل خصمها من رصيدة</value>
+  </data>
+  <data name="DistributorProviders" xml:space="preserve">
+    <value>مزودى الخدمة للربط بالدستربيوتر</value>
+  </data>
+  <data name="ResellerCollectionCommission" xml:space="preserve">
+    <value>عمولة تحصيل الموزعين</value>
+  </data>
+  <data name="HisClientsCommission" xml:space="preserve">
+    <value>عمولة تحصيل داخلى</value>
+  </data>
+  <data name="ExternalCustomersCommission" xml:space="preserve">
+    <value>عمولة تحصيل خارجى</value>
+  </data>
+  <data name="DistributorInvoices" xml:space="preserve">
+    <value>إستدعاء فواتير عميل من الدستربيوتر</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>رقم العميل</value>
+  </data>
+  <data name="PendingRequestsOptions" xml:space="preserve">
+    <value>خيارات الطلبات المعلقة</value>
+  </data>
+  <data name="AutoBranchPayment" xml:space="preserve">
+    <value>الموافقة علي طلبات سداد الفرع تلقائيا</value>
+  </data>
+  <data name="AutoResellerPayment" xml:space="preserve">
+    <value>الموافقة علي طلبات سداد الموزع تلقائيا</value>
+  </data>
+  <data name="ShowPortalStatus" xml:space="preserve">
+    <value>اظهار حالة العميل على البورتال</value>
+  </data>
+  <data name="BranchInvoices" xml:space="preserve">
+    <value>فواتير الفروع</value>
+  </data>
+  <data name="DistributorReports" xml:space="preserve">
+    <value>تقارير الدستربيوتر</value>
+  </data>
+  <data name="InternalCustomer" xml:space="preserve">
+    <value>عميل داخلى</value>
+  </data>
+  <data name="ExternalCustomer" xml:space="preserve">
+    <value>عميل خارجى</value>
+  </data>
+  <data name="CurrentCreditForPeriod" xml:space="preserve">
+    <value>الرصيد عن الفترة</value>
+  </data>
+  <data name="SuspendCustomersUntilNow" xml:space="preserve">
+    <value>العملاء الموقوفين ومازالو موقوفين حتى الآن</value>
+  </data>
+  <data name="PortalRelayDays" xml:space="preserve">
+    <value>ترحيل الايام عند تشغيل العميل فى حاله عدد ايام الايقاف اكبر من </value>
+  </data>
+  <data name="UserTracking" xml:space="preserve">
+    <value>يوزر تراكنج</value>
+  </data>
+  <data name="ShowPortalData" xml:space="preserve">
+    <value>اظهار بورتال داتا فى البحث</value>
+  </data>
+  <data name="TransferBetweenSavesRequest" xml:space="preserve">
+    <value>طلب تحويل رصيد بين الخزن</value>
+  </data>
+  <data name="PendingTransferBtSavesRequests" xml:space="preserve">
+    <value>الطلبات المعلقة لتحويل الرصيد بين الخزن </value>
+  </data>
+  <data name="FromSave" xml:space="preserve">
+    <value>من خزنة</value>
+  </data>
+  <data name="ToSave" xml:space="preserve">
+    <value>الى خزنة</value>
+  </data>
+  <data name="requestSender" xml:space="preserve">
+    <value>مرسل الطلب</value>
+  </data>
+  <data name="TransferBtSavesReport" xml:space="preserve">
+    <value>تقرير طلبات التحويل بين الخزن</value>
+  </data>
+  <data name="RequestMakerNote" xml:space="preserve">
+    <value>ملاحظة مرسل الطلب</value>
+  </data>
+  <data name="RequestConfirmer" xml:space="preserve">
+    <value>الموافق على الطلب</value>
+  </data>
+  <data name="ConfirmDate" xml:space="preserve">
+    <value>تاريخ الموافقة / الرفض</value>
+  </data>
+  <data name="ConfirmerNote" xml:space="preserve">
+    <value>ملاحظة الموافقة / الرفض</value>
+  </data>
+  <data name="Suspend_after_month_from_reActivate" xml:space="preserve">
+    <value>تفعيل منع ايقاف العميل قبل شهر من تاريخ الريأكتيف</value>
+  </data>
+  <data name="ItemPrice" xml:space="preserve">
+    <value>سعر الوحدة</value>
+  </data>
+</root>

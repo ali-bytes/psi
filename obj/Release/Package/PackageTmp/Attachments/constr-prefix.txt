@@ -1,0 +1,1 @@
+﻿Connection Timeout=30;Min Pool Size=20; Max Pool Size=200

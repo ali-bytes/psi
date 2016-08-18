@@ -1,0 +1,4042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Customer.Address" xml:space="preserve">
+    <value>Customer Address</value>
+  </data>
+  <data name="Customer.Mobile:" xml:space="preserve">
+    <value>Customer Mobile:</value>
+  </data>
+  <data name="Customer.Name" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="Customer.Phone" xml:space="preserve">
+    <value>Customer Phone</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Customer.Mobile" xml:space="preserve">
+    <value>Customer Mobile</value>
+  </data>
+  <data name="Customer.Email" xml:space="preserve">
+    <value>Customer Email</value>
+  </data>
+  <data name="Service.Provider" xml:space="preserve">
+    <value>Service Provider</value>
+  </data>
+  <data name="Service.Package" xml:space="preserve">
+    <value>Service Package</value>
+  </data>
+  <data name="Customer.City" xml:space="preserve">
+    <value>Customer City</value>
+  </data>
+  <data name="Central" xml:space="preserve">
+    <value>Central</value>
+  </data>
+  <data name="Ip.Package" xml:space="preserve">
+    <value>Ip Package</value>
+  </data>
+  <data name="Chose" xml:space="preserve">
+    <value>--Chose--</value>
+  </data>
+  <data name="Offer" xml:space="preserve">
+    <value>Offer</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Id.Number" xml:space="preserve">
+    <value>Id Number</value>
+  </data>
+  <data name="Customer.Details" xml:space="preserve">
+    <value>Customer Details</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Payment Type</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="Request.Date" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="Customer.Status" xml:space="preserve">
+    <value>Customer Status</value>
+  </data>
+  <data name="Request.Type" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="New.Service.Package" xml:space="preserve">
+    <value>New Service Package</value>
+  </data>
+  <data name="Extra.Gigas" xml:space="preserve">
+    <value>Extra Gigas</value>
+  </data>
+  <data name="GIGA" xml:space="preserve">
+    <value>GIGA</value>
+  </data>
+  <data name="Add.Request" xml:space="preserve">
+    <value>Add Request</value>
+  </data>
+  <data name="New.IP.Package" xml:space="preserve">
+    <value>New IP Package</value>
+  </data>
+  <data name="--Chose--" xml:space="preserve">
+    <value>--Chose--</value>
+  </data>
+  <data name="User.doesn't.exsists." xml:space="preserve">
+    <value>User doesn't exsists.</value>
+  </data>
+  <data name="User.Has.Request" xml:space="preserve">
+    <value>Can't add new request,Customer has an unconfirmed request.</value>
+  </data>
+  <data name="Active.Suspend.Active.Only" xml:space="preserve">
+    <value>You can add request for active , suspended or Hold users only.</value>
+  </data>
+  <data name="Duplicate.Request.Suspend" xml:space="preserve">
+    <value>System can not add this request for a suspended user.</value>
+  </data>
+  <data name="Cancelation.process.or.canceled.user" xml:space="preserve">
+    <value>System can not add this request for Cancelation process or canceled user.</value>
+  </data>
+  <data name="Duplicate.Suspend2" xml:space="preserve">
+    <value>System can't Suspend a suspended user .</value>
+  </data>
+  <data name="Cant.Unsuspend" xml:space="preserve">
+    <value>System can Unsuspend suspended users only.</value>
+  </data>
+  <data name="Cant.Unhold" xml:space="preserve">
+    <value>System can UnHold the Hold users only.</value>
+  </data>
+  <data name="Cant.Cancel" xml:space="preserve">
+    <value>System can cancel (Active - Suspended - Hold) users only.</value>
+  </data>
+  <data name="Cant.Reactivate" xml:space="preserve">
+    <value>System  can reactive the cancelled or cancelation process or System problem only.</value>
+  </data>
+  <data name="Request.Added.successfully" xml:space="preserve">
+    <value>Request added successfully.</value>
+  </data>
+  <data name="Customer.Info" xml:space="preserve">
+    <value>Customer Info</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Governrate" xml:space="preserve">
+    <value>Governrate</value>
+  </data>
+  <data name="CustomerExists" xml:space="preserve">
+    <value>Customer Exists</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="Reseller" xml:space="preserve">
+    <value>Reseller</value>
+  </data>
+  <data name="Activation.Date" xml:space="preserve">
+    <value>Activation date</value>
+  </data>
+  <data name="Add.Ticket" xml:space="preserve">
+    <value>Add Ticket</value>
+  </data>
+  <data name="Ticket.Reason" xml:space="preserve">
+    <value>Ticket Reason</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="PendingTicket" xml:space="preserve">
+    <value>Customer have a pending ticket.</value>
+  </data>
+  <data name="TicketNotActive" xml:space="preserve">
+    <value>You can add ticket for active users only.</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>No result!.</value>
+  </data>
+  <data name="TikectAdded" xml:space="preserve">
+    <value>Ticket Added</value>
+  </data>
+  <data name="AdAdded" xml:space="preserve">
+    <value>Ads Updated sucessfully.</value>
+  </data>
+  <data name="Branches" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="MoneyDepit" xml:space="preserve">
+    <value>Depit</value>
+  </data>
+  <data name="MoneyCredit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BranchDiscount" xml:space="preserve">
+    <value>Branch Discount</value>
+  </data>
+  <data name="DiscountPercent" xml:space="preserve">
+    <value>Discount Percent</value>
+  </data>
+  <data name="ProcessType" xml:space="preserve">
+    <value>Process Type</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Subtract" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Bank1" xml:space="preserve">
+    <value>Bank1</value>
+  </data>
+  <data name="Bank2" xml:space="preserve">
+    <value>Bank2</value>
+  </data>
+  <data name="FileUpload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>You should upload file.</value>
+  </data>
+  <data name="BranchCredit" xml:space="preserve">
+    <value>BranchCredit</value>
+  </data>
+  <data name="ShowCredit" xml:space="preserve">
+    <value>Show Credit</value>
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>Search options</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExcelTityleDirectCustomers" xml:space="preserve">
+    <value>Branch_Direct_Customers.xls</value>
+  </data>
+  <data name="AddBranch" xml:space="preserve">
+    <value>Add Branch</value>
+  </data>
+  <data name="BranchName" xml:space="preserve">
+    <value>Branch Name</value>
+  </data>
+  <data name="BranchAddress" xml:space="preserve">
+    <value>Branch Address</value>
+  </data>
+  <data name="Phone1" xml:space="preserve">
+    <value>Phone1</value>
+  </data>
+  <data name="Phone2" xml:space="preserve">
+    <value>Phone2</value>
+  </data>
+  <data name="Mobile1" xml:space="preserve">
+    <value>Mobile1</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="AdministratorName" xml:space="preserve">
+    <value>Administrator Name</value>
+  </data>
+  <data name="Mobile2" xml:space="preserve">
+    <value>Mobile2</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ItemAdded" xml:space="preserve">
+    <value>Item added successfully.</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>1- January</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>2- February</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>3- March</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>4- April</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>5- May</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>6- June</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>7- July</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>8- August</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>9- September</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>10- October</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>11- November</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>12- December</value>
+  </data>
+  <data name="InvoiceYear" xml:space="preserve">
+    <value>Invoice Year</value>
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Year must be between 1753 : 9999</value>
+  </data>
+  <data name="BranchInvoice" xml:space="preserve">
+    <value>Branch Invoice</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="BranchCommission" xml:space="preserve">
+    <value>Branch Commission</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="NoPaymentDue" xml:space="preserve">
+    <value>There are no due payments.</value>
+  </data>
+  <data name="MainPrice" xml:space="preserve">
+    <value>Main Price</value>
+  </data>
+  <data name="PriceAfterDiscount" xml:space="preserve">
+    <value>Price After Discount</value>
+  </data>
+  <data name="ResellerDiscount" xml:space="preserve">
+    <value>Reseller Discount</value>
+  </data>
+  <data name="NoDiscountFor" xml:space="preserve">
+    <value>Reseller Discount</value>
+  </data>
+  <data name="ExcelFileName2" xml:space="preserve">
+    <value>BranchInvoice</value>
+  </data>
+  <data name="BranchPaymentRequest" xml:space="preserve">
+    <value>Branch Payment Request</value>
+  </data>
+  <data name="RequestDetails" xml:space="preserve">
+    <value>Request Details</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="CustomersTotalDue" xml:space="preserve">
+    <value>Customers Total Due</value>
+  </data>
+  <data name="Selections" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ConfirmReason" xml:space="preserve">
+    <value>Confirm Reason</value>
+  </data>
+  <data name="RejectReason" xml:space="preserve">
+    <value>Reject Reason</value>
+  </data>
+  <data name="Cant_RequestForUnlimitedCustomers" xml:space="preserve">
+    <value>Can't Apply Request for Unlimited Customers</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="BranchsDiscounts" xml:space="preserve">
+    <value>Branchs Discounts</value>
+  </data>
+  <data name="AddBranchsDiscount" xml:space="preserve">
+    <value>Add Branchs Discount</value>
+  </data>
+  <data name="ServiceType" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="ValidDate" xml:space="preserve">
+    <value>Enter valid date</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="DatePeriodMsg" xml:space="preserve">
+    <value>Start date (From)  must precede the End date (To)</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>Topic</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="VisitDate" xml:space="preserve">
+    <value>Visit date</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Calleditor" xml:space="preserve">
+    <value>Call Editor</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="Centrals" xml:space="preserve">
+    <value>Centrals</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ChangeActivationDate" xml:space="preserve">
+    <value>Change Activation Date</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="LoginName" xml:space="preserve">
+    <value>LoginName</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>ChangePassword</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Your password changed successfully.</value>
+  </data>
+  <data name="ChangeMyPassword" xml:space="preserve">
+    <value>ChangeMyPassword</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Select User</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PasswordChangedForUser" xml:space="preserve">
+    <value>Password Updated Sucessfully for user </value>
+  </data>
+  <data name="LoginNameForUser" xml:space="preserve">
+    <value>[login Name = "</value>
+  </data>
+  <data name="EndLoginNameForUser" xml:space="preserve">
+    <value>" ]"</value>
+  </data>
+  <data name="CompanyHistory" xml:space="preserve">
+    <value>Company History</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="CompanyStore" xml:space="preserve">
+    <value>Company Store</value>
+  </data>
+  <data name="Routers" xml:space="preserve">
+    <value>Routers</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="AddSubRouters" xml:space="preserve">
+    <value>(Add/Sub) Routers</value>
+  </data>
+  <data name="AddSub" xml:space="preserve">
+    <value>Add/Sub</value>
+  </data>
+  <data name="NumbersOnly" xml:space="preserve">
+    <value>Numbers Only</value>
+  </data>
+  <data name="NegativeQuantity" xml:space="preserve">
+    <value>Givin quantity will result in a negative number, change quantity!</value>
+  </data>
+  <data name="SaveErrorCompanyStore" xml:space="preserve">
+    <value>Saving problem, change count and try again</value>
+  </data>
+  <data name="CustomerFiles" xml:space="preserve">
+    <value>Customer Files</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Search By</value>
+  </data>
+  <data name="SearchValue" xml:space="preserve">
+    <value>Search Value</value>
+  </data>
+  <data name="UpdateCustomer" xml:space="preserve">
+    <value>Update Customer</value>
+  </data>
+  <data name="CustomerFilesSaved" xml:space="preserve">
+    <value>Customer Files Updated Sucessfully</value>
+  </data>
+  <data name="InvoiceMonth" xml:space="preserve">
+    <value>Invoice Month</value>
+  </data>
+  <data name="LastDateForOffer" xml:space="preserve">
+    <value>Last date for Offer</value>
+  </data>
+  <data name="Colon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="UnpaidCustomers" xml:space="preserve">
+    <value>Unpaid Customers</value>
+  </data>
+  <data name="Unpaid" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="DailyReport" xml:space="preserve">
+    <value>Daily Report</value>
+  </data>
+  <data name="ChoseDay" xml:space="preserve">
+    <value>Chose Day</value>
+  </data>
+  <data name="DailyIncoming" xml:space="preserve">
+    <value>Daily Incoming</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="CustomersPaymnetsDetails" xml:space="preserve">
+    <value>Customers Paymnets Details</value>
+  </data>
+  <data name="Customer.Package" xml:space="preserve">
+    <value>Customer.Package</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="DailyOutgoing" xml:space="preserve">
+    <value>Daily Outgoing</value>
+  </data>
+  <data name="DailyReportFor" xml:space="preserve">
+    <value>Daily Outgoing</value>
+  </data>
+  <data name="SaveOpeningBValance" xml:space="preserve">
+    <value>Save Opening Balance = </value>
+  </data>
+  <data name="Bank1OpeningBalance" xml:space="preserve">
+    <value>Bank1 Opening Balance = </value>
+  </data>
+  <data name="Bank2OpeningBalance" xml:space="preserve">
+    <value>Bank2 Opening Balance = </value>
+  </data>
+  <data name="TotalIncoming" xml:space="preserve">
+    <value>Total Incoming = </value>
+  </data>
+  <data name="TotalOutgoing" xml:space="preserve">
+    <value>Total Outgoing = </value>
+  </data>
+  <data name="br" xml:space="preserve">
+    <value>&lt;br/&gt;</value>
+  </data>
+  <data name="CurrentSaveValue" xml:space="preserve">
+    <value>Current Save Value = </value>
+  </data>
+  <data name="CurrentBank1Value" xml:space="preserve">
+    <value>Current Bank1 Value = </value>
+  </data>
+  <data name="CurrentBank2Value" xml:space="preserve">
+    <value>Current Bank2 Value = </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="FailureLogin" xml:space="preserve">
+    <value>Your attemp to login didn't succees . Please try again.</value>
+  </data>
+  <data name="InvalidMail" xml:space="preserve">
+    <value>Invalid Mail</value>
+  </data>
+  <data name="IdNumber" xml:space="preserve">
+    <value>Id Number</value>
+  </data>
+  <data name="AdvancedDetails" xml:space="preserve">
+    <value>Advanced Details</value>
+  </data>
+  <data name="VPI" xml:space="preserve">
+    <value>VPI</value>
+  </data>
+  <data name="VCI" xml:space="preserve">
+    <value>VCI</value>
+  </data>
+  <data name="AlertRUS" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="CustomerDoesntExist" xml:space="preserve">
+    <value>This Customer is not exsists</value>
+  </data>
+  <data name="CustomerUpdatedSuccess" xml:space="preserve">
+    <value>Customer Updated Successfully</value>
+  </data>
+  <data name="CustomerDeletedSuccess" xml:space="preserve">
+    <value>Customer Deleted Successfully</value>
+  </data>
+  <data name="EditCustomer" xml:space="preserve">
+    <value>Edit Customer</value>
+  </data>
+  <data name="CantDeleteCustomer" xml:space="preserve">
+    <value>Can't Delete Customer</value>
+  </data>
+  <data name="EmployeeIncome" xml:space="preserve">
+    <value>Employee Income</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorMsg" xml:space="preserve">
+    <value>An error occurred while dealing with data ... Please try again or contact technical support</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="OutgoingType" xml:space="preserve">
+    <value>Outgoing Type</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="SaveValue" xml:space="preserve">
+    <value>Save Value= </value>
+  </data>
+  <data name="dotWithSpace" xml:space="preserve">
+    <value> .</value>
+  </data>
+  <data name="SaveValueAftersavingincomingexpenses" xml:space="preserve">
+    <value>Save Value After saving incoming expenses =</value>
+  </data>
+  <data name="SaveValueAftersavingOutgoingexpenses" xml:space="preserve">
+    <value>Save Value After saving Outgoing expenses =</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Governrates" xml:space="preserve">
+    <value>Governrates</value>
+  </data>
+  <data name="AddGovernorate" xml:space="preserve">
+    <value>Add Governorate</value>
+  </data>
+  <data name="GovernrateName" xml:space="preserve">
+    <value>Governrate Name</value>
+  </data>
+  <data name="AllGovernorates" xml:space="preserve">
+    <value>All Governorates</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="EditGroup" xml:space="preserve">
+    <value>Edit Group</value>
+  </data>
+  <data name="SelectGroup" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="GroupDetails" xml:space="preserve">
+    <value>Group Details</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="DataLevel" xml:space="preserve">
+    <value>Data Level</value>
+  </data>
+  <data name="GroupPrivileges" xml:space="preserve">
+    <value>Group Privileges</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="GroupErrorMsg" xml:space="preserve">
+    <value>Sorry this group contain users and can not be deleted</value>
+  </data>
+  <data name="GroupDeleted" xml:space="preserve">
+    <value>Group Deleted Successfully </value>
+  </data>
+  <data name="Reminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="IpPackages" xml:space="preserve">
+    <value>Ip Packages</value>
+  </data>
+  <data name="AddIpPackage" xml:space="preserve">
+    <value>Add Ip Package</value>
+  </data>
+  <data name="AllIpPackages" xml:space="preserve">
+    <value>All Ip Packages</value>
+  </data>
+  <data name="Linkerror" xml:space="preserve">
+    <value>Link Error</value>
+  </data>
+  <data name="WorngLink" xml:space="preserve">
+    <value>You have followed an incorrect link.</value>
+  </data>
+  <data name="MakeError" xml:space="preserve">
+    <value>Make Error</value>
+  </data>
+  <data name="ManageRequests" xml:space="preserve">
+    <value>ManageRequests</value>
+  </data>
+  <data name="CurrentSpeed" xml:space="preserve">
+    <value>Current speed</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="NoRequests" xml:space="preserve">
+    <value>No Requests.</value>
+  </data>
+  <data name="ApproveSelected" xml:space="preserve">
+    <value>Approve Selected</value>
+  </data>
+  <data name="RejectSelected" xml:space="preserve">
+    <value>Reject Selected</value>
+  </data>
+  <data name="Requests" xml:space="preserve">
+    <value> Requests</value>
+  </data>
+  <data name="PhoneNo" xml:space="preserve">
+    <value>Phone No : </value>
+  </data>
+  <data name="ApprovedLiteral" xml:space="preserve">
+    <value> Approved</value>
+  </data>
+  <data name="RequestAdded" xml:space="preserve">
+    <value>Request Approved sucessfully.</value>
+  </data>
+  <data name="RequestRejected" xml:space="preserve">
+    <value>Request Rejected sucessfully .</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="SelectedRequestsApproved" xml:space="preserve">
+    <value>Selected Requests Approved sucessfully .</value>
+  </data>
+  <data name="SelectedRequestsRejected" xml:space="preserve">
+    <value>Selected Requests Rejected sucessfully .</value>
+  </data>
+  <data name="ManaulInvoices" xml:space="preserve">
+    <value>Manaul Invoices</value>
+  </data>
+  <data name="LoadSheet" xml:space="preserve">
+    <value>Load Sheet</value>
+  </data>
+  <data name="WrongExcelFormat" xml:space="preserve">
+    <value>Posted file is Invalid, only Files with extentions</value>
+  </data>
+  <data name="WrongColoumnsCount" xml:space="preserve">
+    <value>Posted File Columns are not correct</value>
+  </data>
+  <data name="NoInvoices" xml:space="preserve">
+    <value>There are no invoices in posted File</value>
+  </data>
+  <data name="ManualPayment" xml:space="preserve">
+    <value>Manual Payment</value>
+  </data>
+  <data name="OnlyExcelExtenstions" xml:space="preserve">
+    <value>Only .xls or .xlsx files</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>New Message</value>
+  </data>
+  <data name="MsgTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="MsgSent" xml:space="preserve">
+    <value>Message sent</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MonthlyReport" xml:space="preserve">
+    <value>Monthly Report</value>
+  </data>
+  <data name="ViewReport" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="MonthlyOutgoing" xml:space="preserve">
+    <value>Monthly Outgoing</value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_" xml:space="preserve">
+    <value>&lt;br/&gt;Bank1 Opening Balance = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_2" xml:space="preserve">
+    <value>&lt;br/&gt;Bank2 Opening Balance = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_3" xml:space="preserve">
+    <value>&lt;br/&gt;Total Incoming = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_4" xml:space="preserve">
+    <value>&lt;br/&gt;Total Outgoing = </value>
+  </data>
+  <data name="Pages_DailyReport_btn_ViewReport_Click_5" xml:space="preserve">
+    <value>&lt;br/&gt;Current Save Value = </value>
+  </data>
+  <data name="Offers" xml:space="preserve">
+    <value>Offers</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="LifeTime" xml:space="preserve">
+    <value>Life Time</value>
+  </data>
+  <data name="From0To100" xml:space="preserve">
+    <value>From 0 to 100</value>
+  </data>
+  <data name="OfferMonthsCount" xml:space="preserve">
+    <value>Offer Months Count</value>
+  </data>
+  <data name="Resellers" xml:space="preserve">
+    <value>Resellers</value>
+  </data>
+  <data name="WrongAmount" xml:space="preserve">
+    <value>Wrong Amount</value>
+  </data>
+  <data name="OutgoingTypes" xml:space="preserve">
+    <value>Outgoing Types</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="RequestPayment" xml:space="preserve">
+    <value>Request Payment</value>
+  </data>
+  <data name="RequestedBeforeTotal" xml:space="preserve">
+    <value>Requested before total </value>
+  </data>
+  <data name="ResellerCredit" xml:space="preserve">
+    <value>Resellers Credit</value>
+  </data>
+  <data name="CreditIsntEnough" xml:space="preserve">
+    <value>Credit is not enough</value>
+  </data>
+  <data name="CreditMsgP1" xml:space="preserve">
+    <value>Reseller credit: (</value>
+  </data>
+  <data name="CreditMsgP2" xml:space="preserve">
+    <value>) is not enough to add more payment requests,&lt;/br&gt;Reseller already requested payment with the amount of (</value>
+  </data>
+  <data name="CreditMsgP3" xml:space="preserve">
+    <value>) </value>
+  </data>
+  <data name="L.E" xml:space="preserve">
+    <value>L.E</value>
+  </data>
+  <data name="PendingPaymentRequests" xml:space="preserve">
+    <value>Pending Payment Requests</value>
+  </data>
+  <data name="ChangeReseller" xml:space="preserve">
+    <value>Change Reseller</value>
+  </data>
+  <data name="Resaon" xml:space="preserve">
+    <value>Resaon</value>
+  </data>
+  <data name="PriceNotFound" xml:space="preserve">
+    <value>Price Not Found</value>
+  </data>
+  <data name="PriceNotFoundMsg1" xml:space="preserve">
+    <value>Package </value>
+  </data>
+  <data name="PriceNotFoundMsg2" xml:space="preserve">
+    <value> for provider </value>
+  </data>
+  <data name="PriceNotFoundMsg3" xml:space="preserve">
+    <value> Has no price (add price)</value>
+  </data>
+  <data name="ReceiptsSearch" xml:space="preserve">
+    <value>Receipts Search</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Receipt Number</value>
+  </data>
+  <data name="ReceiptDetails" xml:space="preserve">
+    <value>Receipt Details</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>Reminders</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="ApproveAll" xml:space="preserve">
+    <value>Approve All</value>
+  </data>
+  <data name="CsutomersWithThisStatus" xml:space="preserve">
+    <value> Customers with this status</value>
+  </data>
+  <data name="InncorrectLink" xml:space="preserve">
+    <value>You have followed an incorrect link .</value>
+  </data>
+  <data name="CustomerActivated" xml:space="preserve">
+    <value>Customer Activated</value>
+  </data>
+  <data name="BActive" xml:space="preserve">
+    <value>Activation Confirmed :</value>
+  </data>
+  <data name="CusProblem" xml:space="preserve">
+    <value>Customer Problem</value>
+  </data>
+  <data name="HasProb" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AllApprovedMsg" xml:space="preserve">
+    <value>All Work Order(s) approved .</value>
+  </data>
+  <data name="HasProb2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewStatusEmail" xml:space="preserve">
+    <value> - New Status: </value>
+  </data>
+  <data name="CantApproveMsg" xml:space="preserve">
+    <value>Can't Approve</value>
+  </data>
+  <data name="OrdersApproved" xml:space="preserve">
+    <value>Selected Work Order(s) approved .</value>
+  </data>
+  <data name="OrderRejected" xml:space="preserve">
+    <value>WorkOrder Rejected sucessfully .</value>
+  </data>
+  <data name="AllRequests" xml:space="preserve">
+    <value>All Requests</value>
+  </data>
+  <data name="RequestName" xml:space="preserve">
+    <value>Request Name</value>
+  </data>
+  <data name="ResellerBalanceSheet" xml:space="preserve">
+    <value>Reseller Balance Sheet</value>
+  </data>
+  <data name="PackageType" xml:space="preserve">
+    <value>Package Type</value>
+  </data>
+  <data name="PaymentReceipt" xml:space="preserve">
+    <value>Payment Receipt</value>
+  </data>
+  <data name="SelectOptionFirst" xml:space="preserve">
+    <value>Select an option first</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ResellerHistory" xml:space="preserve">
+    <value>Reseller History</value>
+  </data>
+  <data name="Stocks" xml:space="preserve">
+    <value>Stocks</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="Consumer" xml:space="preserve">
+    <value>Consumer</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ResellerInvoice" xml:space="preserve">
+    <value>Reseller Invoice</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ResellerCommission" xml:space="preserve">
+    <value>Reseller Commission</value>
+  </data>
+  <data name="ResellerInvoiceHint" xml:space="preserve">
+    <value>Note : No discount on IPPackage , extra giga, Hold and Suspend Status .</value>
+  </data>
+  <data name="ResellerLines" xml:space="preserve">
+    <value>Reseller Lines</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>View Details</value>
+  </data>
+  <data name="CustomerStatuseHistory" xml:space="preserve">
+    <value>Customer Statuse History</value>
+  </data>
+  <data name="Admin_Employee" xml:space="preserve">
+    <value>Admin/Employee</value>
+  </data>
+  <data name="ResellerPayments" xml:space="preserve">
+    <value>Reseller Payments</value>
+  </data>
+  <data name="ResellerDiscounts" xml:space="preserve">
+    <value>Reseller Discounts</value>
+  </data>
+  <data name="CnfgExists" xml:space="preserve">
+    <value>Desired discount configuration already exist,Change configuration</value>
+  </data>
+  <data name="ResellersRoutersCredit" xml:space="preserve">
+    <value>Resellers Routers Credit</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="ResellersStore" xml:space="preserve">
+    <value>Resellers Store</value>
+  </data>
+  <data name="Transfertoreseller" xml:space="preserve">
+    <value>Transfer to reseller</value>
+  </data>
+  <data name="NotAvailableQTN" xml:space="preserve">
+    <value>Giving quantity is not available at company store, reduce quantity and try again</value>
+  </data>
+  <data name="StoreprobMsg" xml:space="preserve">
+    <value>Saving problem, Change the quantity and try again</value>
+  </data>
+  <data name="RevenuesAndExpenses" xml:space="preserve">
+    <value>Revenues And Expenses</value>
+  </data>
+  <data name="TableId" xml:space="preserve">
+    <value>TableId</value>
+  </data>
+  <data name="Revenue_Expense" xml:space="preserve">
+    <value>Revenue/Expense</value>
+  </data>
+  <data name="Cash_Bank" xml:space="preserve">
+    <value>Cash/Bank</value>
+  </data>
+  <data name="Totals" xml:space="preserve">
+    <value>Totals</value>
+  </data>
+  <data name="RevenuesTotal" xml:space="preserve">
+    <value>Revenues Total</value>
+  </data>
+  <data name="ExpensesTotal" xml:space="preserve">
+    <value>Expenses Total</value>
+  </data>
+  <data name="Date_Time" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="CustomerRequestsHistory" xml:space="preserve">
+    <value>Customer Requests History</value>
+  </data>
+  <data name="CustomerType" xml:space="preserve">
+    <value>Customer Type</value>
+  </data>
+  <data name="WhoOrder" xml:space="preserve">
+    <value>Who Order</value>
+  </data>
+  <data name="WhoManage" xml:space="preserve">
+    <value>Who Manage</value>
+  </data>
+  <data name="OldSpeed" xml:space="preserve">
+    <value>Old Package</value>
+  </data>
+  <data name="OldPackage" xml:space="preserve">
+    <value>Old Package</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>Request Status</value>
+  </data>
+  <data name="CustomerTicketHistory" xml:space="preserve">
+    <value>Customer Ticket History</value>
+  </data>
+  <data name="OpenDate" xml:space="preserve">
+    <value>Open Date</value>
+  </data>
+  <data name="SolvedDate" xml:space="preserve">
+    <value>Solved Date</value>
+  </data>
+  <data name="NoTickects" xml:space="preserve">
+    <value>No Tickects</value>
+  </data>
+  <data name="CustomerInfoHistory" xml:space="preserve">
+    <value>Customer Info History</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="UpdateDate" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="NoUpdates" xml:space="preserve">
+    <value>No Updates.</value>
+  </data>
+  <data name="SearchRequests" xml:space="preserve">
+    <value>Search Requests</value>
+  </data>
+  <data name="ServicPackages" xml:space="preserve">
+    <value>Servic Packages</value>
+  </data>
+  <data name="PackagesNotes" xml:space="preserve">
+    <value>Note : System will add service type automaticaly to servicePackage name like "512 Limited".</value>
+  </data>
+  <data name="Service.Providers" xml:space="preserve">
+    <value>Service Providers</value>
+  </data>
+  <data name="Subscripe" xml:space="preserve">
+    <value>Subscripe</value>
+  </data>
+  <data name="NewSubscription" xml:space="preserve">
+    <value>New Subscription</value>
+  </data>
+  <data name="GroundLineNumber" xml:space="preserve">
+    <value>Ground Line Number</value>
+  </data>
+  <data name="Pickspeedpack" xml:space="preserve">
+    <value>Pick speed package</value>
+  </data>
+  <data name="Unlimited256" xml:space="preserve">
+    <value>256 Unlimited</value>
+  </data>
+  <data name="Unlimited512" xml:space="preserve">
+    <value>512 Unlimited</value>
+  </data>
+  <data name="Unlimited1024" xml:space="preserve">
+    <value>1024 Unlimited</value>
+  </data>
+  <data name="Unlimited2048" xml:space="preserve">
+    <value>2048 Unlimited</value>
+  </data>
+  <data name="Unlimited4096" xml:space="preserve">
+    <value>4096 Unlimited</value>
+  </data>
+  <data name="Limited256" xml:space="preserve">
+    <value>256 Limited</value>
+  </data>
+  <data name="Limited512" xml:space="preserve">
+    <value>512 Limited</value>
+  </data>
+  <data name="Limited1024" xml:space="preserve">
+    <value>1024 Limited</value>
+  </data>
+  <data name="Limited2048" xml:space="preserve">
+    <value>2048 Limited</value>
+  </data>
+  <data name="Limited4096" xml:space="preserve">
+    <value>4096 limited</value>
+  </data>
+  <data name="Optimum512" xml:space="preserve">
+    <value>512 Optimum Limited</value>
+  </data>
+  <data name="Optimum1024" xml:space="preserve">
+    <value>1024 Optimum Limited</value>
+  </data>
+  <data name="Optimum2048" xml:space="preserve">
+    <value>2048 Optimum Limited</value>
+  </data>
+  <data name="SuspendedCustomers" xml:space="preserve">
+    <value>Suspended Customers</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="QuickSupport" xml:space="preserve">
+    <value>Quick Support</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Markaz AHLLAN</value>
+  </data>
+  <data name="TicketReasons" xml:space="preserve">
+    <value>Ticket Reasons</value>
+  </data>
+  <data name="TicketHistory" xml:space="preserve">
+    <value>Ticket History</value>
+  </data>
+  <data name="TicketNo" xml:space="preserve">
+    <value>Ticket No</value>
+  </data>
+  <data name="TransferFromBranchCredit" xml:space="preserve">
+    <value>Transfer From Branch Credit</value>
+  </data>
+  <data name="CreditTransfer" xml:space="preserve">
+    <value>Credit Transfer</value>
+  </data>
+  <data name="TransferAmount" xml:space="preserve">
+    <value>Transfer Amount</value>
+  </data>
+  <data name="TransferAmountLimit" xml:space="preserve">
+    <value>Can't be less than or equal 0</value>
+  </data>
+  <data name="ZeroDefault" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NotEnoughtCrefit" xml:space="preserve">
+    <value>Can not save amont greater than branch credit</value>
+  </data>
+  <data name="TreasureyExpenses" xml:space="preserve">
+    <value>Main Treasurey Expenses</value>
+  </data>
+  <data name="TresauryReport" xml:space="preserve">
+    <value>Main Tresaury Report</value>
+  </data>
+  <data name="AuthorizationError" xml:space="preserve">
+    <value>You are not authorized to view this page</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>Invoice Date</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ValidMail" xml:space="preserve">
+    <value>ValidMail</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="AccountStoped" xml:space="preserve">
+    <value>Account Stopped ?</value>
+  </data>
+  <data name="UsersPageNotes" xml:space="preserve">
+    <value>User Is a Branch Admin?,&lt;br/&gt; And want to manage more than one branch ?,&lt;br/&gt;  Select His Branch(s) </value>
+  </data>
+  <data name="LimitedDscountPercent" xml:space="preserve">
+    <value>Discount Percent For Limited</value>
+  </data>
+  <data name="UnLimitedDscountPercent" xml:space="preserve">
+    <value>Discount Percent For Limited</value>
+  </data>
+  <data name="PercentSign" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="OpeningBalance" xml:space="preserve">
+    <value>Opening Balance</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="_minusOne" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="ViewReciept" xml:space="preserve">
+    <value>View Reciept</value>
+  </data>
+  <data name="Tickets" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+  <data name="Solved" xml:space="preserve">
+    <value>Solved</value>
+  </data>
+  <data name="Solve" xml:space="preserve">
+    <value>Solve</value>
+  </data>
+  <data name="CustomerBalanceSheet" xml:space="preserve">
+    <value>Customer Balance Sheet</value>
+  </data>
+  <data name="SelectProcessc" xml:space="preserve">
+    <value>Select Processc</value>
+  </data>
+  <data name="_InvoiceTotalDue" xml:space="preserve">
+    <value>Invoice total due </value>
+  </data>
+  <data name="ResellerCreditNotEnought" xml:space="preserve">
+    <value>Reseller credit is not enought</value>
+  </data>
+  <data name="_CreditAvailableForReseller" xml:space="preserve">
+    <value>No available credit for this reseller</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="NoFiles" xml:space="preserve">
+    <value>No Files.</value>
+  </data>
+  <data name="UploadError" xml:space="preserve">
+    <value>Warning : an error occured while uploading the file, file doesn't exists.</value>
+  </data>
+  <data name="SetLang" xml:space="preserve">
+    <value>Select Langnguage</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>Designed and Developed By Pioneers</value>
+  </data>
+  <data name="AddCustomer" xml:space="preserve">
+    <value>Add Customer</value>
+  </data>
+  <data name="AddNewCustomer" xml:space="preserve">
+    <value>Add New Customer</value>
+  </data>
+  <data name="MenuAllPrivilegesAdmin" xml:space="preserve">
+    <value>All Privileges (Admin)</value>
+  </data>
+  <data name="MenuSystemSetting" xml:space="preserve">
+    <value>System Setting</value>
+  </data>
+  <data name="MenuGroups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="MenuBranches" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="MenuGovernorates" xml:space="preserve">
+    <value>Governorates</value>
+  </data>
+  <data name="MenuRequests" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="CustomerAddedSuccessfully" xml:space="preserve">
+    <value>Customer Added Sucessfully</value>
+  </data>
+  <data name="MenuServicesPackages" xml:space="preserve">
+    <value>Services Packages</value>
+  </data>
+  <data name="MenuPendingActivationPanel" xml:space="preserve">
+    <value>Pending Activation Panel</value>
+  </data>
+  <data name="MenuNewCustomers" xml:space="preserve">
+    <value>New Customers</value>
+  </data>
+  <data name="MenuPendingTE" xml:space="preserve">
+    <value>Pending TE</value>
+  </data>
+  <data name="MenuPendingWO" xml:space="preserve">
+    <value>Pending WO</value>
+  </data>
+  <data name="MenuPendingSplitting" xml:space="preserve">
+    <value>Pending Splitting</value>
+  </data>
+  <data name="MenuActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="MenuCancellationProcess" xml:space="preserve">
+    <value>Cancellation Process</value>
+  </data>
+  <data name="MenuDisapprovedCustomers" xml:space="preserve">
+    <value>System Problem</value>
+  </data>
+  <data name="MenuCancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="MenuHold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="SystemProblem" xml:space="preserve">
+    <value>System Problem</value>
+  </data>
+  <data name="MenuCustomersRequests" xml:space="preserve">
+    <value>Customers Requests</value>
+  </data>
+  <data name="MenuAddNewCustomer" xml:space="preserve">
+    <value>Add New Customer</value>
+  </data>
+  <data name="MenuFullDetails" xml:space="preserve">
+    <value>Full Details</value>
+  </data>
+  <data name="MenuEditCustomer" xml:space="preserve">
+    <value>Edit Customer</value>
+  </data>
+  <data name="MenuServiceProviders" xml:space="preserve">
+    <value>Service Providers</value>
+  </data>
+  <data name="MenuCustomerStatus" xml:space="preserve">
+    <value>Customer Status</value>
+  </data>
+  <data name="MenuManageUsers" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
+  <data name="MenuAdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="MenuSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="MenuUpgradeDowngrade" xml:space="preserve">
+    <value>Upgrade/Downgrade</value>
+  </data>
+  <data name="MenuSuspend" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="MenuUnsuspend" xml:space="preserve">
+    <value>Unsuspend</value>
+  </data>
+  <data name="MenuUnhold" xml:space="preserve">
+    <value>Unhold</value>
+  </data>
+  <data name="MenuCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MenuReactivate" xml:space="preserve">
+    <value>Reactivate</value>
+  </data>
+  <data name="MenuPendingRequestsPanel" xml:space="preserve">
+    <value>Pending Requests Panel</value>
+  </data>
+  <data name="MenuChangeIPPackage" xml:space="preserve">
+    <value>Change IP Package</value>
+  </data>
+  <data name="MenuRequestExtraGiga" xml:space="preserve">
+    <value>Request Extra Giga</value>
+  </data>
+  <data name="MenuResellerLines" xml:space="preserve">
+    <value>Reseller Lines</value>
+  </data>
+  <data name="MenuChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="MenuChangeMyPassword" xml:space="preserve">
+    <value>Change My Password</value>
+  </data>
+  <data name="MenuManageAds" xml:space="preserve">
+    <value>Manage Ads</value>
+  </data>
+  <data name="MenuTechnicalSupport" xml:space="preserve">
+    <value>Technical Support</value>
+  </data>
+  <data name="MenuAddTicket" xml:space="preserve">
+    <value>Add Ticket</value>
+  </data>
+  <data name="MenuTicketReasons" xml:space="preserve">
+    <value>Ticket Reasons</value>
+  </data>
+  <data name="MenuPendingTicketing" xml:space="preserve">
+    <value>Pending Ticketing</value>
+  </data>
+  <data name="MenuPendingSolving" xml:space="preserve">
+    <value>Pending Solving</value>
+  </data>
+  <data name="MenuSolved" xml:space="preserve">
+    <value>Solved</value>
+  </data>
+  <data name="MenuReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="MenuPaymentTypes" xml:space="preserve">
+    <value>Payment Types</value>
+  </data>
+  <data name="MenuAccountingPanel" xml:space="preserve">
+    <value>Accounting Panel</value>
+  </data>
+  <data name="MenuPricing" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="MenuResellersCommission " xml:space="preserve">
+    <value>Resellers Commission </value>
+  </data>
+  <data name="MenuBranchCommission" xml:space="preserve">
+    <value>BranchCommission</value>
+  </data>
+  <data name="MenuCustomerInvoice" xml:space="preserve">
+    <value>Customer Invoice</value>
+  </data>
+  <data name="MenuResellerInvoice" xml:space="preserve">
+    <value>Reseller Invoice</value>
+  </data>
+  <data name="MenuBranchInvoice" xml:space="preserve">
+    <value>Branch Invoice</value>
+  </data>
+  <data name="MenuCustomerBalanceSheet" xml:space="preserve">
+    <value>Customer Balance Sheet</value>
+  </data>
+  <data name="MenuResellerBalanceSheet" xml:space="preserve">
+    <value>Reseller Balance Sheet</value>
+  </data>
+  <data name="MenuBranchBalanceSheet" xml:space="preserve">
+    <value>Branch Balance Sheet</value>
+  </data>
+  <data name="BranchBalanceSheet" xml:space="preserve">
+    <value>Branch Balance Sheet</value>
+  </data>
+  <data name="MenuOutgoingTypes" xml:space="preserve">
+    <value>Outgoing Types</value>
+  </data>
+  <data name="MenuIncomingExpenses" xml:space="preserve">
+    <value>Incoming Expenses</value>
+  </data>
+  <data name="MenuOutgoingExpenses" xml:space="preserve">
+    <value>Outgoing Expenses</value>
+  </data>
+  <data name="MenuDailyReport" xml:space="preserve">
+    <value>Daily Report</value>
+  </data>
+  <data name="MenuMonthlyReport" xml:space="preserve">
+    <value>Monthly Report</value>
+  </data>
+  <data name="MenuUnPaidCustomers" xml:space="preserve">
+    <value>UnPaid Customers</value>
+  </data>
+  <data name="MenuBranchDirectCustomers" xml:space="preserve">
+    <value>Branch Direct Customers</value>
+  </data>
+  <data name="MenuReceiptsSearch" xml:space="preserve">
+    <value>Receipts Search</value>
+  </data>
+  <data name="MenuReports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="MenuSuspendedcustomers" xml:space="preserve">
+    <value>Suspended customers</value>
+  </data>
+  <data name="MenuSearchRequests" xml:space="preserve">
+    <value>Search Requests</value>
+  </data>
+  <data name="MenuExtra" xml:space="preserve">
+    <value>Customers Management</value>
+  </data>
+  <data name="MenuCallCenterReport" xml:space="preserve">
+    <value>Call Center Report</value>
+  </data>
+  <data name="MenuCallCenterEntry" xml:space="preserve">
+    <value>Call Center Entry</value>
+  </data>
+  <data name="MenuExternalRequests" xml:space="preserve">
+    <value>External Requests</value>
+  </data>
+  <data name="MenuEmployeeIncome" xml:space="preserve">
+    <value>Employee Income</value>
+  </data>
+  <data name="MenuPaymentRequest" xml:space="preserve">
+    <value>Payment Request</value>
+  </data>
+  <data name="MenuPendingPaymentRequest" xml:space="preserve">
+    <value>Pending Payment Request</value>
+  </data>
+  <data name="MenuManaulInvoices" xml:space="preserve">
+    <value>Manaul Invoices</value>
+  </data>
+  <data name="MenuRevenuesAndExpenses" xml:space="preserve">
+    <value>Revenues And Expenses</value>
+  </data>
+  <data name="MenuCentrals" xml:space="preserve">
+    <value>Centrals</value>
+  </data>
+  <data name="MenuOffers" xml:space="preserve">
+    <value>Offers</value>
+  </data>
+  <data name="MenuInvoiceByCentral" xml:space="preserve">
+    <value>Invoice By Central</value>
+  </data>
+  <data name="MenuChangeActivationDate" xml:space="preserve">
+    <value>Change Activation Date</value>
+  </data>
+  <data name="MenuUnPaidCustomersAll" xml:space="preserve">
+    <value>UnPaid Customers All</value>
+  </data>
+  <data name="MenuPaidCustomers" xml:space="preserve">
+    <value>Paid Customers</value>
+  </data>
+  <data name="MenuTreasureExpenses" xml:space="preserve">
+    <value>Treasure Expenses</value>
+  </data>
+  <data name="MenuTresauryReport" xml:space="preserve">
+    <value>Tresaury Report</value>
+  </data>
+  <data name="MenuTransferFromBranchCredit" xml:space="preserve">
+    <value>Transfer from Branch Credit</value>
+  </data>
+  <data name="MenuMessageReader" xml:space="preserve">
+    <value>Message Reader</value>
+  </data>
+  <data name="MenuMessageTo" xml:space="preserve">
+    <value>Message To</value>
+  </data>
+  <data name="MenuInbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="MenuReminders" xml:space="preserve">
+    <value>Reminders</value>
+  </data>
+  <data name="MenuMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MenuBranchCredit" xml:space="preserve">
+    <value>Branch Credit</value>
+  </data>
+  <data name="MenuResellerCredit" xml:space="preserve">
+    <value>Reseller Credit</value>
+  </data>
+  <data name="MenuCompanyStore" xml:space="preserve">
+    <value>Company Store</value>
+  </data>
+  <data name="MenuResellersStore" xml:space="preserve">
+    <value>Resellers Store</value>
+  </data>
+  <data name="MenuResellersRoutersCredit" xml:space="preserve">
+    <value>Resellers Routers Credit</value>
+  </data>
+  <data name="MenuCompanyHistory" xml:space="preserve">
+    <value>Company History</value>
+  </data>
+  <data name="MenuResellerHistory" xml:space="preserve">
+    <value>Reseller History</value>
+  </data>
+  <data name="MenuResellerPayments" xml:space="preserve">
+    <value>Reseller Payments Report</value>
+  </data>
+  <data name="MenuManualPayment" xml:space="preserve">
+    <value>Manual Payment</value>
+  </data>
+  <data name="MenuBranchPaymentRequests" xml:space="preserve">
+    <value>Branch Payment Request</value>
+  </data>
+  <data name="MenuBranchPendingPayemntRequests" xml:space="preserve">
+    <value>Branch Pending Payemnt Requests</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>Welcome </value>
+  </data>
+  <data name="DataLevelMsg" xml:space="preserve">
+    <value>&lt;br/&gt;Level : </value>
+  </data>
+  <data name="IPMsg" xml:space="preserve">
+    <value>IP: </value>
+  </data>
+  <data name="Upgrade/Downgrade" xml:space="preserve">
+    <value>Upgrade - Downgrade</value>
+  </data>
+  <data name="Change IP Package" xml:space="preserve">
+    <value>Change IP Package</value>
+  </data>
+  <data name="Request Extra Giga" xml:space="preserve">
+    <value>Request Extra Giga</value>
+  </data>
+  <data name="MenuIpPackages" xml:space="preserve">
+    <value>IP Packages</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="AddNewTicket" xml:space="preserve">
+    <value>Add New Ticket</value>
+  </data>
+  <data name="MenuResellersCommission" xml:space="preserve">
+    <value>Resellers Commission</value>
+  </data>
+  <data name="AllBranchsDiscounts" xml:space="preserve">
+    <value>All Branchs Discounts</value>
+  </data>
+  <data name="AllCentrals" xml:space="preserve">
+    <value>All Centrals</value>
+  </data>
+  <data name="MonthlyIncoming" xml:space="preserve">
+    <value>Monthly Incoming</value>
+  </data>
+  <data name="ManageAds" xml:space="preserve">
+    <value>Manage Ads</value>
+  </data>
+  <data name="PaymentTypes" xml:space="preserve">
+    <value>Payment Types</value>
+  </data>
+  <data name="CallCenter" xml:space="preserve">
+    <value>Call Center</value>
+  </data>
+  <data name="CallDate" xml:space="preserve">
+    <value>Call Date</value>
+  </data>
+  <data name="CallCenterEntry" xml:space="preserve">
+    <value>Call Center Entry</value>
+  </data>
+  <data name="Inbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="AvailableQuantity" xml:space="preserve">
+    <value>Available Quantity</value>
+  </data>
+  <data name="BranchRequests" xml:space="preserve">
+    <value>Branch Requests</value>
+  </data>
+  <data name="SetDate" xml:space="preserve">
+    <value>Set Date</value>
+  </data>
+  <data name="OfferStart" xml:space="preserve">
+    <value>Offer Start</value>
+  </data>
+  <data name="MessageTo" xml:space="preserve">
+    <value>Message To</value>
+  </data>
+  <data name="RecipientsList" xml:space="preserve">
+    <value>Recipients List</value>
+  </data>
+  <data name="DoneRead" xml:space="preserve">
+    <value>Done Read</value>
+  </data>
+  <data name="TestCustomer" xml:space="preserve">
+    <value>Test Customer</value>
+  </data>
+  <data name="DeleteAllCustomers" xml:space="preserve">
+    <value>Delete All Customers</value>
+  </data>
+  <data name="NotEnoughtCreditMsg" xml:space="preserve">
+    <value>Not Enought Credit</value>
+  </data>
+  <data name="PaymentRequestMsg" xml:space="preserve">
+    <value>Reseller credit: ({0}) is not enough to add more payment requests, Reseller already requested payment with the amount of ({1}) </value>
+  </data>
+  <data name="PaymentRequest" xml:space="preserve">
+    <value>Payment Request</value>
+  </data>
+  <data name="Governorate" xml:space="preserve">
+    <value>Governorate</value>
+  </data>
+  <data name="ResellerTotalDue" xml:space="preserve">
+    <value>Reseller Total Due</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="ResellerPaymentCredit" xml:space="preserve">
+    <value>Reseller Payment Credit</value>
+  </data>
+  <data name="Effect" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CreditHistory" xml:space="preserve">
+    <value>Credit History</value>
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>States</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Phones" xml:space="preserve">
+    <value>Phones</value>
+  </data>
+  <data name="PreviewPhonesStates" xml:space="preserve">
+    <value>Preview Phones States</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Offer1" xml:space="preserve">
+    <value>Offer1</value>
+  </data>
+  <data name="Offer2" xml:space="preserve">
+    <value>Offer1</value>
+  </data>
+  <data name="PhonesDataEntry" xml:space="preserve">
+    <value>Phones Data Entry</value>
+  </data>
+  <data name="PendingCalls" xml:space="preserve">
+    <value>Pending Calls</value>
+  </data>
+  <data name="SavedPhonesCountMsg" xml:space="preserve">
+    <value>{0} Phone items saved</value>
+  </data>
+  <data name="PostedFileIsInvalid" xml:space="preserve">
+    <value>Posted File Is Invalid</value>
+  </data>
+  <data name="PendingContractPhones.aspx" xml:space="preserve">
+    <value>Pending Contract Phones</value>
+  </data>
+  <data name="PendingContractPhones" xml:space="preserve">
+    <value>Pending Contract Phones</value>
+  </data>
+  <data name="Pend" xml:space="preserve">
+    <value>Pend</value>
+  </data>
+  <data name="HandleComplaints" xml:space="preserve">
+    <value>Handle Complaints</value>
+  </data>
+  <data name="NewComplaint" xml:space="preserve">
+    <value>New Complaint</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Least5" xml:space="preserve">
+    <value>Least 5 numbers max 12 numbers and numbers only</value>
+  </data>
+  <data name="Least10" xml:space="preserve">
+    <value>Least 10 numbers max 12 numbers and numbers only</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>Complaint</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ContractsCount" xml:space="preserve">
+    <value>Contracts Count</value>
+  </data>
+  <data name="Handle" xml:space="preserve">
+    <value>Handle</value>
+  </data>
+  <data name="RejectionReasons" xml:space="preserve">
+    <value>Rejection Reasons</value>
+  </data>
+  <data name="HandlePhones" xml:space="preserve">
+    <value>Handle Phones</value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="EmployeesReports" xml:space="preserve">
+    <value>Employees Reports</value>
+  </data>
+  <data name="ContractsByEmployee" xml:space="preserve">
+    <value>Contracts By Employee</value>
+  </data>
+  <data name="ComplaintHandled" xml:space="preserve">
+    <value>Customer {0} complaint handled.</value>
+  </data>
+  <data name="ContractsForEmployee" xml:space="preserve">
+    <value>Contracts For Employee</value>
+  </data>
+  <data name="PhonesDataentry.aspx" xml:space="preserve">
+    <value>Phones Data Entry</value>
+  </data>
+  <data name="EMailCnfg" xml:space="preserve">
+    <value>E-Mail Configuration</value>
+  </data>
+  <data name="MailFrom" xml:space="preserve">
+    <value>Mail From</value>
+  </data>
+  <data name="SmtpClient" xml:space="preserve">
+    <value>SmtpClient</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="SSL" xml:space="preserve">
+    <value>SSL</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ReceiptFormat" xml:space="preserve">
+    <value>Receipt Format</value>
+  </data>
+  <data name="CompanyNameInput" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="LogoPosition" xml:space="preserve">
+    <value>Logo Position</value>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>Caution</value>
+  </data>
+  <data name="ContactData" xml:space="preserve">
+    <value>Contact Data</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>Add Image</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="CustomerDetails" xml:space="preserve">
+    <value>Customer Details</value>
+  </data>
+  <data name="NationalId" xml:space="preserve">
+    <value>National Id</value>
+  </data>
+  <data name="SiteData" xml:space="preserve">
+    <value>Site Data</value>
+  </data>
+  <data name="NoSiteDataAvailable" xml:space="preserve">
+    <value>No Site Data Available</value>
+  </data>
+  <data name="CantDelete" xml:space="preserve">
+    <value>Can't Delete</value>
+  </data>
+  <data name="true" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="false" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ChangeSettings" xml:space="preserve">
+    <value>Change Settings</value>
+  </data>
+  <data name="ChoseCustomers" xml:space="preserve">
+    <value>Chose Customers</value>
+  </data>
+  <data name="ResellerProviders" xml:space="preserve">
+    <value>Reseller Providers</value>
+  </data>
+  <data name="CustomerDemands" xml:space="preserve">
+    <value>Customer Invoices</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="CustomerNotFound" xml:space="preserve">
+    <value>Customer Not Found</value>
+  </data>
+  <data name="MenuPendingInstallation" xml:space="preserve">
+    <value>Pending Installation</value>
+  </data>
+  <data name="RequestsHistory" xml:space="preserve">
+    <value>Requests History</value>
+  </data>
+  <data name="ProcessDate" xml:space="preserve">
+    <value>Process Date</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="MonthsCount" xml:space="preserve">
+    <value>Months Count</value>
+  </data>
+  <data name="ByPercent" xml:space="preserve">
+    <value>By Percent</value>
+  </data>
+  <data name="DiscountMustBeBetween100And0" xml:space="preserve">
+    <value>Discount Must Be Between 100 And 0</value>
+  </data>
+  <data name="FreeMonthsFirst" xml:space="preserve">
+    <value>Free Months First</value>
+  </data>
+  <data name="OfferDetails" xml:space="preserve">
+    <value>Offer Details</value>
+  </data>
+  <data name="FinancialDetails" xml:space="preserve">
+    <value>Financial Details</value>
+  </data>
+  <data name="FreeMonthsCount" xml:space="preserve">
+    <value>Free Months Count</value>
+  </data>
+  <data name="OfferMonths" xml:space="preserve">
+    <value>Offer Months</value>
+  </data>
+  <data name="Providers" xml:space="preserve">
+    <value>Providers</value>
+  </data>
+  <data name="RouterCost" xml:space="preserve">
+    <value>Router Cost</value>
+  </data>
+  <data name="AggregatedBill" xml:space="preserve">
+    <value>Aggregated Bill</value>
+  </data>
+  <data name="CancelPenaltyOfFirstYear" xml:space="preserve">
+    <value>Cancel Penalty Of First Year</value>
+  </data>
+  <data name="CancelIfSuspensionExceeds" xml:space="preserve">
+    <value>Cancel Offer If Suspension Exceeds</value>
+  </data>
+  <data name="ChangeRequestDate" xml:space="preserve">
+    <value>Change Request Date</value>
+  </data>
+  <data name="Suspend" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="M1" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="M2" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="M3" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="M4" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="M5" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="M6" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="M7" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="M8" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="M9" xml:space="preserve">
+    <value>Septemper</value>
+  </data>
+  <data name="M10" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="M11" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="M12" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="CustomersCount" xml:space="preserve">
+    <value>Customers Count</value>
+  </data>
+  <data name="CustomersStatus" xml:space="preserve">
+    <value>Customers Status</value>
+  </data>
+  <data name="CustomersStatusInPreviousSixMonths" xml:space="preserve">
+    <value>Customers status in previous 6 months</value>
+  </data>
+  <data name="IsNew" xml:space="preserve">
+    <value>Active From New</value>
+  </data>
+  <data name="OfferStartDate" xml:space="preserve">
+    <value>Offer Start Date</value>
+  </data>
+  <data name="FreeMonthsValidation" xml:space="preserve">
+    <value>Free Months Count Have To Be Less Than Or Equal To Offer Months Count</value>
+  </data>
+  <data name="UnPaidDemands" xml:space="preserve">
+    <value>Unpaid Demands</value>
+  </data>
+  <data name="AddDemand" xml:space="preserve">
+    <value>Add Demand</value>
+  </data>
+  <data name="SearchCustomerFirst" xml:space="preserve">
+    <value>Search Customer</value>
+  </data>
+  <data name="PaidDone" xml:space="preserve">
+    <value>Paid Done</value>
+  </data>
+  <data name="NewDemand" xml:space="preserve">
+    <value>New Demand</value>
+  </data>
+  <data name="SelectDemands" xml:space="preserve">
+    <value>Select Demands</value>
+  </data>
+  <data name="PaymentComment" xml:space="preserve">
+    <value>Payment Comment</value>
+  </data>
+  <data name="CancelPayment" xml:space="preserve">
+    <value>Cancel Payment</value>
+  </data>
+  <data name="AddNextMonthDemand" xml:space="preserve">
+    <value>Add Next Month Demand</value>
+  </data>
+  <data name="ExtraGigas" xml:space="preserve">
+    <value>Extra Gigas</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="CustomerInvoices" xml:space="preserve">
+    <value>Customer Invoice Details</value>
+  </data>
+  <data name="ByActivationDate" xml:space="preserve">
+    <value>By ActivationDate</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="FilterFirstMonthAndTheRestOfMonthsAreComplete" xml:space="preserve">
+    <value>Filter first month and the rest of months are complete</value>
+  </data>
+  <data name="InOffer" xml:space="preserve">
+    <value>In Offer</value>
+  </data>
+  <data name="OutOfOffer" xml:space="preserve">
+    <value>Out Of Offer</value>
+  </data>
+  <data name="DaysCount" xml:space="preserve">
+    <value>Days count</value>
+  </data>
+  <data name="PostponeSuspendDays" xml:space="preserve">
+    <value>Postpone suspend days</value>
+  </data>
+  <data name="CompleteInvoiceWithsubtractionAndLeaveRequestDate" xml:space="preserve">
+    <value>Complete invoice with subtraction and leave request date</value>
+  </data>
+  <data name="DeductionWithFixedRequestDate" xml:space="preserve">
+    <value>Deduction with fixed request date</value>
+  </data>
+  <data name="CompleteInvoice" xml:space="preserve">
+    <value>Complete invoice</value>
+  </data>
+  <data name="NewRequest" xml:space="preserve">
+    <value>New request</value>
+  </data>
+  <data name="PartialInvoiceForOldSpeed" xml:space="preserve">
+    <value>Partial invoice for old speed with one month invoice for new speed</value>
+  </data>
+  <data name="MergeSpeedsInOneInvoice" xml:space="preserve">
+    <value>Merge speeds in one invoice without changing request date</value>
+  </data>
+  <data name="FilterCustomerInvoice" xml:space="preserve">
+    <value>Filter customer invoice</value>
+  </data>
+  <data name="CancelDept" xml:space="preserve">
+    <value>Cancel dept</value>
+  </data>
+  <data name="PayDept" xml:space="preserve">
+    <value>Pay dept</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="NewStatus" xml:space="preserve">
+    <value>New Status</value>
+  </data>
+  <data name="RouterSerailSearch" xml:space="preserve">
+    <value>Router Serail Search</value>
+  </data>
+  <data name="RouterSerial" xml:space="preserve">
+    <value>Router Serial</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>Request Number</value>
+  </data>
+  <data name="InactiveCustomers" xml:space="preserve">
+    <value>Inactive Customers</value>
+  </data>
+  <data name="UnpaidResellerDemands" xml:space="preserve">
+    <value>Resellers Invoices</value>
+  </data>
+  <data name="CreateInvoice" xml:space="preserve">
+    <value>Create Invoice</value>
+  </data>
+  <data name="BackToSearch" xml:space="preserve">
+    <value>Back To Search</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="DeleteDemand" xml:space="preserve">
+    <value>Delete Demand</value>
+  </data>
+  <data name="UnpayDemand" xml:space="preserve">
+    <value>Unpay Demand</value>
+  </data>
+  <data name="EditDemand" xml:space="preserve">
+    <value>Edit Demand</value>
+  </data>
+  <data name="DownloadInvoice" xml:space="preserve">
+    <value>Download Invoice</value>
+  </data>
+  <data name="CustomersPayments" xml:space="preserve">
+    <value>Customers Payments</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Gains" xml:space="preserve">
+    <value>Gains</value>
+  </data>
+  <data name="ResellerPackagesDiscounts" xml:space="preserve">
+    <value>Reseller Packages Discounts</value>
+  </data>
+  <data name="ResellerPPR" xml:space="preserve">
+    <value>Reseller pending payment requests</value>
+  </data>
+  <data name="ResellerPR" xml:space="preserve">
+    <value>Reseller payment request</value>
+  </data>
+  <data name="ResellerCreditIsnotEnough" xml:space="preserve">
+    <value>Reseller Credit Is not Enough</value>
+  </data>
+  <data name="BranchPR" xml:space="preserve">
+    <value>Branch payment request</value>
+  </data>
+  <data name="BranchPaymentCredit" xml:space="preserve">
+    <value>Branch Payment Credit</value>
+  </data>
+  <data name="BranchPPR" xml:space="preserve">
+    <value>Branch pending payment request</value>
+  </data>
+  <data name="Customer.Mobile2" xml:space="preserve">
+    <value>Customer Mobile2</value>
+  </data>
+  <data name="DemandCantBeDeleted" xml:space="preserve">
+    <value>Demand cannot be deleted</value>
+  </data>
+  <data name="ToNewCustomer" xml:space="preserve">
+    <value>To New Customer</value>
+  </data>
+  <data name="ToActiveCustomer" xml:space="preserve">
+    <value>To Active Customer</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Payment Date</value>
+  </data>
+  <data name="NameOrPhone" xml:space="preserve">
+    <value>Name or Phone</value>
+  </data>
+  <data name="SuspendDaysCount" xml:space="preserve">
+    <value>Suspend Days Count</value>
+  </data>
+  <data name="UpdateDemands" xml:space="preserve">
+    <value>Update Demands</value>
+  </data>
+  <data name="NoCustomersFoundWithoutDemands" xml:space="preserve">
+    <value>No Customers found without demands</value>
+  </data>
+  <data name="Message Center" xml:space="preserve">
+    <value>Message Center</value>
+  </data>
+  <data name="Router management" xml:space="preserve">
+    <value>Router management</value>
+  </data>
+  <data name="OfferPackages" xml:space="preserve">
+    <value>Offer Packages</value>
+  </data>
+  <data name="Packages" xml:space="preserve">
+    <value>Packages</value>
+  </data>
+  <data name="SelectedPackageIsNotInOffer" xml:space="preserve">
+    <value>Selected package is NOT in offer</value>
+  </data>
+  <data name="CreateDemands" xml:space="preserve">
+    <value>Create Demands</value>
+  </data>
+  <data name="PayDemand" xml:space="preserve">
+    <value>Pay Demand</value>
+  </data>
+  <data name="AddNextDemand" xml:space="preserve">
+    <value>Add next month demand</value>
+  </data>
+  <data name="CustomerShouldConvertToActive" xml:space="preserve">
+    <value>Customer should convert to 'Active' status</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="DontApplyDiscountForDemand" xml:space="preserve">
+    <value>Don't apply discount for demand</value>
+  </data>
+  <data name="ApplyDiscountForDemand" xml:space="preserve">
+    <value>Apply discount for demand</value>
+  </data>
+  <data name="LineOwner" xml:space="preserve">
+    <value>Contract name</value>
+  </data>
+  <data name="ResellersPayments" xml:space="preserve">
+    <value>Resellers Payments</value>
+  </data>
+  <data name="BranchesPayments" xml:space="preserve">
+    <value>Branches Payments</value>
+  </data>
+  <data name="Revenues" xml:space="preserve">
+    <value>Revenues</value>
+  </data>
+  <data name="CanSuspendOnDemandPage" xml:space="preserve">
+    <value>Suspend at demand page</value>
+  </data>
+  <data name="CantSuspend" xml:space="preserve">
+    <value>Can't Suspend</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="UnpaidBranchDemands" xml:space="preserve">
+    <value>Branch Invoice</value>
+  </data>
+  <data name="BranchPackagesDiscounts" xml:space="preserve">
+    <value>Branch Packages Discounts</value>
+  </data>
+  <data name="TotalResellerDiscount" xml:space="preserve">
+    <value>Total Reseller Discount</value>
+  </data>
+  <data name="TotalBranchDiscount" xml:space="preserve">
+    <value>Total Branch Discount</value>
+  </data>
+  <data name="DirectCustomer" xml:space="preserve">
+    <value>Direct Customer</value>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>Prepaid</value>
+  </data>
+  <data name="InstallationCost" xml:space="preserve">
+    <value>InstallationCost</value>
+  </data>
+  <data name="ContractingCost" xml:space="preserve">
+    <value>ContractingCost</value>
+  </data>
+  <data name="CannotDeleteReseller" xml:space="preserve">
+    <value>Can NOT delete reseller: {0} , Reseller has ({1}) workorder(s)</value>
+  </data>
+  <data name="CutomerNotes" xml:space="preserve">
+    <value>Employee Assignments</value>
+  </data>
+  <data name="SearchOrdersNotes" xml:space="preserve">
+    <value>Search Employee Assignments</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="CustomerNote" xml:space="preserve">
+    <value>Customer Note</value>
+  </data>
+  <data name="SavingError" xml:space="preserve">
+    <value>Saving Error</value>
+  </data>
+  <data name="Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="InstallSelected" xml:space="preserve">
+    <value>Install Selected</value>
+  </data>
+  <data name="UnInstalledCustomers" xml:space="preserve">
+    <value>Uninstalled Customers</value>
+  </data>
+  <data name="CustomerNotes" xml:space="preserve">
+    <value>Employee Assignments</value>
+  </data>
+  <data name="Installer" xml:space="preserve">
+    <value>Installer</value>
+  </data>
+  <data name="InstallationTime" xml:space="preserve">
+    <value>Installation Time</value>
+  </data>
+  <data name="InstalledCustomersReport" xml:space="preserve">
+    <value>Installed Customers Report</value>
+  </data>
+  <data name="BranchDailyReport" xml:space="preserve">
+    <value>Branch Daily Report</value>
+  </data>
+  <data name="MergeGorvoernorateCodeWithPhoneNumberWhileAddingNewCustomer" xml:space="preserve">
+    <value>Merge Gorvoernorate Code With Phone Number While Adding New Customer</value>
+  </data>
+  <data name="CancelGovernorateInCustomerSearch" xml:space="preserve">
+    <value>Cancel Governorate In Customer Search</value>
+  </data>
+  <data name="OffersEntry" xml:space="preserve">
+    <value>Offers entry</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="PleaseUploadImage" xml:space="preserve">
+    <value>Please Upload Image</value>
+  </data>
+  <data name="OnlyJpgBmp" xml:space="preserve">
+    <value>Only .jpg or .bmp</value>
+  </data>
+  <data name="BadFileExtension" xml:space="preserve">
+    <value>Bad File Extension</value>
+  </data>
+  <data name="LastOffersEntry" xml:space="preserve">
+    <value>Last Offers Entry</value>
+  </data>
+  <data name="CurrentOffers" xml:space="preserve">
+    <value>Current Offers</value>
+  </data>
+  <data name="UserIp" xml:space="preserve">
+    <value>User Ip</value>
+  </data>
+  <data name="DoesntMatch" xml:space="preserve">
+    <value>Doesn't Match</value>
+  </data>
+  <data name="BrowserIp" xml:space="preserve">
+    <value>Browser Ip</value>
+  </data>
+  <data name="Reciept" xml:space="preserve">
+    <value>Reciept</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="ResellerEvaluation" xml:space="preserve">
+    <value>Reseller Evaluation</value>
+  </data>
+  <data name="BranchEvaluation" xml:space="preserve">
+    <value>Branch Evaluation</value>
+  </data>
+  <data name="PrintDemands" xml:space="preserve">
+    <value>Print Demands</value>
+  </data>
+  <data name="SuspendDaysCountForSuspendPage" xml:space="preserve">
+    <value>Offer suspend days count for page suspended customers,Ex: 85</value>
+  </data>
+  <data name="SearchByGovPhone" xml:space="preserve">
+    <value>Search by governorate and phone number, Not only phone number</value>
+  </data>
+  <data name="NumberAttachements" xml:space="preserve">
+    <value>Public Attachements</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>Please attach file</value>
+  </data>
+  <data name="MonthB4MonthAfter" xml:space="preserve">
+    <value>Full month for old speed and full month for new speed</value>
+  </data>
+  <data name="Monthb4CurrentMonthRest" xml:space="preserve">
+    <value>Full month on for old speed and the rest of current month on new speed</value>
+  </data>
+  <data name="WithOut" xml:space="preserve">
+    <value>Without</value>
+  </data>
+  <data name="UserNameAlreadyExist" xml:space="preserve">
+    <value>User Name Already Exist</value>
+  </data>
+  <data name="CustomersInStatus" xml:space="preserve">
+    <value>Customers In Status</value>
+  </data>
+  <data name="InvoiceAfterReview" xml:space="preserve">
+    <value>Invoice After Review</value>
+  </data>
+  <data name="InvoiceBeforeReview" xml:space="preserve">
+    <value>Invoice Before Review</value>
+  </data>
+  <data name="ResellerAttachment" xml:space="preserve">
+    <value>Attachment Reseller Invoice</value>
+  </data>
+  <data name="ResellerDownloadInvoice" xml:space="preserve">
+    <value>Download Reseller Invoice</value>
+  </data>
+  <data name="ResellerAccounts" xml:space="preserve">
+    <value>Resellers Accounts</value>
+  </data>
+  <data name="Branch Accounts" xml:space="preserve">
+    <value>Branches Accounts</value>
+  </data>
+  <data name="MenuSimpleDetails" xml:space="preserve">
+    <value>Simple Details</value>
+  </data>
+  <data name="ServiceProviderstoPaymentRequest" xml:space="preserve">
+    <value>Service Providers to Payment Request</value>
+  </data>
+  <data name="Router" xml:space="preserve">
+    <value>Router</value>
+  </data>
+  <data name="DemandReciept" xml:space="preserve">
+    <value>Demand Reciept</value>
+  </data>
+  <data name="HalfReciept" xml:space="preserve">
+    <value>1/2</value>
+  </data>
+  <data name="Reciept2" xml:space="preserve">
+    <value>Reciept</value>
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="AlreadyExist" xml:space="preserve">
+    <value>Already Exist</value>
+  </data>
+  <data name="BoxCredit" xml:space="preserve">
+    <value>Box Credit</value>
+  </data>
+  <data name="Block" xml:space="preserve">
+    <value>Block Number</value>
+  </data>
+  <data name="Dslam" xml:space="preserve">
+    <value>Dslam Number</value>
+  </data>
+  <data name="PortNumber" xml:space="preserve">
+    <value>Port Number</value>
+  </data>
+  <data name="WorkorderDate" xml:space="preserve">
+    <value>Workorder Date</value>
+  </data>
+  <data name="WorkorderNumber" xml:space="preserve">
+    <value>Workorder Number</value>
+  </data>
+  <data name="Depositor" xml:space="preserve">
+    <value>Depositor</value>
+  </data>
+  <data name="RechargeAccountReseller" xml:space="preserve">
+    <value>Recharge Reseller Request</value>
+  </data>
+  <data name="HandelRechargeRequestes" xml:space="preserve">
+    <value>Pending Reseller Recharge Requestes</value>
+  </data>
+  <data name="TransferFrom" xml:space="preserve">
+    <value>Transfer From</value>
+  </data>
+  <data name="TransfersFromBoxes" xml:space="preserve">
+    <value>Transfers From Boxes</value>
+  </data>
+  <data name="TransferTo" xml:space="preserve">
+    <value>Transfer To</value>
+  </data>
+  <data name="BoxBs" xml:space="preserve">
+    <value>Box Balance Sheet</value>
+  </data>
+  <data name="ResellerVoiceCredit" xml:space="preserve">
+    <value>Reseller Voice Credit</value>
+  </data>
+  <data name="RechargeCustomer" xml:space="preserve">
+    <value>Reseller Invoice Request</value>
+  </data>
+  <data name="HandelCustomerRecharge" xml:space="preserve">
+    <value>Handel Reseller Invoice Request</value>
+  </data>
+  <data name="Voice Accounts" xml:space="preserve">
+    <value>Voice Requests Management </value>
+  </data>
+  <data name="UpdatedResellerBS" xml:space="preserve">
+    <value>Portal Reseller Balance Sheet</value>
+  </data>
+  <data name="AfterReview" xml:space="preserve">
+    <value>After Review</value>
+  </data>
+  <data name="BeforReview" xml:space="preserve">
+    <value>Befor Review</value>
+  </data>
+  <data name="TotalAfterReview" xml:space="preserve">
+    <value>Total After Review</value>
+  </data>
+  <data name="TotalBeforeReview" xml:space="preserve">
+    <value>Total Before Review</value>
+  </data>
+  <data name="MonthYearInvoice" xml:space="preserve">
+    <value>Month and Year Of Invoice</value>
+  </data>
+  <data name="AmountBeforeReview" xml:space="preserve">
+    <value>Amount Before Review</value>
+  </data>
+  <data name="AmountAfterReview" xml:space="preserve">
+    <value>Amount After Review</value>
+  </data>
+  <data name="ArrangeInvoices" xml:space="preserve">
+    <value>Arrange Invoices</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="RechargeBranch" xml:space="preserve">
+    <value>Branch Invoice Request</value>
+  </data>
+  <data name="ChangeBranch" xml:space="preserve">
+    <value>Change Branch</value>
+  </data>
+  <data name="BranchVoiceCredit" xml:space="preserve">
+    <value>Branch Voice Credit</value>
+  </data>
+  <data name="HandelBrancheRecharge" xml:space="preserve">
+    <value>Handel Branche Voice Requests</value>
+  </data>
+  <data name="ResellerVoiceBS" xml:space="preserve">
+    <value>Reseller Voice Balance Sheet</value>
+  </data>
+  <data name="BranchVoiceBS" xml:space="preserve">
+    <value>Branch Voice Balance Sheet</value>
+  </data>
+  <data name="DiscoundFromBranchCredit" xml:space="preserve">
+    <value>Discound from Branch Credit in the case of payment Customer Invoices page CustomerDemands</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Invoice Number</value>
+  </data>
+  <data name="SearchAboutResellerInvoice" xml:space="preserve">
+    <value>Search About Reseller Invoice</value>
+  </data>
+  <data name="PendingRequest" xml:space="preserve">
+    <value>Pending Request</value>
+  </data>
+  <data name="SearchAboutBranchInvoice" xml:space="preserve">
+    <value>Search About Branch Invoice</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="FirendlyLinks" xml:space="preserve">
+    <value>ImportantLinks</value>
+  </data>
+  <data name="Boxname" xml:space="preserve">
+    <value>Box Name</value>
+  </data>
+  <data name="RecevingRequestesDuration" xml:space="preserve">
+    <value>Duration Of Receving Requestes</value>
+  </data>
+  <data name="RequestDurationFinished" xml:space="preserve">
+    <value>period of Receving Requestes Finished</value>
+  </data>
+  <data name="ShowinRechargeResellerRequest" xml:space="preserve">
+    <value>Show in Recharge Reseller Request</value>
+  </data>
+  <data name="DebtsOfPaidInvoicesCustomers" xml:space="preserve">
+    <value>Debts Of Paid Invoices Customers</value>
+  </data>
+  <data name="TimeDifference" xml:space="preserve">
+    <value>The time difference between Egypt and the server</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="DirectingBalanceTo" xml:space="preserve">
+    <value>Directing Balance To</value>
+  </data>
+  <data name="AvailableCredit" xml:space="preserve">
+    <value>Credit avaliable  for work Requests</value>
+  </data>
+  <data name="TextInRechargeAccount" xml:space="preserve">
+    <value>Text In Recharge Account Page</value>
+  </data>
+  <data name="DiscoundFromBranchAndReseller" xml:space="preserve">
+    <value>Check and Discound from Reseller Credit and Branch's Reseller in Reseller Payment Request </value>
+  </data>
+  <data name="showinResellerppr" xml:space="preserve">
+    <value>Show in Reseller Pending Payment Requests</value>
+  </data>
+  <data name="DiscoundFromBox" xml:space="preserve">
+    <value>Discound Amount from Box Credit</value>
+  </data>
+  <data name="DiscoundFromReseller" xml:space="preserve">
+    <value>Discound Amount from Reseller Credit</value>
+  </data>
+  <data name="Boxs" xml:space="preserve">
+    <value>Boxes</value>
+  </data>
+  <data name="NumUnpaidDemaind" xml:space="preserve">
+    <value>Unpaid Demand</value>
+  </data>
+  <data name="Bestbrowser" xml:space="preserve">
+    <value>To browse the system better .. Please use the Chrome browser</value>
+  </data>
+  <data name="RequestPaymentInvoice" xml:space="preserve">
+    <value>Requests for payment of invoices (voice)</value>
+  </data>
+  <data name="ResellerPaymenttoPaymentRequest" xml:space="preserve">
+    <value>Reseller Payment To Payment Request</value>
+  </data>
+  <data name="BranchPaymenttoPaymentRequest" xml:space="preserve">
+    <value>Branch Payment To Payment Request</value>
+  </data>
+  <data name="AddToResellerBalanceSheet" xml:space="preserve">
+    <value>Payments To Reseller Balance Sheet</value>
+  </data>
+  <data name="ServiceDetails" xml:space="preserve">
+    <value>Service Details</value>
+  </data>
+  <data name="CentralDetails" xml:space="preserve">
+    <value>Central Details</value>
+  </data>
+  <data name="MovementTreasury" xml:space="preserve">
+    <value>Branchs Save Movement</value>
+  </data>
+  <data name="OldCredit" xml:space="preserve">
+    <value>Old Credit</value>
+  </data>
+  <data name="UploadFileToNewCustomer" xml:space="preserve">
+    <value>Upload File To New Customer</value>
+  </data>
+  <data name="AccountIsStopped" xml:space="preserve">
+    <value>Account Is Stopped</value>
+  </data>
+  <data name="CurrentCredit" xml:space="preserve">
+    <value>Current Credit</value>
+  </data>
+  <data name="ConfirmWithLiquidation" xml:space="preserve">
+    <value>Confirm With Liquidation</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Change Language</value>
+  </data>
+  <data name="RequestReimbursementPayment" xml:space="preserve">
+    <value>Requests of Reimbursement Payments</value>
+  </data>
+  <data name="AllPayments" xml:space="preserve">
+    <value>All Payments</value>
+  </data>
+  <data name="RechargeAccountBranch" xml:space="preserve">
+    <value>Recharge Branch Request</value>
+  </data>
+  <data name="HandelRechargeBranch" xml:space="preserve">
+    <value>Pending Branch Recharge Requests</value>
+  </data>
+  <data name="UpdatedRBSPrivilages" xml:space="preserve">
+    <value>Privilages Of Portal Reseller Balance Sheet</value>
+  </data>
+  <data name="Downloadsample" xml:space="preserve">
+    <value>Dowload sample from here</value>
+  </data>
+  <data name="Expensesout" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="FoundedInvoices" xml:space="preserve">
+    <value>Founded Invoices</value>
+  </data>
+  <data name="ExportNotFoundedInvoices" xml:space="preserve">
+    <value>Export Not Founded Invoices</value>
+  </data>
+  <data name="CreditFrom" xml:space="preserve">
+    <value>Choose the Credit of</value>
+  </data>
+  <data name="Allowminuscredit" xml:space="preserve">
+    <value>Allow Minus Credit for reseller payment requests and branch payment requests credits</value>
+  </data>
+  <data name="DeleteCustomer" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="CollactionCenterManagement" xml:space="preserve">
+    <value>Collaction Center Management</value>
+  </data>
+  <data name="CenterPaymentCredit" xml:space="preserve">
+    <value>Collection Center Payment Credit</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Collection Center</value>
+  </data>
+  <data name="CenterDemands" xml:space="preserve">
+    <value>Center Demands</value>
+  </data>
+  <data name="SendsmsMessage" xml:space="preserve">
+    <value>Send SMS</value>
+  </data>
+  <data name="SMSCnfg" xml:space="preserve">
+    <value>SMS Config</value>
+  </data>
+  <data name="ProcessDone" xml:space="preserve">
+    <value>Data Added Successfully</value>
+  </data>
+  <data name="MenuCustomerHold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="AddResellerBS" xml:space="preserve">
+    <value>Add Reseller Balance Sheet</value>
+  </data>
+  <data name="AddResellerPayments" xml:space="preserve">
+    <value>Add Reseller Payments</value>
+  </data>
+  <data name="NotificationOfCustomersAndInvoices" xml:space="preserve">
+    <value>Notification Customers and Invoices</value>
+  </data>
+  <data name="ServiceProviderstoInvoicePaymentRequest" xml:space="preserve">
+    <value>Service Providers to Invoice Payment Request</value>
+  </data>
+  <data name="ShowStatistic" xml:space="preserve">
+    <value>Show Statistic in Home Page</value>
+  </data>
+  <data name="24MonthPathed" xml:space="preserve">
+    <value>Over 24 Month From Activation Date</value>
+  </data>
+  <data name="InvoiceDueDate" xml:space="preserve">
+    <value>The Invoice Due Date</value>
+  </data>
+  <data name="SentMail" xml:space="preserve">
+    <value>Sent Mail</value>
+  </data>
+  <data name="IncomeTypes" xml:space="preserve">
+    <value>Other Income Types</value>
+  </data>
+  <data name="IncomesReports" xml:space="preserve">
+    <value>Incoming Reports</value>
+  </data>
+  <data name="OutgoingReport" xml:space="preserve">
+    <value>Outgoing Report</value>
+  </data>
+  <data name="anotherCustomersPayments" xml:space="preserve">
+    <value>Payment to Customers from outside the system</value>
+  </data>
+  <data name="invoiceAmount" xml:space="preserve">
+    <value>Invoice Amount</value>
+  </data>
+  <data name="BoxAmount" xml:space="preserve">
+    <value>Amount discounted from the box</value>
+  </data>
+  <data name="SearchOutdoorsPayment" xml:space="preserve">
+    <value>Search for a Customer paying Outdoor</value>
+  </data>
+  <data name="ServiceFees" xml:space="preserve">
+    <value>Service Fees</value>
+  </data>
+  <data name="CommissionResellerOrBranch" xml:space="preserve">
+    <value>Commission of Reseller Or Branch</value>
+  </data>
+  <data name="AddCompany" xml:space="preserve">
+    <value>Voice Company</value>
+  </data>
+  <data name="canUpgrade/Downgrade" xml:space="preserve">
+    <value>Can Upgrade/Downgrade</value>
+  </data>
+  <data name="CantUpgradeDowngrade" xml:space="preserve">
+    <value>Can't Upgrade/Downgrade</value>
+  </data>
+  <data name="FirstDateForOffer" xml:space="preserve">
+    <value>First Date For Offer</value>
+  </data>
+  <data name="RechargeResellerReport" xml:space="preserve">
+    <value>Report Recharge Reseller</value>
+  </data>
+  <data name="ResellerAccountManager" xml:space="preserve">
+    <value>Account Manager</value>
+  </data>
+  <data name="CreatInvoices" xml:space="preserve">
+    <value>Export Invoices To all Resellers</value>
+  </data>
+  <data name="SelectServiceProvider" xml:space="preserve">
+    <value>Please, Select Service Provider</value>
+  </data>
+  <data name="selectedInvoice" xml:space="preserve">
+    <value>Total Of Selected Invoices</value>
+  </data>
+  <data name="Resellerhavenotdata" xml:space="preserve">
+    <value>Reseller have not Invoices</value>
+  </data>
+  <data name="PreferedLang" xml:space="preserve">
+    <value>Prefered Language</value>
+  </data>
+  <data name="DownloadAttachment1" xml:space="preserve">
+    <value>Download First Files</value>
+  </data>
+  <data name="DownloadAttachment2" xml:space="preserve">
+    <value>Download Secound Files</value>
+  </data>
+  <data name="DownloadAttachment3" xml:space="preserve">
+    <value>Download Third Files</value>
+  </data>
+  <data name="TestOnlineUsers" xml:space="preserve">
+    <value>Online Users</value>
+  </data>
+  <data name="NoWorkorders" xml:space="preserve">
+    <value>No Customers in Attached File</value>
+  </data>
+  <data name="AddCustomersManual" xml:space="preserve">
+    <value>Add Customers Manually</value>
+  </data>
+  <data name="NewRouterManagement" xml:space="preserve">
+    <value>Renewed Router Management</value>
+  </data>
+  <data name="AddStore" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="SendRouters" xml:space="preserve">
+    <value>Send Routers</value>
+  </data>
+  <data name="RecieveFromCompany" xml:space="preserve">
+    <value>Recieve From Comapny</value>
+  </data>
+  <data name="RecieveToCustomer" xml:space="preserve">
+    <value>Recieve To Customer</value>
+  </data>
+  <data name="CompanyConfirmerUser" xml:space="preserve">
+    <value>Received from Company</value>
+  </data>
+  <data name="CustomerConfirmerUser" xml:space="preserve">
+    <value>send To customer</value>
+  </data>
+  <data name="CompanyProcessDate" xml:space="preserve">
+    <value>Company Date</value>
+  </data>
+  <data name="CustomerProcessDate" xml:space="preserve">
+    <value>Customer Date</value>
+  </data>
+  <data name="RoutersnotReceived" xml:space="preserve">
+    <value>Routers Not Delivered</value>
+  </data>
+  <data name="TransformBranchReport" xml:space="preserve">
+    <value>Transform to Treasury Report</value>
+  </data>
+  <data name="checkIntallationDiscound" xml:space="preserve">
+    <value>
+      Discound month Invoice from Reseller Credit on install customer</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="BalancebeginingPeriod" xml:space="preserve">
+    <value>Balance, beginning of period</value>
+  </data>
+  <data name="BalanceEndPeriod" xml:space="preserve">
+    <value>Balance, end of period</value>
+  </data>
+  <data name="RoutersSearch" xml:space="preserve">
+    <value>Search About Router</value>
+  </data>
+  <data name="CustomerReportRouter" xml:space="preserve">
+    <value>Customer Report Routers</value>
+  </data>
+  <data name="CustomerReceivedFromCompany1" xml:space="preserve">
+    <value>Received Customers routers from the company</value>
+  </data>
+  <data name="CustomerNotReceived" xml:space="preserve">
+    <value>Customers received router</value>
+  </data>
+  <data name="CustomerReceived" xml:space="preserve">
+    <value>Customers have been received Router</value>
+  </data>
+  <data name="privilegofManageRequest" xml:space="preserve">
+    <value>Privilege of Manage Requests</value>
+  </data>
+  <data name="DirectUsersOnly" xml:space="preserve">
+    <value>Direct Users</value>
+  </data>
+  <data name="UnpaidDemandDaysCountOption" xml:space="preserve">
+    <value>Options for dealing with clients unpaid demands in the case of the number of days</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Alert message on Email</value>
+  </data>
+  <data name="SuspendRequest" xml:space="preserve">
+    <value>Send Suspend Request</value>
+  </data>
+  <data name="AddToCustomerNotes" xml:space="preserve">
+    <value>Add To Employee Assignments</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Saves</value>
+  </data>
+  <data name="UsersSaveMovments" xml:space="preserve">
+    <value>Saves Users Movements</value>
+  </data>
+  <data name="TransfaresFromSaves" xml:space="preserve">
+    <value>Transfers From Saves</value>
+  </data>
+  <data name="AdminSavesMovements" xml:space="preserve">
+    <value>Saves Movements</value>
+  </data>
+  <data name="filterTostartMonth" xml:space="preserve">
+    <value>filter to the start of Month</value>
+  </data>
+  <data name="ChooseSkin" xml:space="preserve">
+    <value>Choose Skin</value>
+  </data>
+  <data name="insidecontainer" xml:space="preserve">
+    <value>Inside Container</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="demands" xml:space="preserve">
+    <value>Demands</value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="littersLimit" xml:space="preserve">
+    <value>Maximum 160 characters </value>
+  </data>
+  <data name="ClearAllResellercredits" xml:space="preserve">
+    <value>All Resellers Payment Credit Zero</value>
+  </data>
+  <data name="ClearAllBranchcredits" xml:space="preserve">
+    <value>All Branches Payment Credit Zero</value>
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="CustomersNotComplete" xml:space="preserve">
+    <value>Customers are not added to the non-completion of their data</value>
+  </data>
+  <data name="ToSuspendShouldbeActive" xml:space="preserve">
+    <value>you can not do suspend, but work for activeited customer</value>
+  </data>
+  <data name="ToUpgradeDowngradShouldbeActive" xml:space="preserve">
+    <value>you can not do up/down grade, but work for activeited customer</value>
+  </data>
+  <data name="ToHoldShouldbeActive" xml:space="preserve">
+    <value>you can not do Hold, but work for activeited customer</value>
+  </data>
+  <data name="ToAddGigaShouldbeActive" xml:space="preserve">
+    <value>you can not do Extra Giga, but work for activeited customer </value>
+  </data>
+  <data name="ToaddIPShouldbeActive" xml:space="preserve">
+    <value>you can not do Change IP Package, but work for activeited customer </value>
+  </data>
+  <data name="ChangeOfferRequest" xml:space="preserve">
+    <value>Change Offer</value>
+  </data>
+  <data name="ManageOfferRequest" xml:space="preserve">
+    <value>Requests of Change Offer</value>
+  </data>
+  <data name="SendMessageOrNot" xml:space="preserve">
+    <value>Send a message after the completion of operations</value>
+  </data>
+  <data name="CurrentOffer" xml:space="preserve">
+    <value>Current Offer</value>
+  </data>
+  <data name="NewOffer" xml:space="preserve">
+    <value>New Offer</value>
+  </data>
+  <data name="DaysCountofLiqudation" xml:space="preserve">
+    <value>Days Count of Discound</value>
+  </data>
+  <data name="SendManySms" xml:space="preserve">
+    <value>SMS to Customers</value>
+  </data>
+  <data name="CompareTEdataInvoice" xml:space="preserve">
+    <value>Compare TEData Invoice</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="CallMessages" xml:space="preserve">
+    <value>Call Messages</value>
+  </data>
+  <data name="CallText" xml:space="preserve">
+    <value>Call Text</value>
+  </data>
+  <data name="ParamterOfSearch" xml:space="preserve">
+    <value>Search Guide</value>
+  </data>
+  <data name="ResellerRecieptFormat" xml:space="preserve">
+    <value>Reseller Reciept Format.aspx</value>
+  </data>
+  <data name="PayingCustomers" xml:space="preserve">
+    <value>Paying of Customers Reseller</value>
+  </data>
+  <data name="PayingCustomersReport" xml:space="preserve">
+    <value>Paying Customers Report</value>
+  </data>
+  <data name="PrivateCustomersReseller" xml:space="preserve">
+    <value>Private Reseller's Customers</value>
+  </data>
+  <data name="StatisticsofRequests" xml:space="preserve">
+    <value>Statistics of Requests</value>
+  </data>
+  <data name="StatisticsofCustomers" xml:space="preserve">
+    <value>Statistics of Customers</value>
+  </data>
+  <data name="CountersinMenu" xml:space="preserve">
+    <value>Show Numbers in Main Menu</value>
+  </data>
+  <data name="ManageResellerRequest" xml:space="preserve">
+    <value>Approve / Reject Reseller's Requests</value>
+  </data>
+  <data name="ManagrBrancheRequest" xml:space="preserve">
+    <value>Approve / Reject Branch's Requests</value>
+  </data>
+  <data name="UpdateDemandthisMonth" xml:space="preserve">
+    <value>Update Demands to this Month</value>
+  </data>
+  <data name="UpdateDemandBefore" xml:space="preserve">
+    <value> Update Demand before ({0}) </value>
+  </data>
+  <data name="ShowCount" xml:space="preserve">
+    <value>Show count of customers only</value>
+  </data>
+  <data name="SendSmsbyDay" xml:space="preserve">
+    <value>Message Demands</value>
+  </data>
+  <data name="ShowRequestsInSearch" xml:space="preserve">
+    <value>Reseller can cancel his customer request through search page</value>
+  </data>
+  <data name="newRequestDate" xml:space="preserve">
+    <value>New Request Date</value>
+  </data>
+  <data name="oldRequestDate" xml:space="preserve">
+    <value>Old Request Date</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="Itemes" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="SellPrice" xml:space="preserve">
+    <value>Selling price</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="StoreInventory" xml:space="preserve">
+    <value>Store Inventory</value>
+  </data>
+  <data name="SupplierAccount" xml:space="preserve">
+    <value>Supplier Account</value>
+  </data>
+  <data name="UserSaves" xml:space="preserve">
+    <value>Saves Of User</value>
+  </data>
+  <data name="AddRequestPayment" xml:space="preserve">
+    <value>Add Request Payment</value>
+  </data>
+  <data name="AddToBranchBalanceSheet" xml:space="preserve">
+    <value>Add To Branch Balance Sheet</value>
+  </data>
+  <data name="ShowinCustomerDemand" xml:space="preserve">
+    <value>Show in Customer Demands</value>
+  </data>
+  <data name="StatisticsInHome" xml:space="preserve">
+    <value>Statistics in home</value>
+  </data>
+  <data name="AddResellerInvoice" xml:space="preserve">
+    <value>Handel Reseller Balance Sheet Manaually</value>
+  </data>
+  <data name="AddBranchInvoice" xml:space="preserve">
+    <value>Handel Branch Balance Sheet Manaually</value>
+  </data>
+  <data name="CustomerDemandRequests" xml:space="preserve">
+    <value>Requests From Customer Invoice</value>
+  </data>
+  <data name="AutoSuspend" xml:space="preserve">
+    <value>Auto Suspend</value>
+  </data>
+  <data name="ManageResellerRequests" xml:space="preserve">
+    <value>New Resellers Requests</value>
+  </data>
+  <data name="EnglishCompanyName" xml:space="preserve">
+    <value>English Name of Company</value>
+  </data>
+  <data name="CompanyType" xml:space="preserve">
+    <value>Company Type</value>
+  </data>
+  <data name="EmployeeNumbers" xml:space="preserve">
+    <value>Employee Numbers</value>
+  </data>
+  <data name="CompanyActivites" xml:space="preserve">
+    <value>Company Activities</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>Company Email</value>
+  </data>
+  <data name="CompanyMobile" xml:space="preserve">
+    <value>Company Mobile</value>
+  </data>
+  <data name="BranchesInvoices" xml:space="preserve">
+    <value>Export Branches Invoices</value>
+  </data>
+  <data name="ImvoiceBS" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="CreditBS" xml:space="preserve">
+    <value>Credit </value>
+  </data>
+  <data name="DepitBS" xml:space="preserve">
+    <value>Depit</value>
+  </data>
+  <data name="UpdateCustomerManaul" xml:space="preserve">
+    <value>Update Customers Manaually</value>
+  </data>
+  <data name="CustomersNotUpdated" xml:space="preserve">
+    <value>CustomersNotUpdated</value>
+  </data>
+  <data name="ResellerandBranch" xml:space="preserve">
+    <value>Reseller / Branch</value>
+  </data>
+  <data name="TotalInPeriod" xml:space="preserve">
+    <value>Total in Peroid</value>
+  </data>
+  <data name="ConvertToNewEmployee" xml:space="preserve">
+    <value>Convert to New Employee</value>
+  </data>
+  <data name="TicketsReport" xml:space="preserve">
+    <value>Tickets Report</value>
+  </data>
+  <data name="NewResellerRequest" xml:space="preserve">
+    <value>New Reseller Request</value>
+  </data>
+  <data name="CompanyData" xml:space="preserve">
+    <value>Company Data</value>
+  </data>
+  <data name="CompanyNameArabic" xml:space="preserve">
+    <value>Arabic Name of Comapny</value>
+  </data>
+  <data name="ResellerData" xml:space="preserve">
+    <value>Reseller Data</value>
+  </data>
+  <data name="arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="RequriedDatainResellerRequest" xml:space="preserve">
+    <value>Required Data to add new Account on System</value>
+  </data>
+  <data name="languageRequired" xml:space="preserve">
+    <value> Choose Language (Required)</value>
+  </data>
+  <data name="office" xml:space="preserve">
+    <value>office</value>
+  </data>
+  <data name="market" xml:space="preserve">
+    <value>market</value>
+  </data>
+  <data name="UnRead" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="SuspendReport" xml:space="preserve">
+    <value>Suspend days Report</value>
+  </data>
+  <data name="FilterToAHalfMonth" xml:space="preserve">
+    <value>Filter to a half month</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>Something Went Wrong</value>
+  </data>
+  <data name="MeanwhileError" xml:space="preserve">
+    <value>Meanwhile, try the following:</value>
+  </data>
+  <data name="Contacttechnicalsupport" xml:space="preserve">
+    <value>Contact technical support</value>
+  </data>
+  <data name="exactInformation" xml:space="preserve">
+    <value>Give us more info on how this specific error occurred!</value>
+  </data>
+  <data name="ActivatCustomerPhoneNumbersValidation" xml:space="preserve">
+    <value>Activate Validation on numbers of Customer phone in Page Add New Customer</value>
+  </data>
+  <data name="ChangeEventName" xml:space="preserve">
+    <value>Change event name </value>
+  </data>
+  <data name="CustomerInvoice" xml:space="preserve">
+    <value>Customer Invoice Details</value>
+  </data>
+  <data name="ShowAlldemandOfPaymentRequest" xml:space="preserve">
+    <value>Show all demands of Reseller/Branch Payment Request</value>
+  </data>
+  <data name="SupplierName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="UserIsStoped" xml:space="preserve">
+    <value>this Account was Stopped by Admin</value>
+  </data>
+  <data name="UserNotFounded" xml:space="preserve">
+    <value>this Account Not Founded</value>
+  </data>
+  <data name="PassWordError" xml:space="preserve">
+    <value>Password Error</value>
+  </data>
+  <data name="PPR" xml:space="preserve">
+    <value>Pending Payment Request </value>
+  </data>
+  <data name="ResellersTransformation" xml:space="preserve">
+    <value>Reselle Account Transformation</value>
+  </data>
+  <data name="HandelResellersTransfers" xml:space="preserve">
+    <value>Reseller Transformation Requests</value>
+  </data>
+  <data name="ResellersTransformationReport" xml:space="preserve">
+    <value>Resellers Transformation Report</value>
+  </data>
+  <data name="OneBox" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="Menusaves" xml:space="preserve">
+    <value>Saves Branches-Users</value>
+  </data>
+  <data name="MenuBoxes" xml:space="preserve">
+    <value>Boxes and Slides</value>
+  </data>
+  <data name="ChooseReseller" xml:space="preserve">
+    <value>Choose Reseller</value>
+  </data>
+  <data name="ExportandFinishInvoice" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="sav" xml:space="preserve">
+    <value>Saves</value>
+  </data>
+  <data name="CustomerFile" xml:space="preserve">
+    <value>Customer Files</value>
+  </data>
+  <data name="AddReouter" xml:space="preserve">
+    <value>Add Router</value>
+  </data>
+  <data name="RouterType" xml:space="preserve">
+    <value>Router Type</value>
+  </data>
+  <data name="AddCredit" xml:space="preserve">
+    <value>Add and Discount Credit</value>
+  </data>
+  <data name="PaymentInBalanceSheet" xml:space="preserve">
+    <value>Payment and Discount in Balance Sheet </value>
+  </data>
+  <data name="Prepay" xml:space="preserve">
+    <value>PrePay</value>
+  </data>
+  <data name="PrepayReceipt" xml:space="preserve">
+    <value>Prepay Receipt</value>
+  </data>
+  <data name="EmailMessages" xml:space="preserve">
+    <value>Personal Mail</value>
+  </data>
+  <data name="PersonalEmailCnfg" xml:space="preserve">
+    <value>Personal Email Configuration</value>
+  </data>
+  <data name="SendPort" xml:space="preserve">
+    <value>Sending Port</value>
+  </data>
+  <data name="ItemMove" xml:space="preserve">
+    <value>Item Move</value>
+  </data>
+  <data name="grafnew" xml:space="preserve">
+    <value>Graph to Show Customers Status</value>
+  </data>
+  <data name="graphnew2" xml:space="preserve">
+    <value>Graph to show Customers Status Now</value>
+  </data>
+  <data name="ActivateFawry" xml:space="preserve">
+    <value>Activate Fawry Service</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Filesdeleted" xml:space="preserve">
+    <value>Files Has been Deleted From The Server</value>
+  </data>
+  <data name="HandelRecharge" xml:space="preserve">
+    <value>Recharge Requests </value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>More...</value>
+  </data>
+  <data name="hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="firstamount" xml:space="preserve">
+    <value>First Time Amount</value>
+  </data>
+  <data name="SPforResellerAcoount" xml:space="preserve">
+    <value>Services Providers for Showing at  Accounts Credits</value>
+  </data>
+  <data name="currentpill" xml:space="preserve">
+    <value>Current Month Invoice</value>
+  </data>
+  <data name="reciverouters" xml:space="preserve">
+    <value>Recive Routers From Company</value>
+  </data>
+  <data name="sign" xml:space="preserve">
+    <value>signature</value>
+  </data>
+  <data name="payhistory" xml:space="preserve">
+    <value>Date of prepayment</value>
+  </data>
+  <data name="cuscredit" xml:space="preserve">
+    <value>Customers Credits</value>
+  </data>
+  <data name="billsearch" xml:space="preserve">
+    <value>Bill search</value>
+  </data>
+  <data name="mycalendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="htmldir" xml:space="preserve">
+    <value>ltr</value>
+  </data>
+  <data name="updatedemandnextmonth" xml:space="preserve">
+    <value>Update Demands to this Month</value>
+  </data>
+  <data name="isprorequest" xml:space="preserve">
+    <value>Is Requested from SP</value>
+  </data>
+  <data name="UserUpdatedSuccess" xml:space="preserve">
+    <value>User Updated Successfully</value>
+  </data>
+  <data name="susandcancoutage" xml:space="preserve">
+    <value>Outage cost and Fawry Demonds</value>
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Transfers between Saves and Boxes</value>
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Customer Account</value>
+  </data>
+  <data name="MenulimitUnsuspend" xml:space="preserve">
+    <value>Temporarily Unsuspend Request</value>
+  </data>
+  <data name="uploadimgerror" xml:space="preserve">
+    <value>Please choose image or Pdf or Word or Excel with jpeg ,png ,jpg ,gif ,pdf ,doc ,docx ,xls or xlsx extension</value>
+  </data>
+  <data name="LastOffers" xml:space="preserve">
+    <value>Current Offers</value>
+  </data>
+  <data name="uploadfilexcelerror" xml:space="preserve">
+    <value>Only .xls or .xlsx files</value>
+  </data>
+  <data name="AddDisCard" xml:space="preserve">
+    <value>Add Discount Cards</value>
+  </data>
+  <data name="AvilableCards" xml:space="preserve">
+    <value>Available Cards</value>
+  </data>
+  <data name="DisType" xml:space="preserve">
+    <value>discount type cards</value>
+  </data>
+  <data name="DisCard" xml:space="preserve">
+    <value>Discount Cards</value>
+  </data>
+  <data name="addtype" xml:space="preserve">
+    <value>Add Type</value>
+  </data>
+  <data name="Cardnum" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="distypename" xml:space="preserve">
+    <value>Type Name</value>
+  </data>
+  <data name="use" xml:space="preserve">
+    <value>Use Card</value>
+  </data>
+  <data name="portaldemonds" xml:space="preserve">
+    <value>Portal Reseller Invoices</value>
+  </data>
+  <data name="ClientMovement" xml:space="preserve">
+    <value>Client Movement</value>
+  </data>
+  <data name="SupplierMovement" xml:space="preserve">
+    <value>Supplier Movement</value>
+  </data>
+  <data name="CustomerAccountStatement" xml:space="preserve">
+    <value>Customer Account Statement</value>
+  </data>
+  <data name="SupplierAccountStatement" xml:space="preserve">
+    <value>Supplier Account Statement</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="ErrorinStoreName" xml:space="preserve">
+    <value>Router Serial for Store that not exist</value>
+  </data>
+  <data name="SerialrouterError" xml:space="preserve">
+    <value>Router Serial already exist</value>
+  </data>
+  <data name="addFromExcel" xml:space="preserve">
+    <value>Add From Excel</value>
+  </data>
+  <data name="addemp" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="appc" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="appcdata" xml:space="preserve">
+    <value>absence Data</value>
+  </data>
+  <data name="attend" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="birthcir" xml:space="preserve">
+    <value>Birth certificate</value>
+  </data>
+  <data name="dayapp" xml:space="preserve">
+    <value>1 day absence</value>
+  </data>
+  <data name="Debitsdata" xml:space="preserve">
+    <value>Employee Debits Data</value>
+  </data>
+  <data name="empdata" xml:space="preserve">
+    <value>Employee Data</value>
+  </data>
+  <data name="empDebits" xml:space="preserve">
+    <value>Employee Debits</value>
+  </data>
+  <data name="empdis" xml:space="preserve">
+    <value>Discounts</value>
+  </data>
+  <data name="Employeenum" xml:space="preserve">
+    <value>Employee Number</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="emprew" xml:space="preserve">
+    <value>rewards</value>
+  </data>
+  <data name="empreward" xml:space="preserve">
+    <value>Rewards &amp; Discounts</value>
+  </data>
+  <data name="empsettings" xml:space="preserve">
+    <value>Employee Settings</value>
+  </data>
+  <data name="Emptranv" xml:space="preserve">
+    <value>Combinations and Travel</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="hiredate" xml:space="preserve">
+    <value>Hiring Date</value>
+  </data>
+  <data name="hr" xml:space="preserve">
+    <value>HR Management</value>
+  </data>
+  <data name="ins" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="late" xml:space="preserve">
+    <value>Latency</value>
+  </data>
+  <data name="maxdis" xml:space="preserve">
+    <value>Max Discount </value>
+  </data>
+  <data name="militrycir" xml:space="preserve">
+    <value>Military service certificate</value>
+  </data>
+  <data name="over" xml:space="preserve">
+    <value>Over Time</value>
+  </data>
+  <data name="perday" xml:space="preserve">
+    <value>Per day</value>
+  </data>
+  <data name="perhour" xml:space="preserve">
+    <value>Per Hour</value>
+  </data>
+  <data name="perpound" xml:space="preserve">
+    <value>Per Pound </value>
+  </data>
+  <data name="quali" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="qualicir" xml:space="preserve">
+    <value>Qualification certificate</value>
+  </data>
+  <data name="qualidate" xml:space="preserve">
+    <value>Qualification date</value>
+  </data>
+  <data name="returnn" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="sal" xml:space="preserve">
+    <value>Salaries</value>
+  </data>
+  <data name="sala" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="saladata" xml:space="preserve">
+    <value>Salary Data</value>
+  </data>
+  <data name="salrep" xml:space="preserve">
+    <value>Salary Report</value>
+  </data>
+  <data name="spe" xml:space="preserve">
+    <value>Specialization</value>
+  </data>
+  <data name="trav" xml:space="preserve">
+    <value>Travel</value>
+  </data>
+  <data name="travdata" xml:space="preserve">
+    <value>Travel Data</value>
+  </data>
+  <data name="wrkdays" xml:space="preserve">
+    <value>Number of Work Dayes</value>
+  </data>
+  <data name="Reactivate" xml:space="preserve">
+    <value>Reactivate</value>
+  </data>
+  <data name="Unsuspend" xml:space="preserve">
+    <value>Unsuspend</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="Unhold" xml:space="preserve">
+    <value>Unhold</value>
+  </data>
+  <data name="cantcancel" xml:space="preserve">
+    <value>Should one month passed from last reactivation</value>
+  </data>
+  <data name="Resellerdebt" xml:space="preserve">
+    <value>Dealing with resellr debts Options</value>
+  </data>
+  <data name="Day1" xml:space="preserve">
+    <value>First Day</value>
+  </data>
+  <data name="Day2" xml:space="preserve">
+    <value>Second Day</value>
+  </data>
+  <data name="Day3" xml:space="preserve">
+    <value>Third Day</value>
+  </data>
+  <data name="Day4" xml:space="preserve">
+    <value>Fourth Day</value>
+  </data>
+  <data name="Day5" xml:space="preserve">
+    <value>Fifth  Day</value>
+  </data>
+  <data name="Day6" xml:space="preserve">
+    <value>Sixth  Day</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="MonthValueBetween0And31" xml:space="preserve">
+    <value>Day Value must be a whole number between 1 and 31</value>
+  </data>
+  <data name="PercentageValueBetween0And100" xml:space="preserve">
+    <value>Percentage Value must be a whole number between 1 and 100</value>
+  </data>
+  <data name="BranchesImplementInstallments" xml:space="preserve">
+    <value>Branches that implement the installments</value>
+  </data>
+  <data name="ActiveReseller" xml:space="preserve">
+    <value>Active Reseller</value>
+  </data>
+  <data name="PortalTedata" xml:space="preserve">
+    <value>Service provider for connect with Portal system</value>
+  </data>
+  <data name="PortalCation" xml:space="preserve">
+    <value>To cancel the service please deselect all service providers</value>
+  </data>
+  <data name="CustomerStatisticsForReseller" xml:space="preserve">
+    <value>Customer Statistics For Reseller</value>
+  </data>
+  <data name="savesbalance" xml:space="preserve">
+    <value>Saves credit</value>
+  </data>
+  <data name="AutoSuspendtoCustomerUnderReseller" xml:space="preserve">
+    <value>Active auto suspend to customers under reseller</value>
+  </data>
+  <data name="WhenConversionFromPackageType" xml:space="preserve">
+    <value>When  conversion from package type</value>
+  </data>
+  <data name="ToPackageType" xml:space="preserve">
+    <value>To package type</value>
+  </data>
+  <data name="Addthevalueofthedebt" xml:space="preserve">
+    <value>Add the value of the debt</value>
+  </data>
+  <data name="CancelCustomers" xml:space="preserve">
+    <value>Cancel Customers</value>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="ShowDeductionWithFixedRequestDate" xml:space="preserve">
+    <value>Show deduction with fixed request date in customer demand page</value>
+  </data>
+  <data name="customerHasRequest" xml:space="preserve">
+    <value>You can not delete client has pending requests</value>
+  </data>
+  <data name="PreventUnsusForCustomerHasIndebtedness" xml:space="preserve">
+    <value>Prevent unsuspend request for customers has Indebtedness</value>
+  </data>
+  <data name="CantUnsuspendCustomerHasIndebtedness" xml:space="preserve">
+    <value>You Can't unsuspend customers has Indebtedness</value>
+  </data>
+  <data name="BranchesTransformation" xml:space="preserve">
+    <value>Branches Transformation</value>
+  </data>
+  <data name="HandelBranchesTransfers" xml:space="preserve">
+    <value>Branches Transformation Requests</value>
+  </data>
+  <data name="OverDaysSuspendedCustomers" xml:space="preserve">
+    <value>Over Days Suspended Customers</value>
+  </data>
+  <data name="SuspendDate" xml:space="preserve">
+    <value>Suspend Date</value>
+  </data>
+  <data name="NumUnpaidDemaind2" xml:space="preserve">
+    <value>Unpaid Demand for direct customers</value>
+  </data>
+  <data name="DeportDaysCompensation" xml:space="preserve">
+    <value>Deport days compensation</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Add Comment</value>
+  </data>
+  <data name="AllComment" xml:space="preserve">
+    <value>All Comment</value>
+  </data>
+  <data name="UpdateResellerDemands" xml:space="preserve">
+    <value>Update reseller customers Demands for this Month</value>
+  </data>
+  <data name="UpdateDirectCustDemands" xml:space="preserve">
+    <value>Update direct customers Demands for this Month</value>
+  </data>
+  <data name="EditPendingRequestDate" xml:space="preserve">
+    <value>Edit Pending Request Date</value>
+  </data>
+  <data name="FullCustomerEdit" xml:space="preserve">
+    <value>Full Customer Edit</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="PortalStatus" xml:space="preserve">
+    <value>Portal Status</value>
+  </data>
+  <data name="LastStatusDate" xml:space="preserve">
+    <value>Last Status Date</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot My Password</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="NowYouCanSignin" xml:space="preserve">
+    <value>You can now Log in using your new password</value>
+  </data>
+  <data name="ResellerPaymenyCreditReport" xml:space="preserve">
+    <value>Reseller Payment Credit Report</value>
+  </data>
+  <data name="BranchPaymentCreditReport" xml:space="preserve">
+    <value>Branch Payment Credit Report</value>
+  </data>
+  <data name="DeleteDate" xml:space="preserve">
+    <value>Delete Date</value>
+  </data>
+  <data name="DeletedCustomersReport" xml:space="preserve">
+    <value>Deleted customers report</value>
+  </data>
+  <data name="ChooseSave" xml:space="preserve">
+    <value>Choose Save</value>
+  </data>
+  <data name="Distributor" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="DistributorSetting" xml:space="preserve">
+    <value>Distributor Setting</value>
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>Collection commission value</value>
+  </data>
+  <data name="DistributorBox" xml:space="preserve">
+    <value>Distributor Box</value>
+  </data>
+  <data name="SubtractInvoiceReseller" xml:space="preserve">
+    <value>Subtract invoice value from reseller balance when a new client activation</value>
+  </data>
+  <data name="SubtractResellerCommission" xml:space="preserve">
+    <value>Subtract reseller commission from invoice value before subtract the invoice from his balance</value>
+  </data>
+  <data name="DistributorProviders" xml:space="preserve">
+    <value>Providers for connect with Distributor</value>
+  </data>
+  <data name="ResellerCollectionCommission" xml:space="preserve">
+    <value>Reseller Collection Commission</value>
+  </data>
+  <data name="HisClientsCommission" xml:space="preserve">
+    <value>Internal Customers Commission</value>
+  </data>
+  <data name="ExternalCustomersCommission" xml:space="preserve">
+    <value>External Customers Commission</value>
+  </data>
+  <data name="DistributorInvoices" xml:space="preserve">
+    <value>Distributor invoices</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Customer Number</value>
+  </data>
+  <data name="PendingRequestsOptions" xml:space="preserve">
+    <value>Pending Requests Options</value>
+  </data>
+  <data name="AutoBranchPayment" xml:space="preserve">
+    <value>Auto Agree for Branch Payment Requests</value>
+  </data>
+  <data name="AutoResellerPayment" xml:space="preserve">
+    <value>Auto Agree for Reseller Payment Requests</value>
+  </data>
+  <data name="ShowPortalStatus" xml:space="preserve">
+    <value>Show Portal Status</value>
+  </data>
+  <data name="BranchInvoices" xml:space="preserve">
+    <value>Branch Invoices</value>
+  </data>
+  <data name="DistributorReports" xml:space="preserve">
+    <value>Distributor Reports</value>
+  </data>
+  <data name="InternalCustomer" xml:space="preserve">
+    <value>Internal Customer</value>
+  </data>
+  <data name="ExternalCustomer" xml:space="preserve">
+    <value>External Customer</value>
+  </data>
+  <data name="CurrentCreditForPeriod" xml:space="preserve">
+    <value>credit for this period</value>
+  </data>
+  <data name="SuspendCustomersUntilNow" xml:space="preserve">
+    <value>Suspend Customers and still suspend Until Now</value>
+  </data>
+  <data name="PortalRelayDays" xml:space="preserve">
+    <value>Suspend Customers and still suspend Until Now</value>
+  </data>
+ <data name="UserTracking" xml:space="preserve">
+    <value>User Tracking</value>
+  </data>
+  <data name="ShowPortalData" xml:space="preserve">
+    <value>Show Portal Data in Search</value>
+  </data>
+  <data name="TransferBetweenSavesRequest" xml:space="preserve">
+    <value>Transfer Creadit Between Saves Request</value>
+  </data>
+  <data name="PendingTransferBtSavesRequests" xml:space="preserve">
+    <value>Pending Transfer Creadit Between Saves Requests</value>
+  </data>
+  <data name="FromSave" xml:space="preserve">
+    <value>From Save</value>
+  </data>
+  <data name="ToSave" xml:space="preserve">
+    <value>To Save</value>
+  </data>
+  <data name="requestSender" xml:space="preserve">
+    <value>Request Sender</value>
+  </data>
+  <data name="TransferBtSavesReport" xml:space="preserve">
+    <value>Transfer Between Saves Report</value>
+  </data>
+  <data name="RequestMakerNote" xml:space="preserve">
+    <value>Request Sender Note</value>
+  </data>
+  <data name="RequestConfirmer" xml:space="preserve">
+    <value>Request Confirmer</value>
+  </data>
+  <data name="ConfirmDate" xml:space="preserve">
+    <value>Confirm Date</value>
+  </data>
+  <data name="ConfirmerNote" xml:space="preserve">
+    <value>Confirmer Note</value>
+  </data>
+ <data name="Suspend_after_month_from_reActivate" xml:space="preserve">
+    <value>Prevent Suspend before month from last reActivate date</value>
+  </data>
+  <data name="ItemPrice" xml:space="preserve">
+    <value>Item Price</value>
+  </data>
+</root>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="plunker" >
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS Plunker</title>
+  <link rel="stylesheet" href="style.css">
+  
+ 
+    <link href="../Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui-1.9.2.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.js"></script>
+    <script src="dateTransformer.js" type="text/javascript"></script>
+  <script src="config.js"></script>
+  <script src="date.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+<p>Format: <input ng-model="dateFormat"/></p>
+<p> s.Date:<input ng-change="IsGreater()" ui-date='{ dateFormat: dateFormat }' ng-model="sdate" /> {{sdate}}
+<p> d.Date:<input ng-change="IsGreater()" ui-date='{ dateFormat: dateFormat }' ng-model="edate" /> {{edate}}
+<p>IsGreater:{{greater}}</p>
+<p>s:{{sdate}}</p>
+<p>e:{{edate}}</p>
+<!--  <p>Formatted Date: {{mydate | uidate : 'd M yy' }}</p>
+    <p>Raw Date: {{mydate}}</p>-->
+    <button type="button" ng-click="Push()">push</button>
+
+</body>
+</html>

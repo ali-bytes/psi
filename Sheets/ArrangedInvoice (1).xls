@@ -1,0 +1,13 @@
+<div>
+	<table class="table table-bordered table-responsive" cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_GridView1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Customer Number</th><th scope="col">Customer Name</th><th scope="col">Package name</th><th scope="col">Net amount</th><th scope="col">Start date</th><th scope="col">End date</th><th scope="col">Description</th><th scope="col">Phone number</th><th scope="col">Exchange</th><th scope="col">CumstomerBranch</th><th scope="col">CustomerReseller</th><th scope="col">CustomerOffer</th><th scope="col">Customer Status</th>
+		</tr><tr>
+			<td>12</td><td>dsfdsf</td><td>ddfdfhg</td><td>200</td><td>01/05/2014 12:00:00 ص</td><td>01/05/2015 12:00:00 ص</td><td>dbdf</td><td>6530969</td><td>sdds</td><td>دكرنس</td><td>&nbsp;</td><td>New – Q4 Promo 2014</td><td>Active</td>
+		</tr><tr>
+			<td>122</td><td>sdfds</td><td>dfgdfg</td><td>100</td><td>01/04/2011 12:00:00 ص</td><td>01/04/2014 12:00:00 ص</td><td>fdsdf</td><td>6522307</td><td>dsds</td><td>دكرنس</td><td>&nbsp;</td><td>&nbsp;</td><td>Suspend</td>
+		</tr><tr>
+			<td>13</td><td>sdds</td><td>dfgdfg</td><td>150</td><td>01/07/2012 12:00:00 ص</td><td>01/05/2014 12:00:00 ص</td><td>dsfdsfg</td><td>6522309</td><td>dsfdsf</td><td>دكرنس</td><td>&nbsp;</td><td>&nbsp;</td><td>Active</td>
+		</tr>
+	</table>
+</div>

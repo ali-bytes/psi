@@ -1,0 +1,65 @@
+<div>
+	<table class="table table-bordered table-condensed" cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_GvHistory" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">#</th><th scope="col">النوع</th><th scope="col">المبلغ</th><th scope="col">الصافى</th><th scope="col">البنك</th><th scope="col">التاريخ</th><th scope="col">ملاحظات</th>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl02_no">1</span>
+                            </td><td>اضافة</td><td>100</td><td>3537</td><td>البنك الاهلى المصرى</td><td>13/08/2014</td><td>Recharge Branch Requests&lt;br/&gt;الفرع : الفرع الرئيسى&lt;br/&gt;اسم المستخدم: admin</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl03_no">2</span>
+                            </td><td>تخفيض</td><td>-100</td><td>3437</td><td>البنك الاهلى المصرى</td><td>03/08/2014</td><td>دفع لعميل من خارج السيستم ali  - 12456</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl04_no">3</span>
+                            </td><td>اضافة</td><td>100</td><td>3537</td><td>البنك الاهلى المصرى</td><td>08/07/2014</td><td>Recharge Reseller Requests موزع : احمد ضاحى اسم المستخدم: admin</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl05_no">4</span>
+                            </td><td>اضافة</td><td>50</td><td>3437</td><td>البنك الاهلى المصرى</td><td>08/07/2014</td><td> تحويل رصيد من صندوق test</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl06_no">5</span>
+                            </td><td>تخفيض</td><td>-100</td><td>3387</td><td>البنك الاهلى المصرى</td><td>29/06/2014</td><td>دفع لعميل من خارج السيستمali - 14578966</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl07_no">6</span>
+                            </td><td>اضافة</td><td>100</td><td>3487</td><td>البنك الاهلى المصرى</td><td>19/06/2014</td><td>Recharge Reseller Requests موزع : احمد ضاحى اسم المستخدم: admin</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl08_no">7</span>
+                            </td><td>اضافة</td><td>1000</td><td>3387</td><td>البنك الاهلى المصرى</td><td>19/06/2014</td><td>Recharge Reseller Requests&lt;br/&gt;موزع : احمد ضاحى&lt;br/&gt;اسم المستخدم: admin</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl09_no">8</span>
+                            </td><td>اضافة</td><td>50</td><td>2387</td><td>البنك الاهلى المصرى</td><td>18/06/2014</td><td>Recharge Reseller Requests&lt;br/&gt;موزع : احمد ضاحى&lt;br/&gt;اسم المستخدم: admin</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl10_no">9</span>
+                            </td><td>اضافة</td><td>280</td><td>2337</td><td>البنك الاهلى المصرى</td><td>16/04/2014</td><td>Recharge Reseller Requests</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl11_no">10</span>
+                            </td><td>اضافة</td><td>120</td><td>2057</td><td>البنك الاهلى المصرى</td><td>16/04/2014</td><td>Recharge Reseller Requests</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl12_no">11</span>
+                            </td><td>تخفيض</td><td>-400</td><td>1937</td><td>البنك الاهلى المصرى</td><td>16/04/2014</td><td>حذف إيداع الذى تم  من قبل الموزع أحمد زهران بتاريخ 14/04/2014
+وذالك لعمل إيداع بالصورة الصحيحة 
+</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl13_no">12</span>
+                            </td><td>اضافة</td><td>400</td><td>2337</td><td>البنك الاهلى المصرى</td><td>16/04/2014</td><td>إيداع من قبل الموزع أحمد زهران   بتاريخ 14/04/2014</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl14_no">13</span>
+                            </td><td>تخفيض</td><td>-63</td><td>1937</td><td>البنك الاهلى المصرى</td><td>29/03/2014</td><td>رسوم فتح الحساب</td>
+		</tr><tr>
+			<td>
+                                <span id="ctl00_ContentPlaceHolder1_GvHistory_ctl15_no">14</span>
+                            </td><td>اضافة</td><td>2000</td><td>2000</td><td>البنك الاهلى المصرى</td><td>27/03/2014</td><td>13/03/2014 - رصيد تم اضافته فى الحساب</td>
+		</tr>
+	</table>
+</div>

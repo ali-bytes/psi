@@ -1,0 +1,23 @@
+<div>
+	<table class="table table-bordered table-condensed" cellspacing="0" rules="all" border="1" id="GvResults" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">العميل</th><th scope="col">تليفون</th><th scope="col">الحالة</th><th scope="col">مزود الخدمة</th><th scope="col">الفرع</th><th scope="col">موزع</th><th scope="col">سنترال</th><th scope="col">المحافظة</th><th scope="col">العرض</th><th scope="col">باقة الخدمة</th><th scope="col">المدفوع</th><th scope="col">من</th><th scope="col">الى</th><th scope="col">ملاحظات</th><th scope="col">المبلغ</th><th scope="col">خصم الفرع</th><th scope="col">الصافى</th>
+		</tr><tr>
+			<td>
+                                <span id="LNo">1</span>
+                            </td><td>abdoh</td><td>1</td><td>Active</td><td>TE-Data</td><td>دكرنس</td><td>sisi</td><td>Dekernes</td><td>050-الدقهلية</td><td>-</td><td>TAL2A ADSL Up to 8MB - (Cap 4G) - 1 Month</td><td>نعم</td><td>01/02/2016</td><td>01/12/2015</td><td>&nbsp;</td><td>30</td><td>0.0</td><td>30</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">2</span>
+                            </td><td>mahmoud salem hassan</td><td>6520074</td><td>Active</td><td>TE-Data</td><td>دكرنس</td><td> </td><td>Sherka el englezya-El sherka 2</td><td>050-الدقهلية</td><td>-</td><td>ADSL Unlimited 1Mbps - 1 Month</td><td>لا</td><td>01/02/2016</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>1.4</td><td>138.6</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">3</span>
+                            </td><td>mahmoud mohamed ahmed</td><td>7502052</td><td>Active</td><td>Never Suspend</td><td>دكرنس</td><td> </td><td>menyt el nasr</td><td>050-الدقهلية</td><td>-</td><td>ADSL Unlimited 1Mbps - 1 Month	</td><td>لا</td><td>01/02/2016</td><td>01/12/2015</td><td>&nbsp;</td><td>140</td><td>0.0</td><td>140</td>
+		</tr><tr>
+			<td>
+                                <span id="LNo">4</span>
+                            </td><td>hamdino hamed mohamed</td><td>7480885</td><td>Active</td><td>Never Suspend</td><td>دكرنس</td><td> </td><td>Dekernes</td><td>050-الدقهلية</td><td>-</td><td>NI - ADSL - 1:4 - 512/128Kbps - 1 Month</td><td>لا</td><td>01/02/2016</td><td>01/12/2015</td><td>&nbsp;</td><td>95</td><td>0.0</td><td>95</td>
+		</tr>
+	</table>
+</div>
